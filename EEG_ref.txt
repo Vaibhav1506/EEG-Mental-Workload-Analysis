@@ -78,3 +78,23 @@ The time between samples is: 1/128 = 0.0078125 seconds or 7.8125 milliseconds.
 
 So approximately every 7.8 milliseconds, another EEG value is recorded. REMEMBER THIS IS NOT THE OSCILLATIONS WHICH EXIST IN THE SIGNAL.
 
+________________________________________________________________________________________________________________________________________________________________________
+
+The workload rating scale is:
+
+1,2,3,…,9
+
+Later they convert those ratings into three levels:
+
+1−3=Low
+4−6=Moderate
+7−9=High
+
+So although they eventually report a 3-class classification result, the model itself is trained as a regression model that predicts workload rating values.
+
+That distinction matters.
+
+Then comes the main result:
+
+With reduced feature dimension, they obtained 69% classification accuracy for the three workload levels, with Cohen's kappa = 0.46.
+
