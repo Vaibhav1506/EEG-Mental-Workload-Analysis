@@ -27,9 +27,7 @@ __pycache__/
 # ==============================
 # Dataset
 # ==============================
-dataset/
-datasets/
-data/
+STEW dataset/
 
 # ==============================
 # Model Checkpoints / Weights
