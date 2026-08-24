@@ -1,0 +1,80 @@
+EEG = Electroencephalography = EEG is a method for recording electrical activity associated with the brain.
+EEG is a time series signal.
+
+
+Does EEG look systematically different when
+mental workload is low vs high?
+The authors are interested in using EEG signals to distinguish mental workload conditions and eventually classify workload levels.
+
+________________________________________________________________________________________________________________________________________________________________________
+THE WORKING
+
+EEG exploits dipole. Dipole essentially is the two different chargers that are separated by a distance. So using electrodes we can generate a readout of the difference in the charges. How does our brain has areas with different charges. 
+For eg. A neuron which is resting has more negative charge than outside (about -70mV) 
+
+Neurons communicate via a space called synapse using neurotransmitters. Once neurotransmitters reach the synapse, they reach the next neuron where they being to receptors where 2 things can happen :
+
+1) Excitatory Post Synaptic Potential - Neurotransmitters causes +ve charges to flow into the neuron making inside of neuron more +ve. This obviously makes the space outside more -ve relatively. Now since one outside part is more -ve the other end becomes +ve relatively. We have a dipole essentially.
+
+2) Inhibitry Post Synaptic Potential is essentially the opposite of what happens (the charges accumulated).
+
+So these 2 creates dipoles at the opposite ends of the neurons. But dipole for neuron is extremely small. But in celebral cortex just below scalp there are billions of neurons parallel to each other and perpendicular to scalp. Clusters of these neurons give individual neurons gives dipoles. So we can stick in 2 electrodes and measure the difference which is ESSENTIALLY AN EEG SIGNAL IS. 
+________________________________________________________________________________________________________________________________________________________________________
+THE GRAPHS
+
+Standard EEG instrument contains like 32 electrodes but here we are using only 14. Signals are measured via 2 methods - 
+1) Common reference montage where we take a reference electrode and measure every other from it.
+
+2) Compare every electrode to electrode next to it known as Bipolar Montage.
+
+EEG Patterns are commonly described in terms of the signal (there are 5 but we are using 4 except theta) as follows:
+
+1) Sleep / Delta - < 4 Hz
+2) Relaxing / Theta - 4 - 8 Hz
+3) Attention / Alpha - 8 - 13 Hz
+4) Active mind / Beta - 13 - 35 Hz
+5) High Concetration / Gamma - > 35 Hz
+
+NOTE:Interictal epileptiform discharges (IEDs) are abnormal brain wave patterns seen on an electroencephalogram (EEG) that occur between actual clinical seizures. They serve as a primary diagnostic hallmark of epilepsy, indicating underlying hyperirritable brain tissue without causing a full seizure episode at that moment.
+
+________________________________________________________________________________________________________________________________________________________________________
+The 10 - 20 International [STRUCTURE]
+
+Consider the structure of the head. The Nasion is the extreme front of the nose. The Inion is the extreme most backward part of the head. And then 2 prearicular points just anterior towards the year. 
+The first measurement is first made from nasion to inion which is then divided into 10-20% increments. Marks are placed and then the same is done from one prearicular point to other. Then the marks are made on circumference of the head. Various other measurements like transverse and parasaggital are made separated by 10% or 25% increments. Then electrodes are placed with labels. 
+
+[WHILE VIEWING FROM THE BACK OF THE HEAD]
+
+Meaning of the Letters
+Fp: Frontopolar (forehead)
+F: Frontal lobe
+T: Temporal lobe
+C: Central region (not a lobe, but the motor/sensory strip)
+P: Parietal lobe
+O: Occipital lobe (back of the head)
+A: Auricular (earlobes, often used as references)
+M: Mastoid bone (behind the ear)
+
+Meaning of the Numbers
+Odd Numbers: Left side of the brain (e.g., F3, T3, P3).
+Even Numbers: Right side of the brain (e.g., F4, T4, P4).
+Smaller Numbers: Closer to the midline/center.
+Larger Numbers: Farther out toward the sides/ears.
+The letter "z": Midline of the head (stands for "Zero", e.g., Fz, Cz, Pz).
+
+The electrodes usually outputs the difference in waveforms using Differential Amplifier which calculates the difference in the signals. (relative)
+
+SIGNAL TRACING (Bipolar Montage)
+Signal tracing between 2 electrodes is known as channel. Say Fp2 (incoming) - F8 (outgoing)
+A collection of channels (completely from one end point to another preferably from front to back of the head) is called a chain. (Complete chain from front to back continously). 
+
+________________________________________________________________________________________________________________________________________________________________________
+
+STEW sampling frequency = 128 Hz means that the system records 128 samples every second, per channel. Now for 14 channels we have 1792 individual values.
+
+What does 128 Hz look like mathematically?
+
+The time between samples is: 1/128 = 0.0078125 seconds or 7.8125 milliseconds.
+
+So approximately every 7.8 milliseconds, another EEG value is recorded. REMEMBER THIS IS NOT THE OSCILLATIONS WHICH EXIST IN THE SIGNAL.
+
