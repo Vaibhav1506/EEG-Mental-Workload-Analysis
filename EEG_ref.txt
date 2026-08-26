@@ -1,6 +1,10 @@
 EEG = Electroencephalography = EEG is a method for recording electrical activity associated with the brain.
 EEG is a time series signal.
 
+ref1 : https://www.youtube.com/watch?v=XMizSSOejg0
+ref2 : https://www.youtube.com/watch?v=GDgInyAn-C8&t=1s
+
+Samp Freq vs Normal / Wave Freq : https://www.google.com/search?q=sampling+frequency+vs+normal+frequency+in+signal&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigATIHCAIQIRigATIHCAMQIRiPAjIHCAQQIRiPAtIBCDgzNjlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nrruedQ0d32Et2kDhW_DVrEiVEEKhGMS6J6qOai58Kp-xhksXV28NogeTUukXLA6cErqGvRbRiH7suRTN0y_34V3a_l9_d5vx2BXsNvp3CNaFbjOcCna9jBf_n8HFTuWydDmY1eASGf8xNKp4j1zWBVjs_98w&aep=10&ntc=1&sxsrf=APpeQntBVNkxDkwNCyb61-3WY1tchnxZLQ%3A1787718064797&mstk=AUtExfC-xBICfPYvVJGNcFkzNXa8IlMWbHvTWAZpI0xt_kJCK-IK-W8yNd-8Ohu4B4ENe__Tm4CYtWZP6_kdcroFZvVp6_MmPF7EQhvuMh6CAiT3wTY9UFwBdhKUt90Sm7FIewTKiVLtpG7T66h2PO4Z_vF-Tbh0Z2ABvBuQCq8tm0aYEKIiGxvwJqO5AFnDjY-eTYYz4lKDMLj4bDTUFGOfyr2uhBp9Clel67osiw3uPd73CgaEgxsV3FFU5Yx9xmV-Hg897xfU4_XPvpNOBMdtZjabipLMHb8raO5gCuJEmyXRb_IgIOKIVHxRJazu6WqfCZZU9jXG0SYKZw&aioh=3&csuir=1&cs=0&atvm=2&mtid=v2qOarsDqauG9w_wgOXgDg&udm=50
 
 Does EEG look systematically different when
 mental workload is low vs high?
@@ -98,3 +102,521 @@ Then comes the main result:
 
 With reduced feature dimension, they obtained 69% classification accuracy for the three workload levels, with Cohen's kappa = 0.46.
 
+________________________________________________________________________________________________________________________________________________________________________
+
+WHAT IS SPECTRAL ANALYSIS? (ref:https://www.youtube.com/watch?v=DoSLMEEo1Y0)
+The raw EEG waveform is the mixture of all of them.
+
+So instead of only asking: "What voltage did we measure at this moment?"
+
+we can ask: "How much activity exists at different frequencies?"
+
+That is the idea behind spectral analysis.
+
+Power is basically how strong a particular frequency component is in the EEG signal. Since 10 Hz falls roughly in the alpha range, we would say: alpha-band power is relatively high.
+
+What is a PSD ?
+PSD is Power Spectral Density. PSD is basically taking variations of a signal and taking its Fourier Transform and averaging it out all together.
+PSD tells us how the signal's power is distributed across frequency. It gives us a Power vs Frequency.
+
+
+****DISADVANTAGES OF THIS PAPER : But there is an obvious downside: More homogeneous participants less representative of the general population
+
+________________________________________________________________________________________________________________________________________________________________________
+
+EXPERIMENT
+Part 1 - Resting Condition
+The subjects were asked to stay in a comfortable position with their eyes open and perform no task for: 3 mins. Their EEG was recorded during this period, and this recording represents the resting condition.
+
+Part 2 — SIMKAP condition
+
+After the resting segment, the subjects performed the SIMKAP test while EEG was also being recorded.
+
+The paper then says: the final 3 minutes of the SIMKAP recording are used as the workload condition. This is important. Remember that the SIMKAP task itself lasts 18 minutes, but the analysis does not use all 18 minutes as the workload segment.
+
+They use: last 3 minutes of SIMKAP as the workload recording.
+
+Its for comparing Rest EEG v/s Workload EEG.Then they trim both recordings
+
+The researchers remove: 15 seconds and 15 seconds of each 3-minute recording. Why? The paper says this is to reduce effects from between-task activity.
+
+So: 3 minutes = 180 seconds
+After removal: 180 - 30 = 150 seconds which is 2.5 seconds
+The paper explicitly says the trimming results in recordings of 2.5 minutes.
+
+The researchers use this rating as a subjective check that the participant actually experienced more workload during SIMKAP than during rest.
+
+That distinction is important:
+
+Experimental condition:
+REST vs SIMKAP
+
+Subjective condition:
+rating from 1–9
+
+Does the EEG pattern agree with the participant's own reported workload?
+The paper explicitly says the rating is used as a form of subjective validation that workload increased during the task compared with resting.
+
+So the data structure essentially is 
+REST
+├── 2.5 min usable EEG
+├── 14 channels
+└── workload rating
+
+SIMKAP
+├── 2.5 min usable EEG
+├── 14 channels
+└── workload rating
+
+________________________________________________________________________________________________________________________________________________________________________
+
+What is 16-bit A/D resolution ?
+The electrical EEG signal coming from the electrodes is an analog signal. A 16-bit converter can theoretically represent: 2^16
+different digital levels.
+
+That is: 65,536 possible levels.
+
+You do not need to know more than that for this paper. The key idea is: the EEG voltage is analog, but the computer stores digitized numerical samples.
+
+So acquisition involves two kinds of discretization:
+
+TIME
+continuous signal
+↓
+sample at 128 times/sec
+AMPLITUDE
+continuous voltage
+↓
+convert into digital values using 16-bit resolution
+
+That distinction is useful. Sampling frequency concerns the time axis. Bit resolution concerns the amplitude axis.
+
+________________________________________________________________________________________________________________________________________________________________________
+
+DATA PREPROCESSING
+Raw EEG is not clean.So conceptually: Raw EEG = brain-related signal + movement artifacts + electrical noise + other unwanted components
+
+The goal is not to magically make the signal perfect. The goal is to reduce unwanted contamination so later analysis is more reliable. 4 steps are followed.
+
+
+>>>>>STEP 1 : High pass filter the raw data at 1Hz.
+What is High Pass filter (ref : https://www.youtube.com/watch?v=RAhcsDwp7iA). Allows all frequency above the cut off frequency (1Hz) and 
+attenuates (lower the amplitude) the frequency below it.
+
+So Very slow components < ~1 Hz -> reduced
+Higher-frequency EEG activity -> retained
+
+
+>>>>>STEP 2 : Remove line noise.
+Line noise comes from the electrical power environment. Its nothing but electrical interference.
+
+>>>> STEP 3 : Artifact Subspace Reconstruction (ASR) (ref: https://www.youtube.com/watch?v=Wpq8S7PKjp4)
+
+This is the step the authors emphasize as especially important.
+Think of an EEG signal like this:
+
+normal EEG:
+~~~~~~/\~~~~~/\~~~~~~
+
+Then suddenly the subject moves or some large artifact appears:
+
+~~~~~~/\~~~~~~/^^^^^^^^^\~~~~~~
+
+That huge abnormal burst can dominate the signal.
+
+ASR tries to identify these abnormal large-amplitude components and reconstruct the affected data.
+
+>>>>>> STEP 4 : EEG is measured as a voltage difference, so we always need some reference. Instead of comparing 
+every electrode to one fixed reference, average referencing uses the average signal across electrodes as the reference.
+
+Then for a channel like F3: F3_new​ = F3 − V_avg​ where V_avg is essentially the average of all voltages.
+
+So the whole preprocessing pipeline is
+RAW EEG
+   ↓
+High-pass at 1 Hz
+   ↓
+Remove line noise
+   ↓
+ASR
+   ↓
+Average re-reference
+   ↓
+PREPROCESSED EEG
+
+________________________________________________________________________________________________________________________________________________________________________
+
+2 STUDIES CONDUCTED :
+1) No task v/s SIMKAP Task
+2) Rating based Lo v/s Mi v/s Hi
+
+The paper says that for each study, they use the entire length of data from each channel to investigate significant spectral mechanisms associated with each condition and differences between conditions.
+
+So conceptually, for each channel:
+
+F3 EEG
+   ↓
+spectral analysis
+   ↓
+frequency activity
+
+F4 EEG
+   ↓
+spectral analysis
+   ↓
+frequency activity
+
+FC5 EEG
+
+Eventually they produce things like:
+
+1) scalp topography maps
+2) PSD graphs
+3) statistically significant frequency regions
+
+A within-condition analysis asks: What does the EEG spectrum look like inside one condition? - SIMKAP condition alone -> What frequency activity do we observe?
+A between-condition analysis asks: How do two or more conditions differ? For example: Rest vs SIMKAP
+Notice that this still does not give us a predictive model.
+
+They are asking:
+
+Are there statistically meaningful patterns in the dataset?
+
+The next subsection asks a different question:
+
+Can we actually take EEG from unseen subjects and predict their workload rating?
+________________________________________________________________________________________________________________________________________________________________________
+
+CLASSIFICATION METHOD
+
+four frequency bands: Delta, Theta, Alpha, Beta
+
+First Stage: 
+Preprocessed EEG
+      ↓
+FFT / spectral analysis
+      ↓
+PSD
+      ↓
+Delta power
+Theta power
+Alpha power
+Beta power
+
+What is Fourier Transform ? https://www.youtube.com/watch?v=iOsGkk63NfE
+
+FT is usually used for converting from time domain to frequency domain.
+The EEG recording is originally in the time domain:
+
+Voltage
+  ↑
+  │    /\  /\      /\
+  │___/  \/  \____/  \____
+  └──────────────────────→ time
+
+But they want to know how much activity exists in different frequency ranges.
+
+So they use the FFT — Fast Fourier Transform. 
+Remember PSD = Power Spectral Density. It tells us how the signal's power is distributed across frequencies.
+
+Suppose after analysis one EEG channel had something conceptually like:
+
+Band        Power
+--------------------
+Delta       12.3
+Theta       20.8
+Alpha        8.4
+Beta         5.1
+
+Those four values can now be used as numerical ML features.
+
+widely used in previous EEG studies, making them suitable as a baseline.
+
+That word baseline matters.
+
+Again, they're not claiming:
+
+"This is the world's optimal EEG feature representation."
+
+They're saying:
+
+"Let's use a standard, simple representation to demonstrate that the dataset is useful."
+
+So a total of 14 x 4 = 56 features
+
+This is the point where raw EEG has turned into something resembling a conventional ML feature vector: X=[x1​,x2​,…,x56​]
+
+________________________________________________________________________________________________________________________________________________________________________
+Sliding window & Shift
+
+So imagine just one EEG channel, say F3.You already know the EEG sampling frequency is: 128 Hz which means: 128 measurements are recorded every second for each channel.
+
+After 2 seconds = 256 samples
+After 4 seconds = 512 samples ---> This is our window size or 4 seconds of EEG. 
+
+So for a 2.5 min, instead of doing all 150s, they take a smaller chunk of 4 second or 512 samples
+
+Now the shift = 128 samples
+Since 128 samples = 1 second, instead of jumping ahead by the full 4 seconds, they move the window forward by only 1 second.
+
+So window 1 has 0 - 4 second and 1 - 5 second with shared portion as 1 - 4 second and thus a overlap of 3 / 4 = 75%.
+
+Why use windows?
+
+Imagine calculating one number from the entire 2.5 minutes.
+
+You'd lose a lot of information about how EEG changes throughout the recording.
+
+Instead:
+
+2.5-minute EEG
+       ↓
+many short 4-second segments
+       ↓
+extract spectral features from each segment
+
+This gives many local observations rather than one giant summary.
+
+At a conceptual level, each segment can be represented by:
+
+56 PSD features
+
+________________________________________________________________________________________________________________________________________________________________________
+
+MODEL SELECTION
+
+A regression problem is considered with the aim of predicting the rating of unseen EEG data.
+Their original workload labels are: 1,2,3,4,...,9
+
+So the model is initially trying to predict something like: y_cap = 6.4
+
+So a Support Vector Regression — SVR.
+
+Train and Testing is 80 : 20 splitting as usual. So 36 : 9
+
+Why is subject separation important?
+
+Imagine instead we took EEG windows from Subject 1 and randomly put:
+
+80% of Subject 1's windows → training
+20% of Subject 1's windows → test
+
+The model may partially learn patterns specific to Subject 1.
+
+Then test performance could look better because the model has already seen EEG from that same person.
+
+But here the final test set is described as: 9 unseen subjects.
+So that's a stronger evaluation setup.
+
+________________________________________________________________________________________________________________________________________________________________________
+
+FEATURE SELECTION
+The paper uses: Neighborhood Component Analysis (NCA) for feature selection for regression.
+
+
+Conceptually, think:
+
+56 features
+    ↓
+NCA
+    ↓
+estimate importance/weights
+for the features
+
+So NCA might conceptually produce:
+
+Feature              Weight
+--------------------------------
+F8 Beta               high
+FC5 Theta             high
+AF4 Alpha             medium
+P7 Delta              tiny
+...
+
+The paper says feature selection using NCA was performed with: 5-fold cross-validation.
+
+At our current level, think of cross-validation as:
+
+Training data
+   ↓
+split into 5 portions
+
+1 2 3 4 5
+
+Then repeatedly:
+
+Train/select using 4
+Evaluate using 1
+
+and rotate which fold is held out.
+
+This makes feature selection less dependent on one arbitrary split.
+________________________________________________________________________________________________________________________________________________________________________
+
+Q) How do they decide which features to keep?
+This is an unusual detail worth understanding. They calculate NCA feature weights across the folds and 
+select the best features that collectively account for: 75%
+
+Then keep enough top-ranked features that their combined importance represents around: 75%
+Later we'll see this results in: 28 out of 56
+
+Then training is done via SVR. And then the output is converted to classes in 3 labels. (low, moderate or high)
+________________________________________________________________________________________________________________________________________________________________________
+
+
+
+                 PREPROCESSED EEG
+                           │
+                           ▼
+                 14 EEG channels
+                           │
+                           ▼
+               Sliding 4-sec windows
+                 shift by 1 second
+                           │
+                           ▼
+                          FFT
+                           │
+                           ▼
+                          PSD
+                           │
+                           ▼
+                ┌─────────────────────────────┐
+                │ Delta                      │
+                │ Theta                      │
+                │ Alpha                      │
+                │ Beta                       │
+                │ × 14 channels              │
+                └─────────────────────────────┘
+                           │
+                           ▼
+                     56 features
+                           │
+                           ▼
+                          NCA
+                  5-fold cross-validation
+                           │
+                           ▼
+                 select top features
+              covering 75% of weights
+                           │
+                           ▼
+                          SVR
+                           │
+                           ▼
+               predict workload rating
+                        1–9
+                           │
+                           ▼
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+           1–3           4–6           7–9
+           LOW        MODERATE          HIGH
+                           │
+                           ▼
+              compare against true label
+________________________________________________________________________________________________________________________________________________________________________
+
+One thing I want you to notice
+
+Although the paper repeatedly talks about classification accuracy, the learning problem itself is:
+
+Regression first → classification afterward
+
+It does not directly train: EEG -> Low/Moderate/High 
+
+Instead: EEG -> predicted workload rating -> Low/Moderate/High
+
+That's an important methodological detail.
+
+________________________________________________________________________________________________________________________________________________________________________
+
+RESULTS:
+
+For the No Task condition, they report: (no need to memorise this)
+
+delta activity mainly around AF3, AF4, F4, F8, with some activity around O1,
+theta activity around frontal sites such as AF3, AF4, F3, F4, F8 and T8, plus occipital/parietal sites,
+alpha activity in locations including AF4, F8, T8, O1, O2, P7, P8,
+beta activity in locations including AF4, F8, FC6, T8, O1, O2
+
+Then they examine the SIMKAP condition.
+
+They report delta and theta activity around:
+
+FC5,
+AF4,
+F8,
+FC6,
+
+and alpha/beta activity in similar areas, with additional activity at O1 and O2.
+
+BUT IMPORTANTLY ----> the SIMKAP condition shows higher overall PSD values across all frequencies.
+
+So conceptually:
+
+REST
+lower overall spectral power
+
+vs.
+
+SIMKAP
+higher overall spectral power
+
+This suggests that the multitasking condition produced measurable changes in EEG spectral activity.
+
+That is exactly what the authors wanted to see.
+
+This was STUDY 1
+________________________________________________________________________________________________________________________________________________________________________
+
+STUDY 2
+Rating-Based Low vs. Moderate vs. High MWL
+
+For this also frequency - band activity is similar to what we obtained in Study 1.
+the Low condition looks similar to the No Task condition,
+the Moderate and High conditions look similar to the SIMKAP condition.
+
+BUT keep in mind - But Moderate and High look very similar. PSD curves for Moderate and High workload are almost equal.
+If the EEG patterns for Moderate and High are very similar, then a classifier will naturally have difficulty telling them apart.
+
+Final classification accuracy
+
+Using the 28 selected features, they obtain: 69%
+	​
+But remember: the test data comes from the held-out 20% of subjects, which the Methods section described as 9 unseen subjects.
+
+So the important question was essentially: Can EEG-derived features predict workload levels for people whose data was not used for model training?
+
+Their baseline result is about: 69%
+
+________________________________________________________________________________________________________________________________________________________________________
+
+COHEN's kappa
+Cohen's kappa
+
+The paper also reports: kappa = 0.46
+
+with an expected random-chance accuracy of: 42.4%
+
+This needs explaining because accuracy alone doesn't tell the whole story.
+Imagine the classes are not perfectly balanced.
+Suppose one class appears much more often than others. A dumb model could predict that common class repeatedly and still achieve non-trivial accuracy.
+Cohen's kappa tries to account for the amount of agreement we would expect by chance.
+
+Conceptually:
+
+κ= maximum (agreement − chance agreement) / (observed agreement − chance agreement)
+	​
+The basic interpretation is:
+
+Accuracy
+→ How often were predictions correct?
+
+Kappa
+→ How much better was agreement than what we would expect from chance?
+
+It means:
+
+Here the 69% means that after the SVR predictions were converted into Low/Moderate/High classes, 
+69% of the evaluated test classifications matched the true classes.
