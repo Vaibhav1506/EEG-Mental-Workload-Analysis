@@ -1,0 +1,57 @@
+{
+  "started_utc": "2026-10-21T18:50:41.644197+00:00",
+  "arguments": {
+    "data": "C:\\Users\\bvaib_fee5mh\\Desktop\\Computer Science Programming\\EEG-Mental-Workload-Analysis\\STEW Dataset\\STEW Dataset",
+    "output": "C:\\Users\\bvaib_fee5mh\\Desktop\\Computer Science Programming\\EEG-Mental-Workload-Analysis\\benchmark_results\\initial_5fold",
+    "models": [
+      "1D-CNN",
+      "RNN",
+      "LSTM",
+      "BiLSTM",
+      "GRU",
+      "GNN",
+      "STFT-ViT",
+      "STFT-Swin",
+      "EEGNet Adapted",
+      "DeepConvNet Adapted",
+      "ShallowConvNet Adapted",
+      "TemporalCNN"
+    ],
+    "folds": 5,
+    "epochs": 20,
+    "patience": 5,
+    "stride_seconds": 4,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42,
+    "threads": 2
+  },
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "torch": "2.12.0+cpu",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "sklearn": "1.8.0",
+  "device": "CPU",
+  "threads": 2,
+  "subjects": 45,
+  "windows": 3330,
+  "recordings": 90,
+  "class_window_counts": [
+    1554,
+    851,
+    925
+  ],
+  "unrated_subjects_excluded": [
+    5,
+    24,
+    42
+  ],
+  "code_sha256": "fb0fa7925d7fb7f3419904863180121bf5eb010a4f8ebf25f29f917cec242b9a",
+  "wall_seconds": 2724.4378586999956,
+  "completed_utc": "2026-10-21T19:35:56.890601+00:00",
+  "layout_version": 2,
+  "source_file": "benchmark_source.py",
+  "data_relative_to_project": "data/stew"
+}
