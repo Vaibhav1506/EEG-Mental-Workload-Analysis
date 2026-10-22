@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "model_condition_fold_runs": 120,
+  "window_predictions_checked": 79920,
+  "recording_predictions_checked": 2160,
+  "input_file_hashes_checked": 90,
+  "ratings_sha256": "00ace7ccfdee57aaf88c6e1153380acf3064beb6aab20e2f52d274cd2991e420",
+  "runs_reaching_epoch_cap": 30,
+  "runs_with_best_checkpoint_at_epoch_cap": 8,
+  "checks": [
+    "input and source hashes",
+    "rating labels",
+    "disjoint subject splits",
+    "complete test coverage",
+    "validation checkpoint selection",
+    "training-majority baseline",
+    "probability normalization",
+    "window and recording metrics recomputed",
+    "mean and SD recomputed",
+    "confusion matrices recomputed"
+  ]
+}
