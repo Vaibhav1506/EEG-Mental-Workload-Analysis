@@ -1,0 +1,92 @@
+{
+ "model": "RNN",
+ "variant": "after",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.5618192078822166,
+   "training_seconds": 15.121102799996152,
+   "parameters": 1731
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5048718336042978,
+   "training_seconds": 13.304358299996238,
+   "parameters": 1731
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5184304486818602,
+   "training_seconds": 18.049649900000077,
+   "parameters": 1731
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.594051579420505,
+   "training_seconds": 16.779957199993078,
+   "parameters": 1731
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.5815827028106763,
+   "training_seconds": 20.577937800000655,
+   "parameters": 1731
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.4972949763847145,
+   "training_seconds": 15.725490400000126,
+   "parameters": 1731
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.5492929707565347,
+   "training_seconds": 13.909127399994759,
+   "parameters": 1731
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 25,
+   "epochs_run": 40,
+   "selection_value": 0.5984406112267043,
+   "training_seconds": 23.985317699989537,
+   "parameters": 1731
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__RNN__fold4",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__RNN__fold4"
+ ],
+ "parameters": 1731,
+ "training_seconds": 137.45294149997062,
+ "inference_ms_per_window": 0.10733378376544651,
+ "dev_oof": {
+  "accuracy": 0.6114864864864865,
+  "balanced_accuracy": 0.5773273273273273,
+  "macro_f1": 0.5763730163309089
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

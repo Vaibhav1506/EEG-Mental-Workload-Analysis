@@ -1,0 +1,25 @@
+{
+ "model": "STFT-Swin",
+ "variant": "raw",
+ "fold": 2,
+ "completed_utc": "2026-10-22T21:29:38+00:00",
+ "dev_oof": {
+  "accuracy": 0.7837837837837838,
+  "balanced_accuracy": 0.7837837837837838,
+  "macro_f1": 0.7821025994939038
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 20,
+   "selection_value": 0.7821025994939038,
+   "training_seconds": 7.288009599986253,
+   "parameters": 66862
+  }
+ ],
+ "inference_ms_per_window": 0.059602552555206405,
+ "parameters": 66862,
+ "training_seconds": 7.288009599986253
+}

@@ -1,0 +1,91 @@
+{
+ "model": "LSTM",
+ "variant": "filtered",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.48042984121660065,
+   "training_seconds": 21.52078160000383,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.4664947906743508,
+   "training_seconds": 21.9475078000105,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5474747474747474,
+   "training_seconds": 17.512111499992898,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5697751003400447,
+   "training_seconds": 17.521605400004773,
+   "parameters": 6339
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.4500999650122457,
+   "training_seconds": 17.29747980000684,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.520747938045446,
+   "training_seconds": 12.10153949999949,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5134032381779708,
+   "training_seconds": 13.416608900006395,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.534853274579302,
+   "training_seconds": 12.783023600000888,
+   "parameters": 6339
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__LSTM__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__LSTM__fold1"
+ ],
+ "parameters": 6339,
+ "training_seconds": 134.1006581000256,
+ "inference_ms_per_window": 0.1350318318047259,
+ "dev_oof": {
+  "accuracy": 0.5570570570570571,
+  "balanced_accuracy": 0.551990070565922,
+  "macro_f1": 0.5401358883040032
+ }
+}

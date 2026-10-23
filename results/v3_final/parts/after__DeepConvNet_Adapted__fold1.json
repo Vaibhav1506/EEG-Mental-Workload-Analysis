@@ -1,0 +1,92 @@
+{
+ "model": "DeepConvNet Adapted",
+ "variant": "after",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.5384241279369643,
+   "training_seconds": 92.57087790001242,
+   "parameters": 112147
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.6015319196449603,
+   "training_seconds": 85.61425679999229,
+   "parameters": 112147
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5738480542084078,
+   "training_seconds": 65.03850889999012,
+   "parameters": 112147
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 32,
+   "epochs_run": 47,
+   "selection_value": 0.5754874766020436,
+   "training_seconds": 161.06398890000128,
+   "parameters": 112147
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.5476762658464839,
+   "training_seconds": 120.10375029999705,
+   "parameters": 112147
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.6500888754188937,
+   "training_seconds": 83.52737779999734,
+   "parameters": 112147
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5316460488439395,
+   "training_seconds": 87.70395320000534,
+   "parameters": 112147
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.568425100815705,
+   "training_seconds": 131.0311539999966,
+   "parameters": 112147
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__DeepConvNet_Adapted__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__DeepConvNet_Adapted__fold1"
+ ],
+ "parameters": 112147,
+ "training_seconds": 826.6538677999924,
+ "inference_ms_per_window": 0.8750460961214462,
+ "dev_oof": {
+  "accuracy": 0.6403903903903904,
+  "balanced_accuracy": 0.5869662231891334,
+  "macro_f1": 0.5892268881870755
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

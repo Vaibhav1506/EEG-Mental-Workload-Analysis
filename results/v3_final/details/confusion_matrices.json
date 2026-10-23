@@ -1,0 +1,1120 @@
+[
+ {
+  "model": "1D-CNN",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1244,
+    168,
+    142
+   ],
+   [
+    186,
+    307,
+    358
+   ],
+   [
+    155,
+    378,
+    392
+   ]
+  ]
+ },
+ {
+  "model": "RNN",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1232,
+    266,
+    56
+   ],
+   [
+    178,
+    308,
+    365
+   ],
+   [
+    120,
+    366,
+    439
+   ]
+  ]
+ },
+ {
+  "model": "LSTM",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1148,
+    183,
+    223
+   ],
+   [
+    197,
+    289,
+    365
+   ],
+   [
+    131,
+    343,
+    451
+   ]
+  ]
+ },
+ {
+  "model": "BiLSTM",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1158,
+    183,
+    213
+   ],
+   [
+    202,
+    280,
+    369
+   ],
+   [
+    115,
+    356,
+    454
+   ]
+  ]
+ },
+ {
+  "model": "GRU",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1162,
+    184,
+    208
+   ],
+   [
+    184,
+    267,
+    400
+   ],
+   [
+    104,
+    325,
+    496
+   ]
+  ]
+ },
+ {
+  "model": "GNN",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1315,
+    105,
+    134
+   ],
+   [
+    165,
+    237,
+    449
+   ],
+   [
+    134,
+    381,
+    410
+   ]
+  ]
+ },
+ {
+  "model": "STFT-ViT",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1256,
+    153,
+    145
+   ],
+   [
+    185,
+    283,
+    383
+   ],
+   [
+    213,
+    410,
+    302
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1318,
+    134,
+    102
+   ],
+   [
+    153,
+    260,
+    438
+   ],
+   [
+    149,
+    407,
+    369
+   ]
+  ]
+ },
+ {
+  "model": "EEGNet Adapted",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1364,
+    94,
+    96
+   ],
+   [
+    256,
+    298,
+    297
+   ],
+   [
+    235,
+    294,
+    396
+   ]
+  ]
+ },
+ {
+  "model": "DeepConvNet Adapted",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1284,
+    133,
+    137
+   ],
+   [
+    274,
+    277,
+    300
+   ],
+   [
+    191,
+    339,
+    395
+   ]
+  ]
+ },
+ {
+  "model": "ShallowConvNet Adapted",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1269,
+    120,
+    165
+   ],
+   [
+    173,
+    284,
+    394
+   ],
+   [
+    102,
+    357,
+    466
+   ]
+  ]
+ },
+ {
+  "model": "TemporalCNN",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1283,
+    154,
+    117
+   ],
+   [
+    225,
+    253,
+    373
+   ],
+   [
+    147,
+    335,
+    443
+   ]
+  ]
+ },
+ {
+  "model": "Top-3 Validation Ensemble",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1288,
+    145,
+    121
+   ],
+   [
+    188,
+    229,
+    434
+   ],
+   [
+    121,
+    370,
+    434
+   ]
+  ]
+ },
+ {
+  "model": "1D-CNN",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1215,
+    154,
+    185
+   ],
+   [
+    233,
+    242,
+    376
+   ],
+   [
+    172,
+    300,
+    453
+   ]
+  ]
+ },
+ {
+  "model": "RNN",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1022,
+    272,
+    260
+   ],
+   [
+    174,
+    269,
+    408
+   ],
+   [
+    90,
+    256,
+    579
+   ]
+  ]
+ },
+ {
+  "model": "LSTM",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    981,
+    249,
+    324
+   ],
+   [
+    197,
+    271,
+    383
+   ],
+   [
+    108,
+    274,
+    543
+   ]
+  ]
+ },
+ {
+  "model": "BiLSTM",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    988,
+    232,
+    334
+   ],
+   [
+    167,
+    258,
+    426
+   ],
+   [
+    95,
+    230,
+    600
+   ]
+  ]
+ },
+ {
+  "model": "GRU",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    971,
+    248,
+    335
+   ],
+   [
+    188,
+    240,
+    423
+   ],
+   [
+    90,
+    260,
+    575
+   ]
+  ]
+ },
+ {
+  "model": "GNN",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1104,
+    242,
+    208
+   ],
+   [
+    240,
+    224,
+    387
+   ],
+   [
+    110,
+    296,
+    519
+   ]
+  ]
+ },
+ {
+  "model": "STFT-ViT",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1042,
+    257,
+    255
+   ],
+   [
+    217,
+    225,
+    409
+   ],
+   [
+    88,
+    238,
+    599
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1097,
+    249,
+    208
+   ],
+   [
+    222,
+    224,
+    405
+   ],
+   [
+    112,
+    256,
+    557
+   ]
+  ]
+ },
+ {
+  "model": "EEGNet Adapted",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1224,
+    112,
+    218
+   ],
+   [
+    296,
+    154,
+    401
+   ],
+   [
+    220,
+    210,
+    495
+   ]
+  ]
+ },
+ {
+  "model": "DeepConvNet Adapted",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1234,
+    150,
+    170
+   ],
+   [
+    317,
+    204,
+    330
+   ],
+   [
+    200,
+    252,
+    473
+   ]
+  ]
+ },
+ {
+  "model": "ShallowConvNet Adapted",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1180,
+    147,
+    227
+   ],
+   [
+    187,
+    199,
+    465
+   ],
+   [
+    81,
+    288,
+    556
+   ]
+  ]
+ },
+ {
+  "model": "TemporalCNN",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1047,
+    227,
+    280
+   ],
+   [
+    194,
+    249,
+    408
+   ],
+   [
+    111,
+    250,
+    564
+   ]
+  ]
+ },
+ {
+  "model": "Top-3 Validation Ensemble",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1168,
+    160,
+    226
+   ],
+   [
+    218,
+    197,
+    436
+   ],
+   [
+    84,
+    256,
+    585
+   ]
+  ]
+ },
+ {
+  "model": "STFT-ViT",
+  "variant": "filtered-ea-sag+lowlr",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1243,
+    186,
+    125
+   ],
+   [
+    171,
+    303,
+    377
+   ],
+   [
+    246,
+    393,
+    286
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "filtered-ea-sag+lowlr",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1269,
+    163,
+    122
+   ],
+   [
+    153,
+    269,
+    429
+   ],
+   [
+    143,
+    419,
+    363
+   ]
+  ]
+ },
+ {
+  "model": "STFT-ViT",
+  "variant": "filtered+lowlr",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    977,
+    309,
+    268
+   ],
+   [
+    248,
+    215,
+    388
+   ],
+   [
+    106,
+    268,
+    551
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "filtered+lowlr",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1055,
+    236,
+    263
+   ],
+   [
+    217,
+    221,
+    413
+   ],
+   [
+    100,
+    284,
+    541
+   ]
+  ]
+ },
+ {
+  "model": "1D-CNN",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1244,
+    168,
+    142
+   ],
+   [
+    186,
+    307,
+    358
+   ],
+   [
+    155,
+    378,
+    392
+   ]
+  ]
+ },
+ {
+  "model": "RNN",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1232,
+    266,
+    56
+   ],
+   [
+    178,
+    308,
+    365
+   ],
+   [
+    120,
+    366,
+    439
+   ]
+  ]
+ },
+ {
+  "model": "LSTM",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1148,
+    183,
+    223
+   ],
+   [
+    197,
+    289,
+    365
+   ],
+   [
+    131,
+    343,
+    451
+   ]
+  ]
+ },
+ {
+  "model": "BiLSTM",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1158,
+    183,
+    213
+   ],
+   [
+    202,
+    280,
+    369
+   ],
+   [
+    115,
+    356,
+    454
+   ]
+  ]
+ },
+ {
+  "model": "GRU",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1162,
+    184,
+    208
+   ],
+   [
+    184,
+    267,
+    400
+   ],
+   [
+    104,
+    325,
+    496
+   ]
+  ]
+ },
+ {
+  "model": "GNN",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1315,
+    105,
+    134
+   ],
+   [
+    165,
+    237,
+    449
+   ],
+   [
+    134,
+    381,
+    410
+   ]
+  ]
+ },
+ {
+  "model": "STFT-ViT",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1253,
+    173,
+    128
+   ],
+   [
+    187,
+    283,
+    381
+   ],
+   [
+    225,
+    406,
+    294
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1305,
+    143,
+    106
+   ],
+   [
+    154,
+    268,
+    429
+   ],
+   [
+    152,
+    431,
+    342
+   ]
+  ]
+ },
+ {
+  "model": "EEGNet Adapted",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1364,
+    94,
+    96
+   ],
+   [
+    256,
+    298,
+    297
+   ],
+   [
+    235,
+    294,
+    396
+   ]
+  ]
+ },
+ {
+  "model": "DeepConvNet Adapted",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1284,
+    133,
+    137
+   ],
+   [
+    274,
+    277,
+    300
+   ],
+   [
+    191,
+    339,
+    395
+   ]
+  ]
+ },
+ {
+  "model": "ShallowConvNet Adapted",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1269,
+    120,
+    165
+   ],
+   [
+    173,
+    284,
+    394
+   ],
+   [
+    102,
+    357,
+    466
+   ]
+  ]
+ },
+ {
+  "model": "TemporalCNN",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1283,
+    154,
+    117
+   ],
+   [
+    225,
+    253,
+    373
+   ],
+   [
+    147,
+    335,
+    443
+   ]
+  ]
+ },
+ {
+  "model": "Top-3 Validation Ensemble",
+  "variant": "after",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1288,
+    145,
+    121
+   ],
+   [
+    188,
+    229,
+    434
+   ],
+   [
+    121,
+    370,
+    434
+   ]
+  ]
+ }
+]

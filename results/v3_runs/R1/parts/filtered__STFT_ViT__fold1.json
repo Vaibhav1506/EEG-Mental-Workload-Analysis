@@ -1,0 +1,52 @@
+{
+ "model": "STFT-ViT",
+ "variant": "filtered",
+ "fold": 1,
+ "completed_utc": "2026-10-22T17:15:28+00:00",
+ "dev_oof": {
+  "accuracy": 0.5758258258258259,
+  "balanced_accuracy": 0.5497587370652387,
+  "macro_f1": 0.5454603370383927
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.49796678300973235,
+   "training_seconds": 59.96596020000288,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 24,
+   "epochs_run": 39,
+   "selection_value": 0.530331805467675,
+   "training_seconds": 77.03442460000224,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.6000980488349973,
+   "training_seconds": 39.763666400001966,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 31,
+   "epochs_run": 46,
+   "selection_value": 0.5052492112785428,
+   "training_seconds": 92.4974543999997,
+   "parameters": 26499
+  }
+ ],
+ "inference_ms_per_window": 0.22302072072823256,
+ "parameters": 26499,
+ "training_seconds": 269.2615056000068
+}

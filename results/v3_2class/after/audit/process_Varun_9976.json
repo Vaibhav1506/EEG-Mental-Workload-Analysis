@@ -1,0 +1,25 @@
+{
+  "device_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.5.1+cu121",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "started_utc": "2026-10-22T21:28:42+00:00",
+  "run_folds": null,
+  "models": [
+    "1D-CNN",
+    "RNN",
+    "LSTM",
+    "BiLSTM",
+    "GRU",
+    "GNN",
+    "STFT-ViT",
+    "STFT-Swin",
+    "EEGNet Adapted",
+    "DeepConvNet Adapted",
+    "TemporalCNN",
+    "ShallowConvNet Adapted"
+  ],
+  "variants": [
+    "filtered-ea-sag"
+  ]
+}

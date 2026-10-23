@@ -1,0 +1,52 @@
+{
+ "model": "STFT-Swin",
+ "variant": "filtered-ea-sag",
+ "fold": 3,
+ "completed_utc": "2026-10-22T17:33:08+00:00",
+ "dev_oof": {
+  "accuracy": 0.6148648648648649,
+  "balanced_accuracy": 0.5613672496025437,
+  "macro_f1": 0.5603430919822702
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.600869368123425,
+   "training_seconds": 47.85953590000281,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.5656619757590042,
+   "training_seconds": 58.142333999989205,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.5636042084607722,
+   "training_seconds": 42.87813759999699,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 38,
+   "epochs_run": 53,
+   "selection_value": 0.46571496784305455,
+   "training_seconds": 140.40643139999884,
+   "parameters": 66927
+  }
+ ],
+ "inference_ms_per_window": 0.2581412913054004,
+ "parameters": 66927,
+ "training_seconds": 289.28643889998784
+}

@@ -1,0 +1,25 @@
+{
+ "model": "BiLSTM",
+ "variant": "raw",
+ "fold": 1,
+ "completed_utc": "2026-10-22T21:28:28+00:00",
+ "dev_oof": {
+  "accuracy": 0.6756756756756757,
+  "balanced_accuracy": 0.6756756756756757,
+  "macro_f1": 0.6631858428058364
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 18,
+   "epochs_run": 20,
+   "selection_value": 0.6631858428058364,
+   "training_seconds": 4.117344000012963,
+   "parameters": 12546
+  }
+ ],
+ "inference_ms_per_window": 0.03204594594188728,
+ "parameters": 12546,
+ "training_seconds": 4.117344000012963
+}

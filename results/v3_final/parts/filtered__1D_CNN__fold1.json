@@ -1,0 +1,91 @@
+{
+ "model": "1D-CNN",
+ "variant": "filtered",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.5604549708661656,
+   "training_seconds": 26.97725419999915,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.5311346633650893,
+   "training_seconds": 12.800245199992787,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 45,
+   "epochs_run": 60,
+   "selection_value": 0.6558164291418969,
+   "training_seconds": 48.916656100002,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 23,
+   "epochs_run": 38,
+   "selection_value": 0.5187438478594549,
+   "training_seconds": 30.698686399991857,
+   "parameters": 40099
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 54,
+   "epochs_run": 60,
+   "selection_value": 0.5522278394237509,
+   "training_seconds": 53.91216269999859,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.5574089551395639,
+   "training_seconds": 23.184991899994202,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 31,
+   "epochs_run": 46,
+   "selection_value": 0.6533635638926875,
+   "training_seconds": 46.56373959999473,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 53,
+   "epochs_run": 60,
+   "selection_value": 0.5581360396899057,
+   "training_seconds": 60.370449299996835,
+   "parameters": 40099
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__1D_CNN__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__1D_CNN__fold1"
+ ],
+ "parameters": 40099,
+ "training_seconds": 303.42418539997016,
+ "inference_ms_per_window": 0.38033648652836327,
+ "dev_oof": {
+  "accuracy": 0.6261261261261262,
+  "balanced_accuracy": 0.590703706802778,
+  "macro_f1": 0.5918381966369123
+ }
+}

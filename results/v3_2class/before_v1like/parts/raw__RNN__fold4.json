@@ -1,0 +1,25 @@
+{
+ "model": "RNN",
+ "variant": "raw",
+ "fold": 4,
+ "completed_utc": "2026-10-22T21:28:06+00:00",
+ "dev_oof": {
+  "accuracy": 0.5793918918918919,
+  "balanced_accuracy": 0.5793918918918919,
+  "macro_f1": 0.5735993034483358
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 17,
+   "selection_value": 0.5735993034483358,
+   "training_seconds": 3.2391102999972645,
+   "parameters": 1666
+  }
+ ],
+ "inference_ms_per_window": 0.03070810809906281,
+ "parameters": 1666,
+ "training_seconds": 3.2391102999972645
+}

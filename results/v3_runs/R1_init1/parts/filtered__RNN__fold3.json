@@ -1,0 +1,52 @@
+{
+ "model": "RNN",
+ "variant": "filtered",
+ "fold": 3,
+ "completed_utc": "2026-10-22T18:56:22+00:00",
+ "dev_oof": {
+  "accuracy": 0.5863363363363363,
+  "balanced_accuracy": 0.5604634045810516,
+  "macro_f1": 0.5544552308497087
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.4747899188339424,
+   "training_seconds": 18.291306799990707,
+   "parameters": 1731
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 27,
+   "epochs_run": 42,
+   "selection_value": 0.5309892382829641,
+   "training_seconds": 25.39857530000154,
+   "parameters": 1731
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5819295744628525,
+   "training_seconds": 14.543653100001393,
+   "parameters": 1731
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.47285372761735917,
+   "training_seconds": 13.938269799997215,
+   "parameters": 1731
+  }
+ ],
+ "inference_ms_per_window": 0.05018483483712902,
+ "parameters": 1731,
+ "training_seconds": 72.17180499999085
+}

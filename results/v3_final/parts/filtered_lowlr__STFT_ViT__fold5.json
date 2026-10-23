@@ -1,0 +1,91 @@
+{
+ "model": "STFT-ViT",
+ "variant": "filtered+lowlr",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.6689516832373975,
+   "training_seconds": 63.02158050000435,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.4863315508021391,
+   "training_seconds": 67.94382239998959,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 30,
+   "epochs_run": 45,
+   "selection_value": 0.634030787638126,
+   "training_seconds": 117.75756120000733,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 39,
+   "epochs_run": 54,
+   "selection_value": 0.6114550132341235,
+   "training_seconds": 141.07733369999914,
+   "parameters": 26499
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.6222204313968343,
+   "training_seconds": 53.352092100001755,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 29,
+   "epochs_run": 44,
+   "selection_value": 0.5251558196363422,
+   "training_seconds": 95.82902619999368,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.6237739112739112,
+   "training_seconds": 35.501583699995535,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.5894886800562867,
+   "training_seconds": 35.48808490000374,
+   "parameters": 26499
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\RB_lowlr\\parts\\filtered__STFT_ViT__fold5",
+  "results\\v3_runs\\RB_lowlr_init1\\parts\\filtered__STFT_ViT__fold5"
+ ],
+ "parameters": 26499,
+ "training_seconds": 609.9710846999951,
+ "inference_ms_per_window": 0.518394894882206,
+ "dev_oof": {
+  "accuracy": 0.6238738738738738,
+  "balanced_accuracy": 0.6113672496025436,
+  "macro_f1": 0.6035552595951628
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "model": "BiLSTM",
+ "variant": "after",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5254808023074277,
+   "training_seconds": 16.42308459999913,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5175642312708599,
+   "training_seconds": 17.081108200000017,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5153489967415538,
+   "training_seconds": 20.53978819999611,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.5756422873139776,
+   "training_seconds": 20.036043100000825,
+   "parameters": 12675
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5130189290945792,
+   "training_seconds": 24.149270299996715,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5399526986534644,
+   "training_seconds": 25.177805300001637,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5399937235450628,
+   "training_seconds": 25.290215600005467,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.572076023391813,
+   "training_seconds": 22.686691899987636,
+   "parameters": 12675
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__BiLSTM__fold2",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__BiLSTM__fold2"
+ ],
+ "parameters": 12675,
+ "training_seconds": 171.38400719998754,
+ "inference_ms_per_window": 0.19247507510511708,
+ "dev_oof": {
+  "accuracy": 0.5837087087087087,
+  "balanced_accuracy": 0.5412230412230412,
+  "macro_f1": 0.5396088634939108
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

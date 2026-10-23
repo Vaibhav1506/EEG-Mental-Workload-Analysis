@@ -1,0 +1,91 @@
+{
+ "model": "GNN",
+ "variant": "filtered-ea-sag",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.5105910786085665,
+   "training_seconds": 41.04119869999704,
+   "parameters": 13267
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 35,
+   "epochs_run": 50,
+   "selection_value": 0.5232047872439042,
+   "training_seconds": 71.82725740000024,
+   "parameters": 13267
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.47212566837198117,
+   "training_seconds": 27.11934370000381,
+   "parameters": 13267
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.6000446251904991,
+   "training_seconds": 43.012067400006345,
+   "parameters": 13267
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 24,
+   "epochs_run": 39,
+   "selection_value": 0.5286602426217433,
+   "training_seconds": 75.12167740000586,
+   "parameters": 13267
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.536375422054166,
+   "training_seconds": 60.9103366999916,
+   "parameters": 13267
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5137999062527364,
+   "training_seconds": 34.44501000001037,
+   "parameters": 13267
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 35,
+   "epochs_run": 50,
+   "selection_value": 0.5736693096951827,
+   "training_seconds": 95.54482490000373,
+   "parameters": 13267
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__GNN__fold2",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__GNN__fold2"
+ ],
+ "parameters": 13267,
+ "training_seconds": 449.021716200019,
+ "inference_ms_per_window": 0.3434551051047326,
+ "dev_oof": {
+  "accuracy": 0.5968468468468469,
+  "balanced_accuracy": 0.5406368935780701,
+  "macro_f1": 0.54045830154059
+ }
+}

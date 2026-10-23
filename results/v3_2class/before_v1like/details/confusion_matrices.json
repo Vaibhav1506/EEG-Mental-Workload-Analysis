@@ -1,0 +1,236 @@
+[
+ {
+  "model": "1D-CNN",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    807,
+    858
+   ],
+   [
+    396,
+    1269
+   ]
+  ]
+ },
+ {
+  "model": "RNN",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    769,
+    896
+   ],
+   [
+    561,
+    1104
+   ]
+  ]
+ },
+ {
+  "model": "LSTM",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    926,
+    739
+   ],
+   [
+    390,
+    1275
+   ]
+  ]
+ },
+ {
+  "model": "BiLSTM",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    840,
+    825
+   ],
+   [
+    308,
+    1357
+   ]
+  ]
+ },
+ {
+  "model": "GRU",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    635,
+    1030
+   ],
+   [
+    366,
+    1299
+   ]
+  ]
+ },
+ {
+  "model": "GNN",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    878,
+    787
+   ],
+   [
+    543,
+    1122
+   ]
+  ]
+ },
+ {
+  "model": "STFT-ViT",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1091,
+    574
+   ],
+   [
+    405,
+    1260
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1046,
+    619
+   ],
+   [
+    402,
+    1263
+   ]
+  ]
+ },
+ {
+  "model": "EEGNet Adapted",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    877,
+    788
+   ],
+   [
+    792,
+    873
+   ]
+  ]
+ },
+ {
+  "model": "DeepConvNet Adapted",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    229,
+    1436
+   ],
+   [
+    203,
+    1462
+   ]
+  ]
+ },
+ {
+  "model": "ShallowConvNet Adapted",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    834,
+    831
+   ],
+   [
+    233,
+    1432
+   ]
+  ]
+ },
+ {
+  "model": "TemporalCNN",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    931,
+    734
+   ],
+   [
+    362,
+    1303
+   ]
+  ]
+ },
+ {
+  "model": "Top-3 Validation Ensemble",
+  "variant": "raw",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    997,
+    668
+   ],
+   [
+    290,
+    1375
+   ]
+  ]
+ }
+]

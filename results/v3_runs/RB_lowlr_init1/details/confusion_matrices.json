@@ -1,0 +1,158 @@
+[
+ {
+  "model": "STFT-ViT",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1247,
+    177,
+    130
+   ],
+   [
+    181,
+    301,
+    369
+   ],
+   [
+    254,
+    376,
+    295
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1257,
+    166,
+    131
+   ],
+   [
+    140,
+    272,
+    439
+   ],
+   [
+    128,
+    441,
+    356
+   ]
+  ]
+ },
+ {
+  "model": "STFT-ViT",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1000,
+    340,
+    214
+   ],
+   [
+    243,
+    267,
+    341
+   ],
+   [
+    135,
+    267,
+    523
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "filtered",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1038,
+    260,
+    256
+   ],
+   [
+    224,
+    228,
+    399
+   ],
+   [
+    106,
+    260,
+    559
+   ]
+  ]
+ },
+ {
+  "model": "STFT-ViT",
+  "variant": "selected",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1083,
+    294,
+    177
+   ],
+   [
+    230,
+    277,
+    344
+   ],
+   [
+    240,
+    312,
+    373
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "selected",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1204,
+    184,
+    166
+   ],
+   [
+    199,
+    260,
+    392
+   ],
+   [
+    144,
+    391,
+    390
+   ]
+  ]
+ }
+]

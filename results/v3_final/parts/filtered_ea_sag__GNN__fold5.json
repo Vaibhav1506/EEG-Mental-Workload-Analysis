@@ -1,0 +1,91 @@
+{
+ "model": "GNN",
+ "variant": "filtered-ea-sag",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 45,
+   "epochs_run": 60,
+   "selection_value": 0.5768753609765319,
+   "training_seconds": 82.49696770000446,
+   "parameters": 13267
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 38,
+   "epochs_run": 53,
+   "selection_value": 0.47395683043243486,
+   "training_seconds": 76.87553130000015,
+   "parameters": 13267
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5891811743230502,
+   "training_seconds": 46.64004779999959,
+   "parameters": 13267
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5625464106445701,
+   "training_seconds": 31.89045239999541,
+   "parameters": 13267
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 30,
+   "epochs_run": 45,
+   "selection_value": 0.546234350092114,
+   "training_seconds": 86.05896059999941,
+   "parameters": 13267
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 25,
+   "epochs_run": 40,
+   "selection_value": 0.48444918467082765,
+   "training_seconds": 76.60149939999974,
+   "parameters": 13267
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.5627220167811564,
+   "training_seconds": 47.558487499991315,
+   "parameters": 13267
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5971755424573417,
+   "training_seconds": 34.44654219999211,
+   "parameters": 13267
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__GNN__fold5",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__GNN__fold5"
+ ],
+ "parameters": 13267,
+ "training_seconds": 482.5684888999822,
+ "inference_ms_per_window": 0.25550585586050467,
+ "dev_oof": {
+  "accuracy": 0.6088588588588588,
+  "balanced_accuracy": 0.5563445798739917,
+  "macro_f1": 0.5563779550181022
+ }
+}

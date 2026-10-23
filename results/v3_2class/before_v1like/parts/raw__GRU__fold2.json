@@ -1,0 +1,25 @@
+{
+ "model": "GRU",
+ "variant": "raw",
+ "fold": 2,
+ "completed_utc": "2026-10-22T21:28:41+00:00",
+ "dev_oof": {
+  "accuracy": 0.731418918918919,
+  "balanced_accuracy": 0.7314189189189189,
+  "macro_f1": 0.7309390891238541
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 20,
+   "epochs_run": 20,
+   "selection_value": 0.7309390891238541,
+   "training_seconds": 2.01365620001161,
+   "parameters": 4738
+  }
+ ],
+ "inference_ms_per_window": 0.012112612616342099,
+ "parameters": 4738,
+ "training_seconds": 2.01365620001161
+}

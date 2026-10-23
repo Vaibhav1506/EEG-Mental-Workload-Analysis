@@ -1,0 +1,25 @@
+{
+ "model": "DeepConvNet Adapted",
+ "variant": "raw",
+ "fold": 3,
+ "completed_utc": "2026-10-22T21:30:40+00:00",
+ "dev_oof": {
+  "accuracy": 0.5591216216216216,
+  "balanced_accuracy": 0.5591216216216216,
+  "macro_f1": 0.5158412584016169
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 10,
+   "selection_value": 0.5158412584016169,
+   "training_seconds": 3.70494989999861,
+   "parameters": 112018
+  }
+ ],
+ "inference_ms_per_window": 0.03995135136881379,
+ "parameters": 112018,
+ "training_seconds": 3.70494989999861
+}

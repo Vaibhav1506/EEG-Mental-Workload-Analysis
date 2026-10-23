@@ -1,0 +1,25 @@
+{
+ "model": "EEGNet Adapted",
+ "variant": "raw",
+ "fold": 5,
+ "completed_utc": "2026-10-22T21:30:25+00:00",
+ "dev_oof": {
+  "accuracy": 0.5625,
+  "balanced_accuracy": 0.5625,
+  "macro_f1": 0.56204888275736
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 20,
+   "selection_value": 0.56204888275736,
+   "training_seconds": 6.067503099999158,
+   "parameters": 1818
+  }
+ ],
+ "inference_ms_per_window": 0.03883678679509709,
+ "parameters": 1818,
+ "training_seconds": 6.067503099999158
+}

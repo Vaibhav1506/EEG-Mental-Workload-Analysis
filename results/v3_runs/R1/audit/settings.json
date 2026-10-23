@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "folds": 5,
+    "inner_folds": 4,
+    "seeds": 1,
+    "epochs": 60,
+    "patience": 15,
+    "warmup_epochs": 3,
+    "train_stride": 64,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.1,
+    "class_weight": "balanced",
+    "select": "f1",
+    "mixup": 0.0,
+    "scale_jitter": 0.0,
+    "noise": 0.0,
+    "channel_dropout": 0.0,
+    "seed": 42
+  },
+  "code_sha256": "8cf62e7aa1bbda977b00b05b629f19c731b03725886f9728b52aff90555d0d85",
+  "created_utc": "2026-10-22T15:44:19+00:00"
+}

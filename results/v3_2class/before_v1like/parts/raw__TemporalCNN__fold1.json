@@ -1,0 +1,25 @@
+{
+ "model": "TemporalCNN",
+ "variant": "raw",
+ "fold": 1,
+ "completed_utc": "2026-10-22T21:31:35+00:00",
+ "dev_oof": {
+  "accuracy": 0.7128378378378378,
+  "balanced_accuracy": 0.7128378378378379,
+  "macro_f1": 0.7060438597516094
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 15,
+   "selection_value": 0.7060438597516094,
+   "training_seconds": 3.3619735000102082,
+   "parameters": 31458
+  }
+ ],
+ "inference_ms_per_window": 0.09871906906876059,
+ "parameters": 31458,
+ "training_seconds": 3.3619735000102082
+}

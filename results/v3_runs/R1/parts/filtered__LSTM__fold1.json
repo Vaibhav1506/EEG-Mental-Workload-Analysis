@@ -1,0 +1,52 @@
+{
+ "model": "LSTM",
+ "variant": "filtered",
+ "fold": 1,
+ "completed_utc": "2026-10-22T18:43:26+00:00",
+ "dev_oof": {
+  "accuracy": 0.5533033033033034,
+  "balanced_accuracy": 0.5543608624103981,
+  "macro_f1": 0.5388578835039414
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.48042984121660065,
+   "training_seconds": 21.52078160000383,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.4664947906743508,
+   "training_seconds": 21.9475078000105,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5474747474747474,
+   "training_seconds": 17.512111499992898,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5697751003400447,
+   "training_seconds": 17.521605400004773,
+   "parameters": 6339
+  }
+ ],
+ "inference_ms_per_window": 0.06989684681668207,
+ "parameters": 6339,
+ "training_seconds": 78.502006300012
+}

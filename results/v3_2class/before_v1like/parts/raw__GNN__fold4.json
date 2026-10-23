@@ -1,0 +1,25 @@
+{
+ "model": "GNN",
+ "variant": "raw",
+ "fold": 4,
+ "completed_utc": "2026-10-22T21:29:01+00:00",
+ "dev_oof": {
+  "accuracy": 0.6537162162162162,
+  "balanced_accuracy": 0.6537162162162162,
+  "macro_f1": 0.653493757120138
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 16,
+   "selection_value": 0.653493757120138,
+   "training_seconds": 3.427295100002084,
+   "parameters": 13234
+  }
+ ],
+ "inference_ms_per_window": 0.02675420419710154,
+ "parameters": 13234,
+ "training_seconds": 3.427295100002084
+}

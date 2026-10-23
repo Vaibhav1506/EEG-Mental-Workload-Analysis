@@ -1,0 +1,52 @@
+{
+ "model": "GRU",
+ "variant": "filtered",
+ "fold": 1,
+ "completed_utc": "2026-10-22T16:59:10+00:00",
+ "dev_oof": {
+  "accuracy": 0.5694444444444444,
+  "balanced_accuracy": 0.5626167963629264,
+  "macro_f1": 0.5538107712138766
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 34,
+   "epochs_run": 49,
+   "selection_value": 0.4909983863073108,
+   "training_seconds": 35.584610200006864,
+   "parameters": 4803
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5024363719041895,
+   "training_seconds": 14.904129699993064,
+   "parameters": 4803
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.5826149549331595,
+   "training_seconds": 16.593297400002484,
+   "parameters": 4803
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5819931039192926,
+   "training_seconds": 22.699270099998103,
+   "parameters": 4803
+  }
+ ],
+ "inference_ms_per_window": 0.0686501501753504,
+ "parameters": 4803,
+ "training_seconds": 89.78130740000051
+}

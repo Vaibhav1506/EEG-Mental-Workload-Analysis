@@ -1,0 +1,92 @@
+{
+ "model": "1D-CNN",
+ "variant": "after",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 26,
+   "epochs_run": 41,
+   "selection_value": 0.5397599692802614,
+   "training_seconds": 42.481639400008135,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 18,
+   "epochs_run": 33,
+   "selection_value": 0.579227411681471,
+   "training_seconds": 40.120785199993406,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 25,
+   "epochs_run": 40,
+   "selection_value": 0.5400806108483174,
+   "training_seconds": 49.82206359998963,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 30,
+   "epochs_run": 45,
+   "selection_value": 0.5514500663278777,
+   "training_seconds": 64.05887110000185,
+   "parameters": 40099
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.5100079313691004,
+   "training_seconds": 37.455466899991734,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.5933357620880225,
+   "training_seconds": 28.306050499988487,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5067270502297142,
+   "training_seconds": 26.272206099994946,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.5773796727048816,
+   "training_seconds": 17.018148600007407,
+   "parameters": 40099
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__1D_CNN__fold2",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__1D_CNN__fold2"
+ ],
+ "parameters": 40099,
+ "training_seconds": 305.5352313999756,
+ "inference_ms_per_window": 0.34098528526924754,
+ "dev_oof": {
+  "accuracy": 0.6043543543543544,
+  "balanced_accuracy": 0.5519744343273755,
+  "macro_f1": 0.5520504955613964
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

@@ -1,0 +1,52 @@
+{
+ "model": "BiLSTM",
+ "variant": "filtered-ea-sag",
+ "fold": 1,
+ "completed_utc": "2026-10-22T21:49:52+00:00",
+ "dev_oof": {
+  "accuracy": 0.8370870870870871,
+  "balanced_accuracy": 0.8370870870870871,
+  "macro_f1": 0.8369400391735642
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 31,
+   "epochs_run": 46,
+   "selection_value": 0.8209818958020396,
+   "training_seconds": 74.28053020000516,
+   "parameters": 12546
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.8511738562209527,
+   "training_seconds": 51.970635999998194,
+   "parameters": 12546
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 32,
+   "epochs_run": 47,
+   "selection_value": 0.8722684145804894,
+   "training_seconds": 79.36383550000028,
+   "parameters": 12546
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.8023188103691653,
+   "training_seconds": 62.65872790000867,
+   "parameters": 12546
+  }
+ ],
+ "inference_ms_per_window": 0.16871591590400142,
+ "parameters": 12546,
+ "training_seconds": 268.2737296000123
+}

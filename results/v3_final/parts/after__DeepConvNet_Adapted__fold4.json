@@ -1,0 +1,92 @@
+{
+ "model": "DeepConvNet Adapted",
+ "variant": "after",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5451110749153184,
+   "training_seconds": 102.37776039999153,
+   "parameters": 112147
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.4754788459443631,
+   "training_seconds": 65.23934890000965,
+   "parameters": 112147
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.4873430542809558,
+   "training_seconds": 67.85542330000317,
+   "parameters": 112147
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.5848061224455876,
+   "training_seconds": 79.01763410000422,
+   "parameters": 112147
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.5396113685491489,
+   "training_seconds": 145.27479110000422,
+   "parameters": 112147
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.42791199813258635,
+   "training_seconds": 118.75857050000923,
+   "parameters": 112147
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 26,
+   "epochs_run": 41,
+   "selection_value": 0.5247823697772515,
+   "training_seconds": 175.10449810000136,
+   "parameters": 112147
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5617190919672059,
+   "training_seconds": 101.89435349999985,
+   "parameters": 112147
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__DeepConvNet_Adapted__fold4",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__DeepConvNet_Adapted__fold4"
+ ],
+ "parameters": 112147,
+ "training_seconds": 855.5223799000232,
+ "inference_ms_per_window": 0.4973378378414415,
+ "dev_oof": {
+  "accuracy": 0.5630630630630631,
+  "balanced_accuracy": 0.5109437188384557,
+  "macro_f1": 0.5098449313333412
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

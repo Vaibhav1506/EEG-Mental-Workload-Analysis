@@ -1,0 +1,91 @@
+{
+ "model": "STFT-Swin",
+ "variant": "filtered",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5851810022669491,
+   "training_seconds": 63.79757340000651,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5265849831117828,
+   "training_seconds": 49.21922649999033,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.5976090170668605,
+   "training_seconds": 62.912905099990894,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.6180385684761438,
+   "training_seconds": 66.92449049999414,
+   "parameters": 66927
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5805923446063779,
+   "training_seconds": 62.46092860000499,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5224751852787253,
+   "training_seconds": 62.432677100005094,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.6495168710963276,
+   "training_seconds": 70.73762429998897,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5580805160651071,
+   "training_seconds": 65.45944590000727,
+   "parameters": 66927
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__STFT_Swin__fold5",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__STFT_Swin__fold5"
+ ],
+ "parameters": 66927,
+ "training_seconds": 503.9448713999882,
+ "inference_ms_per_window": 0.6740147147358075,
+ "dev_oof": {
+  "accuracy": 0.6103603603603603,
+  "balanced_accuracy": 0.5908378967202497,
+  "macro_f1": 0.5837115079329322
+ }
+}

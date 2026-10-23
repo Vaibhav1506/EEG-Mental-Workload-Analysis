@@ -1,0 +1,91 @@
+{
+ "model": "BiLSTM",
+ "variant": "filtered-ea-sag",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 25,
+   "epochs_run": 40,
+   "selection_value": 0.5124147569471982,
+   "training_seconds": 33.39727669999411,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.6134707431235994,
+   "training_seconds": 23.844773300006636,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.587351273653106,
+   "training_seconds": 22.269572899997,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5336430472044725,
+   "training_seconds": 17.320986699996865,
+   "parameters": 12675
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 18,
+   "epochs_run": 33,
+   "selection_value": 0.47813093003655616,
+   "training_seconds": 37.02966650000599,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 23,
+   "epochs_run": 38,
+   "selection_value": 0.6002271235875507,
+   "training_seconds": 43.54507480000029,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5682180996713578,
+   "training_seconds": 28.21423520000826,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5390368657142912,
+   "training_seconds": 31.354023799998686,
+   "parameters": 12675
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__BiLSTM__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__BiLSTM__fold1"
+ ],
+ "parameters": 12675,
+ "training_seconds": 236.97560990000784,
+ "inference_ms_per_window": 0.1999096095716852,
+ "dev_oof": {
+  "accuracy": 0.6036036036036037,
+  "balanced_accuracy": 0.5823362061752154,
+  "macro_f1": 0.5771515487387555
+ }
+}

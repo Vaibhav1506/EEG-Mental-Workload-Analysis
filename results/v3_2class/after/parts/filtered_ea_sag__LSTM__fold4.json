@@ -1,0 +1,52 @@
+{
+ "model": "LSTM",
+ "variant": "filtered-ea-sag",
+ "fold": 4,
+ "completed_utc": "2026-10-22T21:47:20+00:00",
+ "dev_oof": {
+  "accuracy": 0.8322072072072072,
+  "balanced_accuracy": 0.8322072072072073,
+  "macro_f1": 0.8319360796855866
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.8247575149936941,
+   "training_seconds": 31.619741999995313,
+   "parameters": 6274
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.8137533490297961,
+   "training_seconds": 30.47978529999091,
+   "parameters": 6274
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.9068388564002599,
+   "training_seconds": 37.06337629999325,
+   "parameters": 6274
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.7810973467375413,
+   "training_seconds": 37.07592000000295,
+   "parameters": 6274
+  }
+ ],
+ "inference_ms_per_window": 0.1655274774622614,
+ "parameters": 6274,
+ "training_seconds": 136.23882359998242
+}

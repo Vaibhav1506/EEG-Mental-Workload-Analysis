@@ -1,0 +1,1 @@
+{"script": "make_slide_table.py", "args": ["--before", "results/initial_5fold/summary.csv", "--before-variant", "raw", "--after", "results/v3_final/summary.csv", "--after-variant", "after", "--out", "results/v3_final"]}

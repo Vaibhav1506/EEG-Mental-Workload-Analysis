@@ -1,0 +1,20 @@
+{
+  "candidate_variants": [
+    "raw"
+  ],
+  "models": [
+    "1D-CNN",
+    "RNN",
+    "LSTM",
+    "BiLSTM",
+    "GRU",
+    "GNN",
+    "STFT-ViT",
+    "STFT-Swin",
+    "EEGNet Adapted",
+    "DeepConvNet Adapted",
+    "ShallowConvNet Adapted",
+    "TemporalCNN"
+  ],
+  "rule": "per model and outer fold, the candidate with the highest out-of-fold accuracy on that fold's development subjects (ties -> earlier candidate)"
+}

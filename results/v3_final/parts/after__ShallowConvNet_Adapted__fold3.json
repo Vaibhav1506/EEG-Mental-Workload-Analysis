@@ -1,0 +1,92 @@
+{
+ "model": "ShallowConvNet Adapted",
+ "variant": "after",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.556273905911587,
+   "training_seconds": 73.46466620000137,
+   "parameters": 7843
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.6130500848806888,
+   "training_seconds": 95.6658793999959,
+   "parameters": 7843
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5575078941307209,
+   "training_seconds": 74.40210140000272,
+   "parameters": 7843
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5153708652164773,
+   "training_seconds": 82.1799592999887,
+   "parameters": 7843
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.5551983946000183,
+   "training_seconds": 117.00144100000034,
+   "parameters": 7843
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.6050163317152838,
+   "training_seconds": 130.0041382999916,
+   "parameters": 7843
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5434101727116581,
+   "training_seconds": 87.74782270001015,
+   "parameters": 7843
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.515819622728335,
+   "training_seconds": 159.59871730000305,
+   "parameters": 7843
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__ShallowConvNet_Adapted__fold3",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__ShallowConvNet_Adapted__fold3"
+ ],
+ "parameters": 7843,
+ "training_seconds": 820.0647255999938,
+ "inference_ms_per_window": 0.5491343843394069,
+ "dev_oof": {
+  "accuracy": 0.6355105105105106,
+  "balanced_accuracy": 0.5849967614673497,
+  "macro_f1": 0.5849107806875651
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

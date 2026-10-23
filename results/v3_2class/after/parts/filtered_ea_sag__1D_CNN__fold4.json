@@ -1,0 +1,52 @@
+{
+ "model": "1D-CNN",
+ "variant": "filtered-ea-sag",
+ "fold": 4,
+ "completed_utc": "2026-10-22T21:34:53+00:00",
+ "dev_oof": {
+  "accuracy": 0.8712462462462462,
+  "balanced_accuracy": 0.8712462462462462,
+  "macro_f1": 0.8712462281039807
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.888872854527252,
+   "training_seconds": 28.95147739999811,
+   "parameters": 39842
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.8648648648648649,
+   "training_seconds": 25.25898949999828,
+   "parameters": 39842
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.9097267404033833,
+   "training_seconds": 32.76078460000281,
+   "parameters": 39842
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.8207681365576103,
+   "training_seconds": 42.29608500000904,
+   "parameters": 39842
+  }
+ ],
+ "inference_ms_per_window": 0.1635123123129894,
+ "parameters": 39842,
+ "training_seconds": 129.26733650000824
+}

@@ -1,0 +1,25 @@
+{
+ "model": "ShallowConvNet Adapted",
+ "variant": "raw",
+ "fold": 1,
+ "completed_utc": "2026-10-22T21:30:58+00:00",
+ "dev_oof": {
+  "accuracy": 0.6773648648648649,
+  "balanced_accuracy": 0.6773648648648649,
+  "macro_f1": 0.67455582130964
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 18,
+   "selection_value": 0.67455582130964,
+   "training_seconds": 9.103110399999423,
+   "parameters": 7282
+  }
+ ],
+ "inference_ms_per_window": 0.1561343843815149,
+ "parameters": 7282,
+ "training_seconds": 9.103110399999423
+}

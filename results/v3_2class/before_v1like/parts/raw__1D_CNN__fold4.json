@@ -1,0 +1,25 @@
+{
+ "model": "1D-CNN",
+ "variant": "raw",
+ "fold": 4,
+ "completed_utc": "2026-10-22T21:27:51+00:00",
+ "dev_oof": {
+  "accuracy": 0.5945945945945946,
+  "balanced_accuracy": 0.5945945945945945,
+  "macro_f1": 0.570578848106775
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 8,
+   "selection_value": 0.570578848106775,
+   "training_seconds": 1.486025400008657,
+   "parameters": 39842
+  }
+ ],
+ "inference_ms_per_window": 0.03191081082655324,
+ "parameters": 39842,
+ "training_seconds": 1.486025400008657
+}

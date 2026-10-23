@@ -1,0 +1,91 @@
+{
+ "model": "1D-CNN",
+ "variant": "filtered",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 46,
+   "epochs_run": 60,
+   "selection_value": 0.5999598512278627,
+   "training_seconds": 48.273758999988786,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.39272262568755295,
+   "training_seconds": 16.16322489999584,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.5172980078183839,
+   "training_seconds": 13.229403100005584,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.49757014533056926,
+   "training_seconds": 24.239856200001668,
+   "parameters": 40099
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 23,
+   "epochs_run": 38,
+   "selection_value": 0.5694080845214347,
+   "training_seconds": 38.569166100001894,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 24,
+   "epochs_run": 39,
+   "selection_value": 0.40004645912124087,
+   "training_seconds": 39.18490519998886,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5553238413426191,
+   "training_seconds": 20.04222230000596,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5380803243687404,
+   "training_seconds": 30.323008899998968,
+   "parameters": 40099
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__1D_CNN__fold2",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__1D_CNN__fold2"
+ ],
+ "parameters": 40099,
+ "training_seconds": 230.02554569998756,
+ "inference_ms_per_window": 0.14693393392450604,
+ "dev_oof": {
+  "accuracy": 0.5698198198198198,
+  "balanced_accuracy": 0.5198647845706669,
+  "macro_f1": 0.5176980401444982
+ }
+}

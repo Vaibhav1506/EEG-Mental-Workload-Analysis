@@ -1,0 +1,25 @@
+{
+ "model": "LSTM",
+ "variant": "raw",
+ "fold": 3,
+ "completed_utc": "2026-10-22T21:28:17+00:00",
+ "dev_oof": {
+  "accuracy": 0.7347972972972973,
+  "balanced_accuracy": 0.7347972972972974,
+  "macro_f1": 0.7309270083347084
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 16,
+   "selection_value": 0.7309270083347084,
+   "training_seconds": 3.1774025000049733,
+   "parameters": 6274
+  }
+ ],
+ "inference_ms_per_window": 0.03286351350764674,
+ "parameters": 6274,
+ "training_seconds": 3.1774025000049733
+}

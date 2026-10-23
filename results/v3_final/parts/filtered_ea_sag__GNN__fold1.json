@@ -1,0 +1,91 @@
+{
+ "model": "GNN",
+ "variant": "filtered-ea-sag",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5807234481505978,
+   "training_seconds": 26.35444450000068,
+   "parameters": 13267
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.4949642141050641,
+   "training_seconds": 33.27166730001045,
+   "parameters": 13267
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.7239334073958643,
+   "training_seconds": 34.378084600000875,
+   "parameters": 13267
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5523213981921303,
+   "training_seconds": 28.64025070000207,
+   "parameters": 13267
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.5398015448534409,
+   "training_seconds": 39.01994189999823,
+   "parameters": 13267
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.5427172395191451,
+   "training_seconds": 40.96586310000566,
+   "parameters": 13267
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.6492649585264262,
+   "training_seconds": 55.824960300000384,
+   "parameters": 13267
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.536415329869373,
+   "training_seconds": 36.44550200000231,
+   "parameters": 13267
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__GNN__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__GNN__fold1"
+ ],
+ "parameters": 13267,
+ "training_seconds": 294.90071440002066,
+ "inference_ms_per_window": 0.2915656155897528,
+ "dev_oof": {
+  "accuracy": 0.6629129129129129,
+  "balanced_accuracy": 0.6210637882464507,
+  "macro_f1": 0.6208753431055524
+ }
+}

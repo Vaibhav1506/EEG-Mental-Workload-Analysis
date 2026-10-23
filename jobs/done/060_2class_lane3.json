@@ -1,0 +1,1 @@
+{"script": "benchmark_v3.py", "args": ["--task", "2class", "--output", "outputs/v3_2class/after", "--models", "1D-CNN", "RNN", "LSTM", "BiLSTM", "GRU", "GNN", "STFT-ViT", "STFT-Swin", "EEGNet Adapted", "DeepConvNet Adapted", "TemporalCNN", "ShallowConvNet Adapted", "--variants", "filtered-ea-sag", "--inner-folds", "4", "--seeds", "1", "--mem-fraction", "0.3", "--threads", "3"]}

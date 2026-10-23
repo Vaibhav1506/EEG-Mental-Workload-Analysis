@@ -1,0 +1,91 @@
+{
+ "model": "BiLSTM",
+ "variant": "filtered",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.445263117344936,
+   "training_seconds": 13.776202599998214,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.4349426807760141,
+   "training_seconds": 17.126804700004868,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.4541524988317855,
+   "training_seconds": 17.54851009999402,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5108900856907256,
+   "training_seconds": 15.983011799995438,
+   "parameters": 12675
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.4625053522888552,
+   "training_seconds": 25.12603610000224,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.4614585353017755,
+   "training_seconds": 30.014348400000017,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.49625809424999145,
+   "training_seconds": 26.466494899999816,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.5250246689735395,
+   "training_seconds": 43.17345460000797,
+   "parameters": 12675
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__BiLSTM__fold4",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__BiLSTM__fold4"
+ ],
+ "parameters": 12675,
+ "training_seconds": 189.21486320000258,
+ "inference_ms_per_window": 0.18959894895031992,
+ "dev_oof": {
+  "accuracy": 0.5138888888888888,
+  "balanced_accuracy": 0.49272957167694004,
+  "macro_f1": 0.489964983496882
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "model": "TemporalCNN",
+ "variant": "filtered-ea-sag",
+ "fold": 1,
+ "completed_utc": "2026-10-22T22:54:48+00:00",
+ "dev_oof": {
+  "accuracy": 0.8911411411411412,
+  "balanced_accuracy": 0.8911411411411412,
+  "macro_f1": 0.8910782765621474
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 51,
+   "epochs_run": 60,
+   "selection_value": 0.879840870341804,
+   "training_seconds": 92.21932170000218,
+   "parameters": 31458
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.890013234246157,
+   "training_seconds": 42.5552708000032,
+   "parameters": 31458
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 34,
+   "epochs_run": 49,
+   "selection_value": 0.9114016238751587,
+   "training_seconds": 74.19174329999078,
+   "parameters": 31458
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.8826447625243983,
+   "training_seconds": 36.27424920001067,
+   "parameters": 31458
+  }
+ ],
+ "inference_ms_per_window": 0.27965780778637006,
+ "parameters": 31458,
+ "training_seconds": 245.24058500000683
+}

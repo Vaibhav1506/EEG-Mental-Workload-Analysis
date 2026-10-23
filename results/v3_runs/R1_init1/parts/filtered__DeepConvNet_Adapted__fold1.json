@@ -1,0 +1,52 @@
+{
+ "model": "DeepConvNet Adapted",
+ "variant": "filtered",
+ "fold": 1,
+ "completed_utc": "2026-10-22T20:39:07+00:00",
+ "dev_oof": {
+  "accuracy": 0.5840840840840841,
+  "balanced_accuracy": 0.5434552199258081,
+  "macro_f1": 0.5432257629989247
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 23,
+   "epochs_run": 38,
+   "selection_value": 0.47871554752333584,
+   "training_seconds": 164.66748640000878,
+   "parameters": 112147
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.547498798807471,
+   "training_seconds": 143.58861109999998,
+   "parameters": 112147
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 36,
+   "epochs_run": 51,
+   "selection_value": 0.6476376886445541,
+   "training_seconds": 216.92015730000276,
+   "parameters": 112147
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.4829316692207048,
+   "training_seconds": 106.7451313999918,
+   "parameters": 112147
+  }
+ ],
+ "inference_ms_per_window": 0.503353753746641,
+ "parameters": 112147,
+ "training_seconds": 631.9213862000033
+}

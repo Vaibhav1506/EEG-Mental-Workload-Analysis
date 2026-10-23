@@ -1,0 +1,25 @@
+{
+ "model": "STFT-ViT",
+ "variant": "raw",
+ "fold": 1,
+ "completed_utc": "2026-10-22T21:29:10+00:00",
+ "dev_oof": {
+  "accuracy": 0.7736486486486487,
+  "balanced_accuracy": 0.7736486486486487,
+  "macro_f1": 0.7730658763488232
+ },
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 20,
+   "selection_value": 0.7730658763488232,
+   "training_seconds": 5.774968300000182,
+   "parameters": 26466
+  }
+ ],
+ "inference_ms_per_window": 0.0715512012045162,
+ "parameters": 26466,
+ "training_seconds": 5.774968300000182
+}
