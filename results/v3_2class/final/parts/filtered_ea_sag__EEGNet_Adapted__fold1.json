@@ -1,0 +1,91 @@
+{
+ "model": "EEGNet Adapted",
+ "variant": "filtered-ea-sag",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.8495839845338007,
+   "training_seconds": 83.32743160000246,
+   "parameters": 1818
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 25,
+   "epochs_run": 40,
+   "selection_value": 0.8788297794920311,
+   "training_seconds": 91.55539189999399,
+   "parameters": 1818
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 36,
+   "epochs_run": 51,
+   "selection_value": 0.8990532423903084,
+   "training_seconds": 122.9924597999925,
+   "parameters": 1818
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.8191485234821223,
+   "training_seconds": 72.66412999999011,
+   "parameters": 1818
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 49,
+   "epochs_run": 60,
+   "selection_value": 0.8648209791345296,
+   "training_seconds": 146.93789500001003,
+   "parameters": 1818
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 31,
+   "epochs_run": 46,
+   "selection_value": 0.8634412619722417,
+   "training_seconds": 113.87912289999076,
+   "parameters": 1818
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.9067858594067453,
+   "training_seconds": 99.31284759999835,
+   "parameters": 1818
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 27,
+   "epochs_run": 42,
+   "selection_value": 0.8735042735042735,
+   "training_seconds": 112.90098780000699,
+   "parameters": 1818
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__EEGNet_Adapted__fold1",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__EEGNet_Adapted__fold1"
+ ],
+ "parameters": 1818,
+ "training_seconds": 843.5702665999852,
+ "inference_ms_per_window": 0.590976876872326,
+ "dev_oof": {
+  "accuracy": 0.8738738738738738,
+  "balanced_accuracy": 0.8738738738738738,
+  "macro_f1": 0.8735910928086632
+ }
+}

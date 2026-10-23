@@ -1,0 +1,91 @@
+{
+ "model": "DeepConvNet Adapted",
+ "variant": "filtered-ea-sag",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 29,
+   "epochs_run": 44,
+   "selection_value": 0.8423249238456214,
+   "training_seconds": 150.02273759999662,
+   "parameters": 112018
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 28,
+   "epochs_run": 43,
+   "selection_value": 0.8768224467701191,
+   "training_seconds": 129.4882948000013,
+   "parameters": 112018
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.8707543167642997,
+   "training_seconds": 92.57362029999786,
+   "parameters": 112018
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.8978978978978979,
+   "training_seconds": 91.21446810000634,
+   "parameters": 112018
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 25,
+   "epochs_run": 40,
+   "selection_value": 0.7902027027027028,
+   "training_seconds": 129.76793160001398,
+   "parameters": 112018
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.8468247454294553,
+   "training_seconds": 98.8524938999908,
+   "parameters": 112018
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 18,
+   "epochs_run": 33,
+   "selection_value": 0.8442041575537068,
+   "training_seconds": 95.7447925999877,
+   "parameters": 112018
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.8781143031439578,
+   "training_seconds": 82.7737885999959,
+   "parameters": 112018
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__DeepConvNet_Adapted__fold5",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__DeepConvNet_Adapted__fold5"
+ ],
+ "parameters": 112018,
+ "training_seconds": 870.4381274999905,
+ "inference_ms_per_window": 0.34731936947108377,
+ "dev_oof": {
+  "accuracy": 0.8603603603603603,
+  "balanced_accuracy": 0.8603603603603605,
+  "macro_f1": 0.8602279324112306
+ }
+}

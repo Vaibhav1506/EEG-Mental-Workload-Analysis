@@ -1,0 +1,27 @@
+{
+ "output": "results/v3_2class/final",
+ "candidates": [
+  {
+   "name": "filtered-ea-sag",
+   "variant": "filtered-ea-sag",
+   "models": [
+    "1D-CNN",
+    "RNN",
+    "LSTM",
+    "BiLSTM",
+    "GRU",
+    "GNN",
+    "STFT-ViT",
+    "STFT-Swin",
+    "EEGNet Adapted",
+    "DeepConvNet Adapted",
+    "ShallowConvNet Adapted",
+    "TemporalCNN"
+   ],
+   "runs": [
+    "results/v3_2class/after",
+    "results/v3_2class/after_init1"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "model": "STFT-Swin",
+ "variant": "filtered",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.5468911415374692,
+   "training_seconds": 65.87059150000277,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.5349864080908916,
+   "training_seconds": 66.23070619998907,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.6078866928907024,
+   "training_seconds": 47.980402400004095,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 31,
+   "epochs_run": 46,
+   "selection_value": 0.5130478805554737,
+   "training_seconds": 122.37941080000019,
+   "parameters": 66927
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5520290087642349,
+   "training_seconds": 73.14092399999208,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5268558999489645,
+   "training_seconds": 100.63653040000645,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.6417908823849418,
+   "training_seconds": 124.62345899999491,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.5358494101258108,
+   "training_seconds": 97.62768920000235,
+   "parameters": 66927
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__STFT_Swin__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__STFT_Swin__fold1"
+ ],
+ "parameters": 66927,
+ "training_seconds": 698.4897134999919,
+ "inference_ms_per_window": 0.6774343844433595,
+ "dev_oof": {
+  "accuracy": 0.5900900900900901,
+  "balanced_accuracy": 0.5815831311187348,
+  "macro_f1": 0.5729962669857719
+ }
+}

@@ -1,0 +1,271 @@
+{
+  "name": "after",
+  "models": [
+    "1D-CNN",
+    "RNN",
+    "LSTM",
+    "BiLSTM",
+    "GRU",
+    "GNN",
+    "STFT-ViT",
+    "STFT-Swin",
+    "EEGNet Adapted",
+    "DeepConvNet Adapted",
+    "ShallowConvNet Adapted",
+    "TemporalCNN"
+  ],
+  "preprocessing_candidates": [
+    "filtered-ea-sag",
+    "filtered"
+  ],
+  "recipe_groups": [
+    {
+      "models": [
+        "STFT-ViT",
+        "STFT-Swin"
+      ],
+      "alternatives": {
+        "filtered-ea-sag": "filtered-ea-sag+lowlr",
+        "filtered": "filtered+lowlr"
+      }
+    },
+    {
+      "models": [
+        "LSTM",
+        "BiLSTM"
+      ],
+      "alternatives": {
+        "filtered-ea-sag": "filtered-ea-sag+lowlr-rnn",
+        "filtered": "filtered"
+      }
+    }
+  ],
+  "rule": "Pre-declared two-level choice, made separately in every outer fold from development (out-of-fold)\n    accuracy only:\n      1. preprocessing: the candidate with the best mean development accuracy over ALL models;\n      2. recipe groups (e.g. the two transformers): default recipe vs an alternative recipe, by the\n         mean development accuracy over the group's models, using the preprocessing chosen in step 1.\n    The chosen candidate's part is copied as variant rule[\"name\"].",
+  "folds": {
+    "1": {
+      "preprocessing_dev_acc": {
+        "filtered-ea-sag": 0.6329141641641641,
+        "filtered": 0.582301051051051
+      },
+      "preprocessing": "filtered-ea-sag",
+      "recipe_groups": [
+        {
+          "models": [
+            "STFT-ViT",
+            "STFT-Swin"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.6289414414414415,
+          "alternative": "filtered-ea-sag+lowlr",
+          "alternative_dev_acc": 0.6191816816816818,
+          "chosen": "filtered-ea-sag"
+        },
+        {
+          "models": [
+            "LSTM",
+            "BiLSTM"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.5983483483483484,
+          "alternative": "filtered-ea-sag+lowlr-rnn",
+          "alternative_dev_acc": 0.5987237237237237,
+          "chosen": "filtered-ea-sag+lowlr-rnn"
+        }
+      ],
+      "chosen": {
+        "1D-CNN": "filtered-ea-sag",
+        "RNN": "filtered-ea-sag",
+        "LSTM": "filtered-ea-sag+lowlr-rnn",
+        "BiLSTM": "filtered-ea-sag+lowlr-rnn",
+        "GRU": "filtered-ea-sag",
+        "GNN": "filtered-ea-sag",
+        "STFT-ViT": "filtered-ea-sag",
+        "STFT-Swin": "filtered-ea-sag",
+        "EEGNet Adapted": "filtered-ea-sag",
+        "DeepConvNet Adapted": "filtered-ea-sag",
+        "ShallowConvNet Adapted": "filtered-ea-sag",
+        "TemporalCNN": "filtered-ea-sag"
+      }
+    },
+    "2": {
+      "preprocessing_dev_acc": {
+        "filtered-ea-sag": 0.5980355355355357,
+        "filtered": 0.561498998998999
+      },
+      "preprocessing": "filtered-ea-sag",
+      "recipe_groups": [
+        {
+          "models": [
+            "STFT-ViT",
+            "STFT-Swin"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.5848348348348349,
+          "alternative": "filtered-ea-sag+lowlr",
+          "alternative_dev_acc": 0.5718843843843844,
+          "chosen": "filtered-ea-sag"
+        },
+        {
+          "models": [
+            "LSTM",
+            "BiLSTM"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.5850225225225225,
+          "alternative": "filtered-ea-sag+lowlr-rnn",
+          "alternative_dev_acc": 0.5912162162162162,
+          "chosen": "filtered-ea-sag+lowlr-rnn"
+        }
+      ],
+      "chosen": {
+        "1D-CNN": "filtered-ea-sag",
+        "RNN": "filtered-ea-sag",
+        "LSTM": "filtered-ea-sag+lowlr-rnn",
+        "BiLSTM": "filtered-ea-sag+lowlr-rnn",
+        "GRU": "filtered-ea-sag",
+        "GNN": "filtered-ea-sag",
+        "STFT-ViT": "filtered-ea-sag",
+        "STFT-Swin": "filtered-ea-sag",
+        "EEGNet Adapted": "filtered-ea-sag",
+        "DeepConvNet Adapted": "filtered-ea-sag",
+        "ShallowConvNet Adapted": "filtered-ea-sag",
+        "TemporalCNN": "filtered-ea-sag"
+      }
+    },
+    "3": {
+      "preprocessing_dev_acc": {
+        "filtered-ea-sag": 0.6256256256256257,
+        "filtered": 0.5916854354354354
+      },
+      "preprocessing": "filtered-ea-sag",
+      "recipe_groups": [
+        {
+          "models": [
+            "STFT-ViT",
+            "STFT-Swin"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.6071696696696697,
+          "alternative": "filtered-ea-sag+lowlr",
+          "alternative_dev_acc": 0.5831456456456456,
+          "chosen": "filtered-ea-sag"
+        },
+        {
+          "models": [
+            "LSTM",
+            "BiLSTM"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.6223723723723724,
+          "alternative": "filtered-ea-sag+lowlr-rnn",
+          "alternative_dev_acc": 0.6169294294294294,
+          "chosen": "filtered-ea-sag"
+        }
+      ],
+      "chosen": {
+        "1D-CNN": "filtered-ea-sag",
+        "RNN": "filtered-ea-sag",
+        "LSTM": "filtered-ea-sag",
+        "BiLSTM": "filtered-ea-sag",
+        "GRU": "filtered-ea-sag",
+        "GNN": "filtered-ea-sag",
+        "STFT-ViT": "filtered-ea-sag",
+        "STFT-Swin": "filtered-ea-sag",
+        "EEGNet Adapted": "filtered-ea-sag",
+        "DeepConvNet Adapted": "filtered-ea-sag",
+        "ShallowConvNet Adapted": "filtered-ea-sag",
+        "TemporalCNN": "filtered-ea-sag"
+      }
+    },
+    "4": {
+      "preprocessing_dev_acc": {
+        "filtered-ea-sag": 0.5865553053053053,
+        "filtered": 0.5580893393393392
+      },
+      "preprocessing": "filtered-ea-sag",
+      "recipe_groups": [
+        {
+          "models": [
+            "STFT-ViT",
+            "STFT-Swin"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.5457957957957957,
+          "alternative": "filtered-ea-sag+lowlr",
+          "alternative_dev_acc": 0.5512387387387387,
+          "chosen": "filtered-ea-sag+lowlr"
+        },
+        {
+          "models": [
+            "LSTM",
+            "BiLSTM"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.598536036036036,
+          "alternative": "filtered-ea-sag+lowlr-rnn",
+          "alternative_dev_acc": 0.603978978978979,
+          "chosen": "filtered-ea-sag+lowlr-rnn"
+        }
+      ],
+      "chosen": {
+        "1D-CNN": "filtered-ea-sag",
+        "RNN": "filtered-ea-sag",
+        "LSTM": "filtered-ea-sag+lowlr-rnn",
+        "BiLSTM": "filtered-ea-sag+lowlr-rnn",
+        "GRU": "filtered-ea-sag",
+        "GNN": "filtered-ea-sag",
+        "STFT-ViT": "filtered-ea-sag+lowlr",
+        "STFT-Swin": "filtered-ea-sag+lowlr",
+        "EEGNet Adapted": "filtered-ea-sag",
+        "DeepConvNet Adapted": "filtered-ea-sag",
+        "ShallowConvNet Adapted": "filtered-ea-sag",
+        "TemporalCNN": "filtered-ea-sag"
+      }
+    },
+    "5": {
+      "preprocessing_dev_acc": {
+        "filtered-ea-sag": 0.6232795295295295,
+        "filtered": 0.5898085585585585
+      },
+      "preprocessing": "filtered-ea-sag",
+      "recipe_groups": [
+        {
+          "models": [
+            "STFT-ViT",
+            "STFT-Swin"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.6347597597597598,
+          "alternative": "filtered-ea-sag+lowlr",
+          "alternative_dev_acc": 0.6034159159159159,
+          "chosen": "filtered-ea-sag"
+        },
+        {
+          "models": [
+            "LSTM",
+            "BiLSTM"
+          ],
+          "default": "filtered-ea-sag",
+          "default_dev_acc": 0.62256006006006,
+          "alternative": "filtered-ea-sag+lowlr-rnn",
+          "alternative_dev_acc": 0.6150525525525525,
+          "chosen": "filtered-ea-sag"
+        }
+      ],
+      "chosen": {
+        "1D-CNN": "filtered-ea-sag",
+        "RNN": "filtered-ea-sag",
+        "LSTM": "filtered-ea-sag",
+        "BiLSTM": "filtered-ea-sag",
+        "GRU": "filtered-ea-sag",
+        "GNN": "filtered-ea-sag",
+        "STFT-ViT": "filtered-ea-sag",
+        "STFT-Swin": "filtered-ea-sag",
+        "EEGNet Adapted": "filtered-ea-sag",
+        "DeepConvNet Adapted": "filtered-ea-sag",
+        "ShallowConvNet Adapted": "filtered-ea-sag",
+        "TemporalCNN": "filtered-ea-sag"
+      }
+    }
+  }
+}

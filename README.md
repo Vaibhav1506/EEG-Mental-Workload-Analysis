@@ -4,12 +4,16 @@ This project classifies STEW EEG recordings into low, moderate and high mental w
 
 ## Results to read first
 
+Round 2 results are final. Round 1 is kept for reference in `results/v3_final/` and `results/v3_2class/BEFORE_AFTER.md`.
+
 | What | Where |
 |---|---|
-| **Before vs after table and chart (for slides)** | `results/v3_final/BEFORE_AFTER.md`, `results/v3_final/before_after.png` |
-| Full optimised results (all metrics, every pipeline) | `results/v3_final/REPORT.md`, `results/v3_final/summary.csv` |
-| 2-class (rest vs task) before/after | `results/v3_2class/BEFORE_AFTER.md`, `results/v3_2class/before_after.png` |
-| Baseline ("before") run | `results/initial_5fold/REPORT.md` |
+| **3-class before vs after, per 4-second window** | `results/v3_final2/BEFORE_AFTER.md`, `results/v3_final2/before_after.png` |
+| **3-class before vs after, decision from the last 60 s** | `results/v3_final2/smoothing/SMOOTHED.md`, `results/v3_final2/smoothing/before_after_smoothed.png` |
+| **2-class (rest vs task) before vs after, per window** | `results/v3_2class/final/BEFORE_AFTER.md`, `results/v3_2class/final/before_after.png` |
+| **2-class, decision from the last 60 s** | `results/v3_2class/final/smoothing/SMOOTHED.md`, `results/v3_2class/final/smoothing/before_after_smoothed.png` |
+| Full results, every pipeline and metric | `results/v3_final2/REPORT.md`, `results/v3_2class/final/REPORT.md` |
+| Baseline ("before") runs | `results/initial_5fold/` (3-class), `results/v3_2class/before_v1like/` (2-class) |
 | What was changed and why | `Docs/BENCHMARK_V3.md` |
 | Baseline protocol and model definitions | `Docs/BENCHMARK.md` |
 
@@ -24,10 +28,12 @@ verify_v3.py             audits a v3 result folder (recomputes every metric from
 make_slide_table.py      builds the before/after table and chart
 jobs/gpu_worker.py       runs queued training jobs on the GPU (see below)
 results/initial_5fold/   v1 baseline results
-results/v3_final/        v3 final 3-class results (assembled from the runs below; REPORT, tables, chart, audit)
-results/v3_runs/         the v3 training runs (two replicate runs + transformer low-LR runs) the final is built from
-results/v3_2class/       2-class rest-vs-task results: before_v1like (baseline) and after (v3 pipeline)
+results/v3_final2/       FINAL 3-class results, round 2 (assembled from v3_runs; REPORT, tables, charts, smoothing/, audit)
+results/v3_final/        round-1 3-class results (kept for reference)
+results/v3_runs/         the v3 training runs the finals are built from (default x2, transformer low-LR x2, LSTM/BiLSTM low-LR x2)
+results/v3_2class/       2-class rest vs task: before_v1like (baseline), after + after_init1 (runs), final (FINAL, 8 networks)
 assemble_v3.py           averages replicate runs and applies the pre-declared final choice
+smooth_v3.py             causal temporal smoothing: decision every 4 s from the last k windows (k chosen on development data)
 outputs/cache/           cached recordings (rebuilt automatically if deleted)
 Docs/                    protocol documents and the STEW dataset paper
 References/              original paper and notes

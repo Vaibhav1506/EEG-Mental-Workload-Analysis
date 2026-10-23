@@ -1,0 +1,92 @@
+{
+ "model": "STFT-Swin",
+ "variant": "after",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.5467401940611082,
+   "training_seconds": 117.04393290000735,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.43895401913869336,
+   "training_seconds": 121.05147910000233,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.4934194529818103,
+   "training_seconds": 75.89861749998818,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.4716250718743242,
+   "training_seconds": 155.85542819999682,
+   "parameters": 66927
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.5166706190495838,
+   "training_seconds": 141.16497169999639,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.5091389114295065,
+   "training_seconds": 141.36325350000698,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5016731311763013,
+   "training_seconds": 84.0284771000006,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 40,
+   "epochs_run": 55,
+   "selection_value": 0.4815044392444321,
+   "training_seconds": 242.36201380001148,
+   "parameters": 66927
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\RB_lowlr\\parts\\filtered_ea_sag__STFT_Swin__fold4",
+  "results\\v3_runs\\RB_lowlr_init1\\parts\\filtered_ea_sag__STFT_Swin__fold4"
+ ],
+ "parameters": 66927,
+ "training_seconds": 1078.7681738000101,
+ "inference_ms_per_window": 0.8970360360255146,
+ "dev_oof": {
+  "accuracy": 0.5604354354354354,
+  "balanced_accuracy": 0.5100952627268417,
+  "macro_f1": 0.5096827796377451
+ },
+ "chosen_variant": "filtered-ea-sag+lowlr"
+}

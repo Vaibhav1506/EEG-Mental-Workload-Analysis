@@ -1,0 +1,91 @@
+{
+ "model": "1D-CNN",
+ "variant": "filtered-ea-sag",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 29,
+   "epochs_run": 44,
+   "selection_value": 0.8498484957795254,
+   "training_seconds": 70.59431299999414,
+   "parameters": 39842
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.871977240398293,
+   "training_seconds": 26.30233189999126,
+   "parameters": 39842
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.8737360970677452,
+   "training_seconds": 41.35414189999574,
+   "parameters": 39842
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 18,
+   "epochs_run": 33,
+   "selection_value": 0.89639429417852,
+   "training_seconds": 45.6100812000077,
+   "parameters": 39842
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 43,
+   "epochs_run": 58,
+   "selection_value": 0.8392578006049656,
+   "training_seconds": 54.75974280000082,
+   "parameters": 39842
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.8963569071713875,
+   "training_seconds": 18.660841500008246,
+   "parameters": 39842
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.8632520673744063,
+   "training_seconds": 17.14515540000866,
+   "parameters": 39842
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 27,
+   "epochs_run": 42,
+   "selection_value": 0.9039030372988962,
+   "training_seconds": 37.25786529999459,
+   "parameters": 39842
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__1D_CNN__fold5",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__1D_CNN__fold5"
+ ],
+ "parameters": 39842,
+ "training_seconds": 311.68447300000116,
+ "inference_ms_per_window": 0.3842387387349673,
+ "dev_oof": {
+  "accuracy": 0.8806306306306306,
+  "balanced_accuracy": 0.8806306306306306,
+  "macro_f1": 0.8805851321757291
+ }
+}

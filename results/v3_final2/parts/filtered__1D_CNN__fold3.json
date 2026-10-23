@@ -1,0 +1,91 @@
+{
+ "model": "1D-CNN",
+ "variant": "filtered",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 40,
+   "epochs_run": 55,
+   "selection_value": 0.48839710566255534,
+   "training_seconds": 44.49675180000486,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5074997983582986,
+   "training_seconds": 24.268677599990042,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.585212829108178,
+   "training_seconds": 14.787908599988441,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.47076446521469056,
+   "training_seconds": 15.653948799998034,
+   "parameters": 40099
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.4827498533864037,
+   "training_seconds": 23.216085499996552,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5189012337527189,
+   "training_seconds": 20.136621400000877,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.6055529799512986,
+   "training_seconds": 19.116059000007226,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.44012227372674867,
+   "training_seconds": 18.108554999998887,
+   "parameters": 40099
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__1D_CNN__fold3",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__1D_CNN__fold3"
+ ],
+ "parameters": 40099,
+ "training_seconds": 179.78460769998492,
+ "inference_ms_per_window": 0.14773858861012562,
+ "dev_oof": {
+  "accuracy": 0.597972972972973,
+  "balanced_accuracy": 0.5319790378613908,
+  "macro_f1": 0.5315121356758403
+ }
+}

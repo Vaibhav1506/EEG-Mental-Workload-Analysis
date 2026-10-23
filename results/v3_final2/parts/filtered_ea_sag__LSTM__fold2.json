@@ -1,0 +1,91 @@
+{
+ "model": "LSTM",
+ "variant": "filtered-ea-sag",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.4981318273615338,
+   "training_seconds": 21.876236099997186,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.5540468450060979,
+   "training_seconds": 25.138717599998927,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5538979173158377,
+   "training_seconds": 13.462243999994826,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.6267334074267134,
+   "training_seconds": 14.605850899999496,
+   "parameters": 6339
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5032384778629014,
+   "training_seconds": 14.041944500000682,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.50341754505754,
+   "training_seconds": 14.693319500001962,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5422554268672927,
+   "training_seconds": 13.345530299993698,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5688275454257706,
+   "training_seconds": 13.990066200000001,
+   "parameters": 6339
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__LSTM__fold2",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__LSTM__fold2"
+ ],
+ "parameters": 6339,
+ "training_seconds": 131.15390909998678,
+ "inference_ms_per_window": 0.1318513513596899,
+ "dev_oof": {
+  "accuracy": 0.5863363363363363,
+  "balanced_accuracy": 0.5475662828604005,
+  "macro_f1": 0.547256868468291
+ }
+}

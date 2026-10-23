@@ -1,0 +1,1 @@
+{"script": "benchmark_v3.py", "args": ["--output", "outputs/v3_recur_lowlr_init1", "--init-offset", "1", "--models", "LSTM", "BiLSTM", "--variants", "filtered-ea-sag", "--learning-rate", "0.0003", "--weight-decay", "0.05", "--warmup-epochs", "5", "--inner-folds", "4", "--seeds", "1", "--mem-fraction", "0.3", "--threads", "3"]}

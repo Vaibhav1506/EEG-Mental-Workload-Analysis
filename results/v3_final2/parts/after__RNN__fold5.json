@@ -1,0 +1,92 @@
+{
+ "model": "RNN",
+ "variant": "after",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 49,
+   "epochs_run": 60,
+   "selection_value": 0.6101508900103881,
+   "training_seconds": 38.105635100000654,
+   "parameters": 1731
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5749623662639932,
+   "training_seconds": 17.20751089999976,
+   "parameters": 1731
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.57335368829448,
+   "training_seconds": 16.11097759999393,
+   "parameters": 1731
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5683865149662134,
+   "training_seconds": 21.548643800007994,
+   "parameters": 1731
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 32,
+   "epochs_run": 47,
+   "selection_value": 0.581576832577574,
+   "training_seconds": 28.4035334999935,
+   "parameters": 1731
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5483764733346673,
+   "training_seconds": 14.41973500000313,
+   "parameters": 1731
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5143402870610565,
+   "training_seconds": 18.122874599997886,
+   "parameters": 1731
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.5959801987237597,
+   "training_seconds": 17.167554100000416,
+   "parameters": 1731
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__RNN__fold5",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__RNN__fold5"
+ ],
+ "parameters": 1731,
+ "training_seconds": 171.08646459999727,
+ "inference_ms_per_window": 0.10370630628461516,
+ "dev_oof": {
+  "accuracy": 0.6306306306306306,
+  "balanced_accuracy": 0.5869516575398929,
+  "macro_f1": 0.5866988385977284
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

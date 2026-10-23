@@ -1,0 +1,91 @@
+{
+ "model": "STFT-ViT",
+ "variant": "filtered",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.5628562935066915,
+   "training_seconds": 50.12553499999922,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.4430046209074974,
+   "training_seconds": 60.42835499999637,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.544271400343777,
+   "training_seconds": 41.6793944999954,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.6345255230077879,
+   "training_seconds": 54.20274490000156,
+   "parameters": 26499
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5363493629003111,
+   "training_seconds": 54.66056539998681,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.42244722104786675,
+   "training_seconds": 62.45445560000371,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5256817873782711,
+   "training_seconds": 49.86921629999415,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5608095941316584,
+   "training_seconds": 68.20885570000974,
+   "parameters": 26499
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__STFT_ViT__fold2",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__STFT_ViT__fold2"
+ ],
+ "parameters": 26499,
+ "training_seconds": 441.62912239998695,
+ "inference_ms_per_window": 0.4857048048293805,
+ "dev_oof": {
+  "accuracy": 0.5638138138138138,
+  "balanced_accuracy": 0.5381076263429204,
+  "macro_f1": 0.5339302513536054
+ }
+}

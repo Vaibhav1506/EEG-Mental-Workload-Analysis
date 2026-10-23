@@ -1,0 +1,236 @@
+[
+ {
+  "model": "1D-CNN",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1469,
+    196
+   ],
+   [
+    206,
+    1459
+   ]
+  ]
+ },
+ {
+  "model": "RNN",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1389,
+    276
+   ],
+   [
+    187,
+    1478
+   ]
+  ]
+ },
+ {
+  "model": "LSTM",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1345,
+    320
+   ],
+   [
+    219,
+    1446
+   ]
+  ]
+ },
+ {
+  "model": "BiLSTM",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1351,
+    314
+   ],
+   [
+    208,
+    1457
+   ]
+  ]
+ },
+ {
+  "model": "GRU",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1365,
+    300
+   ],
+   [
+    212,
+    1453
+   ]
+  ]
+ },
+ {
+  "model": "GNN",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1475,
+    190
+   ],
+   [
+    194,
+    1471
+   ]
+  ]
+ },
+ {
+  "model": "STFT-ViT",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1384,
+    281
+   ],
+   [
+    262,
+    1403
+   ]
+  ]
+ },
+ {
+  "model": "STFT-Swin",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1445,
+    220
+   ],
+   [
+    200,
+    1465
+   ]
+  ]
+ },
+ {
+  "model": "EEGNet Adapted",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1529,
+    136
+   ],
+   [
+    320,
+    1345
+   ]
+  ]
+ },
+ {
+  "model": "DeepConvNet Adapted",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1506,
+    159
+   ],
+   [
+    320,
+    1345
+   ]
+  ]
+ },
+ {
+  "model": "TemporalCNN",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1472,
+    193
+   ],
+   [
+    219,
+    1446
+   ]
+  ]
+ },
+ {
+  "model": "ShallowConvNet Adapted",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1456,
+    209
+   ],
+   [
+    156,
+    1509
+   ]
+  ]
+ },
+ {
+  "model": "Top-3 Validation Ensemble",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "rest",
+   "task"
+  ],
+  "matrix": [
+   [
+    1489,
+    176
+   ],
+   [
+    145,
+    1520
+   ]
+  ]
+ }
+]

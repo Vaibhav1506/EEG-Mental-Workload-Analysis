@@ -1,0 +1,91 @@
+{
+ "model": "STFT-ViT",
+ "variant": "filtered-ea-sag+lowlr",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 40,
+   "epochs_run": 55,
+   "selection_value": 0.541256417809204,
+   "training_seconds": 138.31203329999698,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.4272678479851438,
+   "training_seconds": 94.19684699999925,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.544219638730836,
+   "training_seconds": 49.52910109999357,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.592566955303229,
+   "training_seconds": 44.29099190000852,
+   "parameters": 26499
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5850957088621372,
+   "training_seconds": 60.458416900000884,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.48783010831203605,
+   "training_seconds": 68.38809110000147,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.5576229932738468,
+   "training_seconds": 58.04013189999387,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.5423924414844782,
+   "training_seconds": 38.11137359999702,
+   "parameters": 26499
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\RB_lowlr\\parts\\filtered_ea_sag__STFT_ViT__fold5",
+  "results\\v3_runs\\RB_lowlr_init1\\parts\\filtered_ea_sag__STFT_ViT__fold5"
+ ],
+ "parameters": 26499,
+ "training_seconds": 551.3269867999916,
+ "inference_ms_per_window": 0.5160459460076727,
+ "dev_oof": {
+  "accuracy": 0.5833333333333334,
+  "balanced_accuracy": 0.5375581463816758,
+  "macro_f1": 0.5340416836548694
+ }
+}

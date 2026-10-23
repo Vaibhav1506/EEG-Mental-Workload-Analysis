@@ -1,0 +1,91 @@
+{
+ "model": "BiLSTM",
+ "variant": "filtered-ea-sag+lowlr-rnn",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.5068693814415974,
+   "training_seconds": 21.338172499992652,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.6125888999667664,
+   "training_seconds": 18.31730450000032,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 18,
+   "epochs_run": 33,
+   "selection_value": 0.608291508853846,
+   "training_seconds": 23.762494499998866,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.4843350654880916,
+   "training_seconds": 16.63354939999408,
+   "parameters": 12675
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 27,
+   "epochs_run": 42,
+   "selection_value": 0.5144996513967205,
+   "training_seconds": 28.085359699995024,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.5891330098718676,
+   "training_seconds": 23.854533699981403,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5572161059777159,
+   "training_seconds": 20.026597799995216,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.473722325942825,
+   "training_seconds": 14.94860139998491,
+   "parameters": 12675
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\RC_recur_lowlr\\parts\\filtered_ea_sag__BiLSTM__fold3",
+  "results\\v3_runs\\RC_recur_lowlr_init1\\parts\\filtered_ea_sag__BiLSTM__fold3"
+ ],
+ "parameters": 12675,
+ "training_seconds": 166.96661349994247,
+ "inference_ms_per_window": 0.09892477478948072,
+ "dev_oof": {
+  "accuracy": 0.6114864864864865,
+  "balanced_accuracy": 0.5715539068480244,
+  "macro_f1": 0.5692795585893666
+ }
+}

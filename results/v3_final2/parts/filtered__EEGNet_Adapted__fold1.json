@@ -1,0 +1,91 @@
+{
+ "model": "EEGNet Adapted",
+ "variant": "filtered",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 23,
+   "epochs_run": 38,
+   "selection_value": 0.5122013140213343,
+   "training_seconds": 97.08358639999642,
+   "parameters": 2075
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5685994784695226,
+   "training_seconds": 80.67231480000191,
+   "parameters": 2075
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 33,
+   "epochs_run": 48,
+   "selection_value": 0.6004126531904309,
+   "training_seconds": 127.59224680000625,
+   "parameters": 2075
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.43195878726243525,
+   "training_seconds": 57.85637149999093,
+   "parameters": 2075
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 27,
+   "epochs_run": 42,
+   "selection_value": 0.5317113601945146,
+   "training_seconds": 138.3627514000109,
+   "parameters": 2075
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.580255047150068,
+   "training_seconds": 120.82690309999452,
+   "parameters": 2075
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.6513149411641778,
+   "training_seconds": 90.64706709999882,
+   "parameters": 2075
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.4640744869257396,
+   "training_seconds": 94.00573450000957,
+   "parameters": 2075
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__EEGNet_Adapted__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__EEGNet_Adapted__fold1"
+ ],
+ "parameters": 2075,
+ "training_seconds": 807.0469756000093,
+ "inference_ms_per_window": 0.734992342370572,
+ "dev_oof": {
+  "accuracy": 0.5998498498498499,
+  "balanced_accuracy": 0.5604412461997602,
+  "macro_f1": 0.5587003248872113
+ }
+}

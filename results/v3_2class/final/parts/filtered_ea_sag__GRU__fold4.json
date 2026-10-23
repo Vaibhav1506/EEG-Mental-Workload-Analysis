@@ -1,0 +1,91 @@
+{
+ "model": "GRU",
+ "variant": "filtered-ea-sag",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 30,
+   "epochs_run": 45,
+   "selection_value": 0.8258116883116883,
+   "training_seconds": 68.19018420000793,
+   "parameters": 4738
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.8223598553345388,
+   "training_seconds": 30.939729499994428,
+   "parameters": 4738
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.9099090974677151,
+   "training_seconds": 34.14334249999956,
+   "parameters": 4738
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.7833466412792007,
+   "training_seconds": 31.043945500001428,
+   "parameters": 4738
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.8213112499464524,
+   "training_seconds": 13.881794799992349,
+   "parameters": 4738
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.8348214285714286,
+   "training_seconds": 13.064642600016668,
+   "parameters": 4738
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.9174082934429445,
+   "training_seconds": 16.700441499997396,
+   "parameters": 4738
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.765079365079365,
+   "training_seconds": 15.187458200001856,
+   "parameters": 4738
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__GRU__fold4",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__GRU__fold4"
+ ],
+ "parameters": 4738,
+ "training_seconds": 223.15153880001162,
+ "inference_ms_per_window": 0.22222342347784257,
+ "dev_oof": {
+  "accuracy": 0.8408408408408409,
+  "balanced_accuracy": 0.8408408408408408,
+  "macro_f1": 0.8407042804124549
+ }
+}

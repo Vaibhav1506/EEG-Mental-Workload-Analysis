@@ -1,0 +1,91 @@
+{
+ "model": "BiLSTM",
+ "variant": "filtered",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.4587950509342322,
+   "training_seconds": 21.045357299997704,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 38,
+   "epochs_run": 53,
+   "selection_value": 0.465182661576363,
+   "training_seconds": 45.26255040000251,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5314129749437634,
+   "training_seconds": 22.385040499997558,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5396586170276639,
+   "training_seconds": 26.000527600001078,
+   "parameters": 12675
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.4457445712884875,
+   "training_seconds": 27.511682700001984,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5043662383914204,
+   "training_seconds": 22.963666399999056,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 43,
+   "epochs_run": 58,
+   "selection_value": 0.5505499715043316,
+   "training_seconds": 68.40959609999845,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5441043076779697,
+   "training_seconds": 35.92503920001036,
+   "parameters": 12675
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__BiLSTM__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__BiLSTM__fold1"
+ ],
+ "parameters": 12675,
+ "training_seconds": 269.5034602000087,
+ "inference_ms_per_window": 0.21067687680237918,
+ "dev_oof": {
+  "accuracy": 0.5382882882882883,
+  "balanced_accuracy": 0.5293280896996068,
+  "macro_f1": 0.5247183488560422
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "model": "BiLSTM",
+ "variant": "filtered-ea-sag",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5423605805958747,
+   "training_seconds": 15.321725700006937,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.48915020931570696,
+   "training_seconds": 17.119405500008725,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 30,
+   "epochs_run": 45,
+   "selection_value": 0.550848941884786,
+   "training_seconds": 35.93968640000094,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.5966694313439378,
+   "training_seconds": 18.32345389999682,
+   "parameters": 12675
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5101560047352268,
+   "training_seconds": 22.514561800009687,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.5067518614153257,
+   "training_seconds": 26.431861700009904,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 41,
+   "epochs_run": 56,
+   "selection_value": 0.5683778845625759,
+   "training_seconds": 67.31560629999149,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5619637022121226,
+   "training_seconds": 25.163836199993966,
+   "parameters": 12675
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__BiLSTM__fold4",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__BiLSTM__fold4"
+ ],
+ "parameters": 12675,
+ "training_seconds": 228.13013750001846,
+ "inference_ms_per_window": 0.18273768764301748,
+ "dev_oof": {
+  "accuracy": 0.5900900900900901,
+  "balanced_accuracy": 0.5585362874836559,
+  "macro_f1": 0.5561971406278384
+ }
+}

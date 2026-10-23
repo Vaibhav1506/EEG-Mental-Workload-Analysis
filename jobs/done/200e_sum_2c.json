@@ -1,0 +1,1 @@
+{"script": "benchmark_v3.py", "args": ["--task", "2class", "--output", "results/v3_2class/final", "--variants", "filtered-ea-sag", "--summarize", "--no-select", "--device", "cpu"]}

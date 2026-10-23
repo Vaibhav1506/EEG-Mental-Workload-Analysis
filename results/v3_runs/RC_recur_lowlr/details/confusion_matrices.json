@@ -1,0 +1,54 @@
+[
+ {
+  "model": "LSTM",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1134,
+    194,
+    226
+   ],
+   [
+    210,
+    273,
+    368
+   ],
+   [
+    133,
+    358,
+    434
+   ]
+  ]
+ },
+ {
+  "model": "BiLSTM",
+  "variant": "filtered-ea-sag",
+  "labels": [
+   "low",
+   "moderate",
+   "high"
+  ],
+  "matrix": [
+   [
+    1123,
+    188,
+    243
+   ],
+   [
+    198,
+    264,
+    389
+   ],
+   [
+    119,
+    332,
+    474
+   ]
+  ]
+ }
+]

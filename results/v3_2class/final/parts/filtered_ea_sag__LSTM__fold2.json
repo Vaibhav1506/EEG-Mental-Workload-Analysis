@@ -1,0 +1,91 @@
+{
+ "model": "LSTM",
+ "variant": "filtered-ea-sag",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.8273082499261568,
+   "training_seconds": 41.67112879999331,
+   "parameters": 6274
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.8511066398390341,
+   "training_seconds": 48.5533018999995,
+   "parameters": 6274
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.8211714376735084,
+   "training_seconds": 31.375089200009825,
+   "parameters": 6274
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.8707963004737198,
+   "training_seconds": 37.55337489998783,
+   "parameters": 6274
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 26,
+   "epochs_run": 41,
+   "selection_value": 0.8058295872912556,
+   "training_seconds": 27.290991500020027,
+   "parameters": 6274
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.888872854527252,
+   "training_seconds": 24.81939119999879,
+   "parameters": 6274
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 33,
+   "epochs_run": 48,
+   "selection_value": 0.8332698071887539,
+   "training_seconds": 32.40840559999924,
+   "parameters": 6274
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.8362296313508563,
+   "training_seconds": 18.839410400018096,
+   "parameters": 6274
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__LSTM__fold2",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__LSTM__fold2"
+ ],
+ "parameters": 6274,
+ "training_seconds": 262.5110935000266,
+ "inference_ms_per_window": 0.21681516515961552,
+ "dev_oof": {
+  "accuracy": 0.8490990990990991,
+  "balanced_accuracy": 0.8490990990990991,
+  "macro_f1": 0.8490370708685393
+ }
+}

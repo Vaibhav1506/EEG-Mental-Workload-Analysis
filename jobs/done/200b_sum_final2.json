@@ -1,0 +1,1 @@
+{"script": "benchmark_v3.py", "args": ["--output", "results/v3_final2", "--variants", "filtered-ea-sag", "filtered", "filtered-ea-sag+lowlr", "filtered+lowlr", "filtered-ea-sag+lowlr-rnn", "after", "--summarize", "--no-select", "--device", "cpu"]}

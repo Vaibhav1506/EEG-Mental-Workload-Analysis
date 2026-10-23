@@ -1,0 +1,128 @@
+{
+ "output": "results/v3_final2",
+ "candidates": [
+  {
+   "name": "filtered-ea-sag",
+   "variant": "filtered-ea-sag",
+   "models": [
+    "1D-CNN",
+    "RNN",
+    "LSTM",
+    "BiLSTM",
+    "GRU",
+    "GNN",
+    "STFT-ViT",
+    "STFT-Swin",
+    "EEGNet Adapted",
+    "DeepConvNet Adapted",
+    "ShallowConvNet Adapted",
+    "TemporalCNN"
+   ],
+   "runs": [
+    "results/v3_runs/R1",
+    "results/v3_runs/R1_init1"
+   ]
+  },
+  {
+   "name": "filtered",
+   "variant": "filtered",
+   "models": [
+    "1D-CNN",
+    "RNN",
+    "LSTM",
+    "BiLSTM",
+    "GRU",
+    "GNN",
+    "STFT-ViT",
+    "STFT-Swin",
+    "EEGNet Adapted",
+    "DeepConvNet Adapted",
+    "ShallowConvNet Adapted",
+    "TemporalCNN"
+   ],
+   "runs": [
+    "results/v3_runs/R1",
+    "results/v3_runs/R1_init1"
+   ]
+  },
+  {
+   "name": "filtered-ea-sag+lowlr",
+   "variant": "filtered-ea-sag",
+   "models": [
+    "STFT-ViT",
+    "STFT-Swin"
+   ],
+   "runs": [
+    "results/v3_runs/RB_lowlr",
+    "results/v3_runs/RB_lowlr_init1"
+   ]
+  },
+  {
+   "name": "filtered+lowlr",
+   "variant": "filtered",
+   "models": [
+    "STFT-ViT",
+    "STFT-Swin"
+   ],
+   "runs": [
+    "results/v3_runs/RB_lowlr",
+    "results/v3_runs/RB_lowlr_init1"
+   ]
+  },
+  {
+   "name": "filtered-ea-sag+lowlr-rnn",
+   "variant": "filtered-ea-sag",
+   "models": [
+    "LSTM",
+    "BiLSTM"
+   ],
+   "runs": [
+    "results/v3_runs/RC_recur_lowlr",
+    "results/v3_runs/RC_recur_lowlr_init1"
+   ]
+  }
+ ],
+ "final": {
+  "name": "after",
+  "models": [
+   "1D-CNN",
+   "RNN",
+   "LSTM",
+   "BiLSTM",
+   "GRU",
+   "GNN",
+   "STFT-ViT",
+   "STFT-Swin",
+   "EEGNet Adapted",
+   "DeepConvNet Adapted",
+   "ShallowConvNet Adapted",
+   "TemporalCNN"
+  ],
+  "preprocessing_candidates": [
+   "filtered-ea-sag",
+   "filtered"
+  ],
+  "recipe_groups": [
+   {
+    "models": [
+     "STFT-ViT",
+     "STFT-Swin"
+    ],
+    "alternatives": {
+     "filtered-ea-sag": "filtered-ea-sag+lowlr",
+     "filtered": "filtered+lowlr"
+    }
+   },
+   {
+    "models": [
+     "LSTM",
+     "BiLSTM"
+    ],
+    "alternatives": {
+     "filtered-ea-sag": "filtered-ea-sag+lowlr-rnn",
+     "filtered": "filtered"
+    }
+   }
+  ]
+ }
+}

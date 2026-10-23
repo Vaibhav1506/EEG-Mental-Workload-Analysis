@@ -1,0 +1,92 @@
+{
+ "model": "1D-CNN",
+ "variant": "after",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 27,
+   "epochs_run": 42,
+   "selection_value": 0.59425296729585,
+   "training_seconds": 44.162798999997904,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.6487598890198926,
+   "training_seconds": 18.492691600011312,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.5319617059736845,
+   "training_seconds": 27.800128600007156,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.5496199220772143,
+   "training_seconds": 31.792517800000496,
+   "parameters": 40099
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.5779834312164603,
+   "training_seconds": 22.884239400009392,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.6196429221253831,
+   "training_seconds": 17.175177400000393,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5428891949924609,
+   "training_seconds": 20.47208620001038,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.5629629824149839,
+   "training_seconds": 36.3313441999926,
+   "parameters": 40099
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__1D_CNN__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__1D_CNN__fold1"
+ ],
+ "parameters": 40099,
+ "training_seconds": 219.11098420002963,
+ "inference_ms_per_window": 0.4332156156367334,
+ "dev_oof": {
+  "accuracy": 0.6392642642642643,
+  "balanced_accuracy": 0.5909826234903635,
+  "macro_f1": 0.5910786778637561
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

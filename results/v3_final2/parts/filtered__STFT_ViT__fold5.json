@@ -1,0 +1,91 @@
+{
+ "model": "STFT-ViT",
+ "variant": "filtered",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.6336506282916798,
+   "training_seconds": 40.065666800001054,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 30,
+   "epochs_run": 45,
+   "selection_value": 0.51652817578707,
+   "training_seconds": 90.38646080000035,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.6533134671223579,
+   "training_seconds": 42.50121260000742,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.6158000680966973,
+   "training_seconds": 66.00534640000842,
+   "parameters": 26499
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.6062720177325738,
+   "training_seconds": 51.732236900003045,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5523170071708835,
+   "training_seconds": 62.12765189999482,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 20,
+   "epochs_run": 35,
+   "selection_value": 0.6422443206233649,
+   "training_seconds": 89.06465390000085,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 48,
+   "epochs_run": 60,
+   "selection_value": 0.5734731949813715,
+   "training_seconds": 154.04083120000723,
+   "parameters": 26499
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__STFT_ViT__fold5",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__STFT_ViT__fold5"
+ ],
+ "parameters": 26499,
+ "training_seconds": 595.9240605000232,
+ "inference_ms_per_window": 0.49610930935367126,
+ "dev_oof": {
+  "accuracy": 0.6216216216216216,
+  "balanced_accuracy": 0.6119325207560502,
+  "macro_f1": 0.6027544837179422
+ }
+}

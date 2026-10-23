@@ -1,0 +1,91 @@
+{
+ "model": "LSTM",
+ "variant": "filtered-ea-sag",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5113695679332382,
+   "training_seconds": 31.423477200005436,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5817851270819517,
+   "training_seconds": 45.64684889999626,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.5604229021998414,
+   "training_seconds": 58.073847699997714,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5436783055767308,
+   "training_seconds": 24.81582289999642,
+   "parameters": 6339
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.46857807270112867,
+   "training_seconds": 11.388744600000791,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5861348451867893,
+   "training_seconds": 13.713072699989425,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5571882568776979,
+   "training_seconds": 20.071938299995963,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5431163241780189,
+   "training_seconds": 14.095966900000349,
+   "parameters": 6339
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__LSTM__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__LSTM__fold1"
+ ],
+ "parameters": 6339,
+ "training_seconds": 219.22971919998236,
+ "inference_ms_per_window": 0.20530315317240103,
+ "dev_oof": {
+  "accuracy": 0.5930930930930931,
+  "balanced_accuracy": 0.5604830837028979,
+  "macro_f1": 0.5592026149384008
+ }
+}

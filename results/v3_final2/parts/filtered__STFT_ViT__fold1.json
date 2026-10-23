@@ -1,0 +1,91 @@
+{
+ "model": "STFT-ViT",
+ "variant": "filtered",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.49796678300973235,
+   "training_seconds": 59.96596020000288,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 24,
+   "epochs_run": 39,
+   "selection_value": 0.530331805467675,
+   "training_seconds": 77.03442460000224,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.6000980488349973,
+   "training_seconds": 39.763666400001966,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 31,
+   "epochs_run": 46,
+   "selection_value": 0.5052492112785428,
+   "training_seconds": 92.4974543999997,
+   "parameters": 26499
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5033291045484088,
+   "training_seconds": 50.1985449000058,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.4971238973008558,
+   "training_seconds": 39.8170509999909,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.6513717659572082,
+   "training_seconds": 65.54737569999998,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.4752288846226125,
+   "training_seconds": 47.253447800001595,
+   "parameters": 26499
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__STFT_ViT__fold1",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__STFT_ViT__fold1"
+ ],
+ "parameters": 26499,
+ "training_seconds": 472.07792500000505,
+ "inference_ms_per_window": 0.5373723723713446,
+ "dev_oof": {
+  "accuracy": 0.5964714714714715,
+  "balanced_accuracy": 0.5733271971662065,
+  "macro_f1": 0.5686662646219397
+ }
+}

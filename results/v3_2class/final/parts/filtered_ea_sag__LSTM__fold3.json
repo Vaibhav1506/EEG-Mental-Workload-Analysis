@@ -1,0 +1,91 @@
+{
+ "model": "LSTM",
+ "variant": "filtered-ea-sag",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.8317574882713822,
+   "training_seconds": 45.56208039999183,
+   "parameters": 6274
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.8796965317919074,
+   "training_seconds": 42.374442299988004,
+   "parameters": 6274
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.8858817694007305,
+   "training_seconds": 40.77636910000001,
+   "parameters": 6274
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.7742562905636428,
+   "training_seconds": 29.827263500003028,
+   "parameters": 6274
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 29,
+   "epochs_run": 44,
+   "selection_value": 0.8237198411890461,
+   "training_seconds": 29.811177900002804,
+   "parameters": 6274
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 27,
+   "epochs_run": 42,
+   "selection_value": 0.8888076673164393,
+   "training_seconds": 28.72403049998684,
+   "parameters": 6274
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 28,
+   "epochs_run": 43,
+   "selection_value": 0.8858199864651477,
+   "training_seconds": 29.535103900008835,
+   "parameters": 6274
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.7857647698441464,
+   "training_seconds": 13.488997300009942,
+   "parameters": 6274
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__LSTM__fold3",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__LSTM__fold3"
+ ],
+ "parameters": 6274,
+ "training_seconds": 260.0994648999913,
+ "inference_ms_per_window": 0.2190755255138935,
+ "dev_oof": {
+  "accuracy": 0.8453453453453453,
+  "balanced_accuracy": 0.8453453453453453,
+  "macro_f1": 0.8450812133475685
+ }
+}

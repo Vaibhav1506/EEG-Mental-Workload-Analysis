@@ -1,0 +1,91 @@
+{
+ "model": "GRU",
+ "variant": "filtered-ea-sag",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.8325689475937137,
+   "training_seconds": 37.15664110000944,
+   "parameters": 4738
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.8376606962299582,
+   "training_seconds": 37.81746629999543,
+   "parameters": 4738
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.8437296946068875,
+   "training_seconds": 67.52263549999043,
+   "parameters": 4738
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.8446360504698425,
+   "training_seconds": 35.83576699999685,
+   "parameters": 4738
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.8343508343508343,
+   "training_seconds": 15.19831810001051,
+   "parameters": 4738
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.8428860479253808,
+   "training_seconds": 14.122765199979767,
+   "parameters": 4738
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 26,
+   "epochs_run": 41,
+   "selection_value": 0.8468247454294553,
+   "training_seconds": 37.359885199985,
+   "parameters": 4738
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.8663516021167648,
+   "training_seconds": 17.817344399983995,
+   "parameters": 4738
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__GRU__fold5",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__GRU__fold5"
+ ],
+ "parameters": 4738,
+ "training_seconds": 262.8308227999514,
+ "inference_ms_per_window": 0.2778576576287646,
+ "dev_oof": {
+  "accuracy": 0.8498498498498499,
+  "balanced_accuracy": 0.8498498498498499,
+  "macro_f1": 0.8496626721557097
+ }
+}

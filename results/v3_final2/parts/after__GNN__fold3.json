@@ -1,0 +1,92 @@
+{
+ "model": "GNN",
+ "variant": "after",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.6415870846114041,
+   "training_seconds": 35.80616349999036,
+   "parameters": 13267
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.6060342468166285,
+   "training_seconds": 49.04246829998738,
+   "parameters": 13267
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 42,
+   "epochs_run": 57,
+   "selection_value": 0.6075678722884523,
+   "training_seconds": 80.70947400000296,
+   "parameters": 13267
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.4626079546206752,
+   "training_seconds": 26.558973500010325,
+   "parameters": 13267
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 18,
+   "epochs_run": 33,
+   "selection_value": 0.5894619699424247,
+   "training_seconds": 63.197022000007564,
+   "parameters": 13267
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.5578064302463172,
+   "training_seconds": 41.82170020000194,
+   "parameters": 13267
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 44,
+   "epochs_run": 59,
+   "selection_value": 0.6313497594792454,
+   "training_seconds": 112.70171380000829,
+   "parameters": 13267
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.4285676083108425,
+   "training_seconds": 36.348046699989936,
+   "parameters": 13267
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__GNN__fold3",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__GNN__fold3"
+ ],
+ "parameters": 13267,
+ "training_seconds": 446.18556199999875,
+ "inference_ms_per_window": 0.2530222222371189,
+ "dev_oof": {
+  "accuracy": 0.6467717717717718,
+  "balanced_accuracy": 0.5946358122828711,
+  "macro_f1": 0.5944633917551924
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

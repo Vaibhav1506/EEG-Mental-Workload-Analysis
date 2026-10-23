@@ -1,0 +1,91 @@
+{
+ "model": "TemporalCNN",
+ "variant": "filtered",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 24,
+   "epochs_run": 39,
+   "selection_value": 0.502034853873223,
+   "training_seconds": 43.96777390000352,
+   "parameters": 31491
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.4169681508967223,
+   "training_seconds": 19.919934999998077,
+   "parameters": 31491
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.5877945913695095,
+   "training_seconds": 18.886676800000714,
+   "parameters": 31491
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.543027014891095,
+   "training_seconds": 20.502406500003417,
+   "parameters": 31491
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.4550013300502691,
+   "training_seconds": 18.793288500004564,
+   "parameters": 31491
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.4246275197323273,
+   "training_seconds": 19.139817400005995,
+   "parameters": 31491
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.5702039301715153,
+   "training_seconds": 18.2101110000076,
+   "parameters": 31491
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5248384580934281,
+   "training_seconds": 20.20006220000505,
+   "parameters": 31491
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__TemporalCNN__fold2",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__TemporalCNN__fold2"
+ ],
+ "parameters": 31491,
+ "training_seconds": 179.62007130002894,
+ "inference_ms_per_window": 0.3236689189542994,
+ "dev_oof": {
+  "accuracy": 0.5803303303303303,
+  "balanced_accuracy": 0.5445632798573975,
+  "macro_f1": 0.5293118310623566
+ }
+}

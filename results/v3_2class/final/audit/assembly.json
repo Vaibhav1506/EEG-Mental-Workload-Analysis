@@ -1,0 +1,79 @@
+{
+  "candidates": [
+    {
+      "name": "filtered-ea-sag",
+      "variant": "filtered-ea-sag",
+      "models": [
+        "1D-CNN",
+        "RNN",
+        "LSTM",
+        "BiLSTM",
+        "GRU",
+        "GNN",
+        "STFT-ViT",
+        "STFT-Swin",
+        "EEGNet Adapted",
+        "DeepConvNet Adapted",
+        "ShallowConvNet Adapted",
+        "TemporalCNN"
+      ],
+      "runs": [
+        "results/v3_2class/after",
+        "results/v3_2class/after_init1"
+      ],
+      "settings": [
+        {
+          "task": "2class",
+          "no_demean": false,
+          "constant_lr": false,
+          "no_jitter": false,
+          "init_offset": 0,
+          "folds": 5,
+          "inner_folds": 4,
+          "seeds": 1,
+          "epochs": 60,
+          "patience": 15,
+          "warmup_epochs": 3,
+          "train_stride": 64,
+          "batch_size": 128,
+          "learning_rate": 0.001,
+          "weight_decay": 0.01,
+          "label_smoothing": 0.1,
+          "class_weight": "balanced",
+          "select": "f1",
+          "mixup": 0.0,
+          "scale_jitter": 0.0,
+          "noise": 0.0,
+          "channel_dropout": 0.0,
+          "seed": 42
+        },
+        {
+          "task": "2class",
+          "no_demean": false,
+          "constant_lr": false,
+          "no_jitter": false,
+          "init_offset": 1,
+          "folds": 5,
+          "inner_folds": 4,
+          "seeds": 1,
+          "epochs": 60,
+          "patience": 15,
+          "warmup_epochs": 3,
+          "train_stride": 64,
+          "batch_size": 128,
+          "learning_rate": 0.001,
+          "weight_decay": 0.01,
+          "label_smoothing": 0.1,
+          "class_weight": "balanced",
+          "select": "f1",
+          "mixup": 0.0,
+          "scale_jitter": 0.0,
+          "noise": 0.0,
+          "channel_dropout": 0.0,
+          "seed": 42
+        }
+      ]
+    }
+  ],
+  "rule": "replicates averaged; nested choice is made by benchmark_v3.py --summarize"
+}

@@ -1,0 +1,91 @@
+{
+ "model": "BiLSTM",
+ "variant": "filtered",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 41,
+   "epochs_run": 56,
+   "selection_value": 0.46718291830319786,
+   "training_seconds": 47.524047099999734,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.41234697480582355,
+   "training_seconds": 15.674018100005924,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.5496965014213733,
+   "training_seconds": 30.126514000003226,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.4856091067590831,
+   "training_seconds": 14.302428599999985,
+   "parameters": 12675
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 33,
+   "epochs_run": 48,
+   "selection_value": 0.46084748014932825,
+   "training_seconds": 57.34623540000757,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.42099906044472285,
+   "training_seconds": 22.844998600005056,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5744436806001824,
+   "training_seconds": 31.20535239999299,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5119775004534591,
+   "training_seconds": 21.5862991999893,
+   "parameters": 12675
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__BiLSTM__fold2",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__BiLSTM__fold2"
+ ],
+ "parameters": 12675,
+ "training_seconds": 240.60989340000378,
+ "inference_ms_per_window": 0.19113183185942723,
+ "dev_oof": {
+  "accuracy": 0.5487987987987988,
+  "balanced_accuracy": 0.5170544876427229,
+  "macro_f1": 0.5068494311321144
+ }
+}

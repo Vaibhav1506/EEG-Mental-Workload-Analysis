@@ -1,0 +1,67 @@
+{
+  "candidates_k": [
+    1,
+    2,
+    4,
+    8,
+    15
+  ],
+  "rule": "Each window's probabilities are averaged with those of the k-1 windows just before it (only the past,\nnever the future; fewer at the start of a recording). k is chosen separately in every outer fold from\nthe development (out-of-fold) predictions, pooled over all models: the candidate with the best mean\ndevelopment accuracy, ties -> the shorter context. Test subjects play no part in the choice.",
+  "folds": {
+    "1": {
+      "k": 15,
+      "context_seconds": 60,
+      "dev_accuracy_by_k": {
+        "1": 0.873123123123123,
+        "2": 0.905248998998999,
+        "4": 0.927708958958959,
+        "8": 0.9472284784784785,
+        "15": 0.9597097097097097
+      }
+    },
+    "2": {
+      "k": 15,
+      "context_seconds": 60,
+      "dev_accuracy_by_k": {
+        "1": 0.8653340840840841,
+        "2": 0.89623998998999,
+        "4": 0.9213275775775776,
+        "8": 0.9404404404404404,
+        "15": 0.957864114114114
+      }
+    },
+    "3": {
+      "k": 15,
+      "context_seconds": 60,
+      "dev_accuracy_by_k": {
+        "1": 0.8713713713713713,
+        "2": 0.9024336836836836,
+        "4": 0.9268018018018019,
+        "8": 0.9436624124124123,
+        "15": 0.9564564564564564
+      }
+    },
+    "4": {
+      "k": 15,
+      "context_seconds": 60,
+      "dev_accuracy_by_k": {
+        "1": 0.8550425425425426,
+        "2": 0.8843218218218217,
+        "4": 0.9102852852852853,
+        "8": 0.9271771771771772,
+        "15": 0.9410035035035036
+      }
+    },
+    "5": {
+      "k": 15,
+      "context_seconds": 60,
+      "dev_accuracy_by_k": {
+        "1": 0.8612675175175174,
+        "2": 0.8897647647647647,
+        "4": 0.9154154154154154,
+        "8": 0.9338400900900901,
+        "15": 0.9476664164164167
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+ "model": "RNN",
+ "variant": "filtered-ea-sag",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.8211434954808571,
+   "training_seconds": 51.740763299996615,
+   "parameters": 1666
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.8419057221854223,
+   "training_seconds": 34.40469179999491,
+   "parameters": 1666
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 37,
+   "epochs_run": 52,
+   "selection_value": 0.8723720846343745,
+   "training_seconds": 75.50613100000191,
+   "parameters": 1666
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.8648209791345296,
+   "training_seconds": 32.57146579999244,
+   "parameters": 1666
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 26,
+   "epochs_run": 41,
+   "selection_value": 0.8373626373626374,
+   "training_seconds": 27.53504749998683,
+   "parameters": 1666
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 28,
+   "epochs_run": 43,
+   "selection_value": 0.8299127392551309,
+   "training_seconds": 27.717648199992254,
+   "parameters": 1666
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.8647868260771487,
+   "training_seconds": 22.55115729998215,
+   "parameters": 1666
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.8708708708708709,
+   "training_seconds": 16.03310749999946,
+   "parameters": 1666
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__RNN__fold5",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__RNN__fold5"
+ ],
+ "parameters": 1666,
+ "training_seconds": 288.0600123999466,
+ "inference_ms_per_window": 0.2127723723692629,
+ "dev_oof": {
+  "accuracy": 0.8547297297297297,
+  "balanced_accuracy": 0.8547297297297297,
+  "macro_f1": 0.8546764689091728
+ }
+}

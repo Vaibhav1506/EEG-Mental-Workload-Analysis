@@ -1,0 +1,91 @@
+{
+ "model": "GNN",
+ "variant": "filtered-ea-sag",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.8963849499556941,
+   "training_seconds": 67.80597499999567,
+   "parameters": 13234
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.8948341980600045,
+   "training_seconds": 60.880358599999454,
+   "parameters": 13234
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 20,
+   "epochs_run": 35,
+   "selection_value": 0.9309303080585816,
+   "training_seconds": 79.65695020000567,
+   "parameters": 13234
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 28,
+   "epochs_run": 43,
+   "selection_value": 0.8573544629994115,
+   "training_seconds": 103.15474189999804,
+   "parameters": 13234
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.9006105006105006,
+   "training_seconds": 44.695299699989846,
+   "parameters": 13234
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 26,
+   "epochs_run": 41,
+   "selection_value": 0.908406549925938,
+   "training_seconds": 59.01207950001117,
+   "parameters": 13234
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 25,
+   "epochs_run": 40,
+   "selection_value": 0.9369363682274006,
+   "training_seconds": 58.860863799985964,
+   "parameters": 13234
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 30,
+   "epochs_run": 45,
+   "selection_value": 0.8423419869012863,
+   "training_seconds": 65.39068389998283,
+   "parameters": 13234
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__GNN__fold1",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__GNN__fold1"
+ ],
+ "parameters": 13234,
+ "training_seconds": 539.4569525999686,
+ "inference_ms_per_window": 0.3849276277347113,
+ "dev_oof": {
+  "accuracy": 0.9076576576576577,
+  "balanced_accuracy": 0.9076576576576576,
+  "macro_f1": 0.907656824904408
+ }
+}

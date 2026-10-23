@@ -1,0 +1,92 @@
+{
+ "model": "STFT-ViT",
+ "variant": "after",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.5539554413304179,
+   "training_seconds": 41.883053000012296,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 20,
+   "epochs_run": 35,
+   "selection_value": 0.5807530056696218,
+   "training_seconds": 69.97070049999456,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5417799692513543,
+   "training_seconds": 58.17579179999302,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.38184173006388694,
+   "training_seconds": 38.16332579999289,
+   "parameters": 26499
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.5173220665936983,
+   "training_seconds": 96.21400849999918,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.5732329103327867,
+   "training_seconds": 83.61268550000386,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.5381703119813155,
+   "training_seconds": 41.51256469999498,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 23,
+   "epochs_run": 38,
+   "selection_value": 0.39926545893326004,
+   "training_seconds": 99.0401947000064,
+   "parameters": 26499
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__STFT_ViT__fold3",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__STFT_ViT__fold3"
+ ],
+ "parameters": 26499,
+ "training_seconds": 528.5723244999972,
+ "inference_ms_per_window": 0.49363798798340186,
+ "dev_oof": {
+  "accuracy": 0.5945945945945946,
+  "balanced_accuracy": 0.5376700229641406,
+  "macro_f1": 0.5371312561173934
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

@@ -1,0 +1,91 @@
+{
+ "model": "1D-CNN",
+ "variant": "filtered",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 32,
+   "epochs_run": 47,
+   "selection_value": 0.5632979651687354,
+   "training_seconds": 39.01877599999716,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 40,
+   "epochs_run": 55,
+   "selection_value": 0.5135297565114841,
+   "training_seconds": 47.52277759999561,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.4971121525465822,
+   "training_seconds": 24.466942400002154,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 21,
+   "epochs_run": 36,
+   "selection_value": 0.6449940072320869,
+   "training_seconds": 37.019442500008154,
+   "parameters": 40099
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5211806561733908,
+   "training_seconds": 28.620091399992816,
+   "parameters": 40099
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 33,
+   "epochs_run": 48,
+   "selection_value": 0.5347160442355362,
+   "training_seconds": 48.334800099997665,
+   "parameters": 40099
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.47085230581578236,
+   "training_seconds": 23.089223099988885,
+   "parameters": 40099
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 29,
+   "epochs_run": 44,
+   "selection_value": 0.64317839624763,
+   "training_seconds": 39.27983030000178,
+   "parameters": 40099
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__1D_CNN__fold4",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__1D_CNN__fold4"
+ ],
+ "parameters": 40099,
+ "training_seconds": 287.3518833999842,
+ "inference_ms_per_window": 0.16976171170970333,
+ "dev_oof": {
+  "accuracy": 0.5852102102102102,
+  "balanced_accuracy": 0.5543105306263202,
+  "macro_f1": 0.5557011162305396
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "model": "STFT-Swin",
+ "variant": "filtered-ea-sag",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.4556071920404341,
+   "training_seconds": 85.56941340000776,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5227592519026963,
+   "training_seconds": 47.81662659998983,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 27,
+   "epochs_run": 42,
+   "selection_value": 0.5411161999296793,
+   "training_seconds": 111.74112190000596,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5475137075340742,
+   "training_seconds": 47.94708179999725,
+   "parameters": 66927
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5168656498364399,
+   "training_seconds": 105.15137190000678,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5024984133165574,
+   "training_seconds": 63.04611760000989,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 26,
+   "epochs_run": 41,
+   "selection_value": 0.5326628045386109,
+   "training_seconds": 142.4141294000001,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.6004376038940586,
+   "training_seconds": 55.54724390000047,
+   "parameters": 66927
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__STFT_Swin__fold2",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__STFT_Swin__fold2"
+ ],
+ "parameters": 66927,
+ "training_seconds": 659.233106500018,
+ "inference_ms_per_window": 0.6754147147334337,
+ "dev_oof": {
+  "accuracy": 0.5870870870870871,
+  "balanced_accuracy": 0.5263525557643204,
+  "macro_f1": 0.5249390619248399
+ }
+}

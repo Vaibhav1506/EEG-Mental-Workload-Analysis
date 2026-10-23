@@ -1,0 +1,91 @@
+{
+ "model": "ShallowConvNet Adapted",
+ "variant": "filtered-ea-sag",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.8781143031439578,
+   "training_seconds": 6389.927106600007,
+   "parameters": 7282
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.8948000252732672,
+   "training_seconds": 73.490942000004,
+   "parameters": 7282
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.9174082934429445,
+   "training_seconds": 77.82600510001066,
+   "parameters": 7282
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.8598798737656521,
+   "training_seconds": 61.34670500000357,
+   "parameters": 7282
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.887381039882218,
+   "training_seconds": 92.21776860000682,
+   "parameters": 7282
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.9098440545808967,
+   "training_seconds": 50.65585989999818,
+   "parameters": 7282
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.9159037818044069,
+   "training_seconds": 93.87210340000456,
+   "parameters": 7282
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.8714306154569424,
+   "training_seconds": 57.49259209999582,
+   "parameters": 7282
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__ShallowConvNet_Adapted__fold4",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__ShallowConvNet_Adapted__fold4"
+ ],
+ "parameters": 7282,
+ "training_seconds": 6896.829082700031,
+ "inference_ms_per_window": 0.3519593093015656,
+ "dev_oof": {
+  "accuracy": 0.8930180180180181,
+  "balanced_accuracy": 0.8930180180180181,
+  "macro_f1": 0.8928874797957802
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "model": "TemporalCNN",
+ "variant": "filtered-ea-sag",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.543030980950444,
+   "training_seconds": 23.36983820000023,
+   "parameters": 31491
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.5738160566092407,
+   "training_seconds": 25.53631110000424,
+   "parameters": 31491
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.6438902863958128,
+   "training_seconds": 30.245540200005053,
+   "parameters": 31491
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5283312756533212,
+   "training_seconds": 22.233503199997358,
+   "parameters": 31491
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.570241082195511,
+   "training_seconds": 25.91586300000199,
+   "parameters": 31491
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.6107573450092011,
+   "training_seconds": 23.755241599996225,
+   "parameters": 31491
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.6066510713879135,
+   "training_seconds": 18.92862679999962,
+   "parameters": 31491
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5029852278066367,
+   "training_seconds": 20.425759100005962,
+   "parameters": 31491
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__TemporalCNN__fold3",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__TemporalCNN__fold3"
+ ],
+ "parameters": 31491,
+ "training_seconds": 190.41068320001068,
+ "inference_ms_per_window": 0.21382717720887345,
+ "dev_oof": {
+  "accuracy": 0.6617867867867868,
+  "balanced_accuracy": 0.6135017370311487,
+  "macro_f1": 0.6142184213428409
+ }
+}

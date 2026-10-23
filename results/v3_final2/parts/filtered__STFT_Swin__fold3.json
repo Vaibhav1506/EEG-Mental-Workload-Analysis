@@ -1,0 +1,91 @@
+{
+ "model": "STFT-Swin",
+ "variant": "filtered",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.5081718431024244,
+   "training_seconds": 71.91595020001114,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.664421013910736,
+   "training_seconds": 61.112971700000344,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.5761895174146177,
+   "training_seconds": 84.9822276999912,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.473573353839661,
+   "training_seconds": 47.604128200007835,
+   "parameters": 66927
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.5032013922030842,
+   "training_seconds": 107.30278660000477,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.6311712476183106,
+   "training_seconds": 90.06745529999898,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5755206987200533,
+   "training_seconds": 66.14476890000515,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.45189170366733816,
+   "training_seconds": 62.58961349999299,
+   "parameters": 66927
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__STFT_Swin__fold3",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__STFT_Swin__fold3"
+ ],
+ "parameters": 66927,
+ "training_seconds": 591.7199021000124,
+ "inference_ms_per_window": 0.6388659159121154,
+ "dev_oof": {
+  "accuracy": 0.5960960960960962,
+  "balanced_accuracy": 0.554757698875346,
+  "macro_f1": 0.5548765710337001
+ }
+}

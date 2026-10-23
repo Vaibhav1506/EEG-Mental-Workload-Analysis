@@ -1,0 +1,92 @@
+{
+ "model": "TemporalCNN",
+ "variant": "after",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5482813425138526,
+   "training_seconds": 19.84258709999267,
+   "parameters": 31491
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.53852772114096,
+   "training_seconds": 21.189119499991648,
+   "parameters": 31491
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 23,
+   "epochs_run": 38,
+   "selection_value": 0.5304172951231775,
+   "training_seconds": 42.072214100000565,
+   "parameters": 31491
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 25,
+   "epochs_run": 40,
+   "selection_value": 0.6071372862333314,
+   "training_seconds": 44.412223000006634,
+   "parameters": 31491
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.5435087730402411,
+   "training_seconds": 23.584954800011474,
+   "parameters": 31491
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.582073784458591,
+   "training_seconds": 17.965565999998944,
+   "parameters": 31491
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.5492390083030542,
+   "training_seconds": 32.18786410000757,
+   "parameters": 31491
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.6284371924633413,
+   "training_seconds": 33.013332199989236,
+   "parameters": 31491
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__TemporalCNN__fold4",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__TemporalCNN__fold4"
+ ],
+ "parameters": 31491,
+ "training_seconds": 234.26786079999874,
+ "inference_ms_per_window": 0.22593453448624476,
+ "dev_oof": {
+  "accuracy": 0.6167417417417418,
+  "balanced_accuracy": 0.5696007011796486,
+  "macro_f1": 0.5683020458188676
+ },
+ "chosen_variant": "filtered-ea-sag"
+}

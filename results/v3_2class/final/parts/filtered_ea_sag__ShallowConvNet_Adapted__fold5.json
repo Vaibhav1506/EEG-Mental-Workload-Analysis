@@ -1,0 +1,91 @@
+{
+ "model": "ShallowConvNet Adapted",
+ "variant": "filtered-ea-sag",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.8480986931691157,
+   "training_seconds": 102.48924439999973,
+   "parameters": 7282
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.9219155844155844,
+   "training_seconds": 51.24434069999552,
+   "parameters": 7282
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.8783561643835616,
+   "training_seconds": 40.06318860000465,
+   "parameters": 7282
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.8948911033954097,
+   "training_seconds": 24.879115700008697,
+   "parameters": 7282
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 28,
+   "epochs_run": 43,
+   "selection_value": 0.8453031447675533,
+   "training_seconds": 138.68253389999154,
+   "parameters": 7282
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.8948607615490785,
+   "training_seconds": 60.49864870001329,
+   "parameters": 7282
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.8841333499022809,
+   "training_seconds": 59.36985129999812,
+   "parameters": 7282
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.9022170019086772,
+   "training_seconds": 37.94970369999646,
+   "parameters": 7282
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__ShallowConvNet_Adapted__fold5",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__ShallowConvNet_Adapted__fold5"
+ ],
+ "parameters": 7282,
+ "training_seconds": 515.176627000008,
+ "inference_ms_per_window": 0.24329969975307258,
+ "dev_oof": {
+  "accuracy": 0.8855105105105106,
+  "balanced_accuracy": 0.8855105105105106,
+  "macro_f1": 0.8854748630912117
+ }
+}

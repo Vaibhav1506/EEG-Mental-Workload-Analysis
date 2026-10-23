@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "task": "3class",
+    "no_demean": false,
+    "constant_lr": false,
+    "no_jitter": false,
+    "init_offset": "assembled",
+    "folds": 5,
+    "inner_folds": 4,
+    "seeds": 1,
+    "epochs": 60,
+    "patience": 15,
+    "warmup_epochs": 3,
+    "train_stride": 64,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.1,
+    "class_weight": "balanced",
+    "select": "f1",
+    "mixup": 0.0,
+    "scale_jitter": 0.0,
+    "noise": 0.0,
+    "channel_dropout": 0.0,
+    "seed": 42
+  },
+  "assembled": true,
+  "code_sha256": "8927a46b18bcf2acfc49dbe834633368da6009f3c821917ab3cbcade28429406"
+}

@@ -116,6 +116,23 @@ The original slide's "before" numbers (52.4–69.7%) come from an unknown setup.
 
 **Important caveat for the 2-class numbers.** EA and SAG align each person using their own unlabelled EEG, here both of their recordings, so the alignment data contain one rest and one task period. Centring each person on their own average is precisely what makes rest vs task easy to separate across people. The numbers therefore assume that a new user provides unlabelled calibration EEG covering both states. If calibration data came from one state only, accuracy would be lower. Quote this assumption together with the 2-class results.
 
+## Round 2 (final): more networks, recurrent settings, temporal smoothing
+
+Three additions were declared before their results existed. The final folders are `results/v3_final2` (3-class) and `results/v3_2class/final` (2-class); both pass `verify_v3.py`.
+
+1. **2-class with 8 networks per model:** a second run with new random starts (`results/v3_2class/after_init1`), averaged with the first.
+2. **Low learning rate for LSTM and BiLSTM:** the same low-LR recipe as the transformers, as a recipe group in the final rule. Development scores chose it for folds 1, 2 and 4.
+3. **Causal temporal smoothing** (`smooth_v3.py`): every 4 s, average the class probabilities of the last k windows of the same recording. It uses only the past, and fewer windows at the start of a recording. k is one of 1, 2, 4, 8 or 15 windows (4–60 s). It is chosen per outer fold from development out-of-fold accuracy pooled over the 12 models. k = 15 (60 s) was chosen in every fold for both tasks. The "before" models are smoothed with the same k so the comparison stays like for like.
+
+| | 3-class window % | 3-class, last 60 s % | 2-class window % | 2-class, last 60 s % |
+|---|---:|---:|---:|---:|
+| Before (mean of 12 models) | 44.2 | 47.5 | 62.3 | 66.7 |
+| After (mean of 12 models) | 58.4 | 64.0 | 86.6 | 94.8 |
+| Best single model, after | 61.8 (EEGNet) | 68.5 (EEGNet) | 89.0 (GNN) | 96.9 (TemporalCNN) |
+| Top-3 Validation Ensemble, after | 59.0 | 63.8 | 90.4 | 97.4 |
+
+**How to quote the smoothed numbers.** They answer "what was this person's workload over the last minute", with a fresh answer every 4 s. They do not measure a single 4-second moment, so always label the context length (60 s) next to them.
+
 ## How the recipe was chosen
 
 Exploration used only development-subject scores. Test-fold numbers were printed for information but never used to choose anything.

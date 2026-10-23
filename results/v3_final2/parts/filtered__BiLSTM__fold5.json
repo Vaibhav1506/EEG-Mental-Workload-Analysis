@@ -1,0 +1,91 @@
+{
+ "model": "BiLSTM",
+ "variant": "filtered",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.4919351633637348,
+   "training_seconds": 16.102729600010207,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 6,
+   "epochs_run": 21,
+   "selection_value": 0.523679807617784,
+   "training_seconds": 16.107563099998515,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5826307496682884,
+   "training_seconds": 14.353814500005683,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5452750843063666,
+   "training_seconds": 14.432640300001367,
+   "parameters": 12675
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 36,
+   "epochs_run": 51,
+   "selection_value": 0.5115878370305361,
+   "training_seconds": 57.13918049998756,
+   "parameters": 12675
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.44837636515816115,
+   "training_seconds": 28.921371299991733,
+   "parameters": 12675
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5567203038133272,
+   "training_seconds": 21.148340700005065,
+   "parameters": 12675
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5455291426199075,
+   "training_seconds": 26.594117299988284,
+   "parameters": 12675
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__BiLSTM__fold5",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__BiLSTM__fold5"
+ ],
+ "parameters": 12675,
+ "training_seconds": 194.7997572999884,
+ "inference_ms_per_window": 0.17553228225860346,
+ "dev_oof": {
+  "accuracy": 0.5487987987987988,
+  "balanced_accuracy": 0.5330271447918506,
+  "macro_f1": 0.5266463049010969
+ }
+}

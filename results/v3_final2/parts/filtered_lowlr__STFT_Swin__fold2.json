@@ -1,0 +1,91 @@
+{
+ "model": "STFT-Swin",
+ "variant": "filtered+lowlr",
+ "fold": 2,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.5319340750500171,
+   "training_seconds": 69.52409679999982,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.4462978221810234,
+   "training_seconds": 61.10338359999878,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.5710361997257548,
+   "training_seconds": 81.97831259999657,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 35,
+   "epochs_run": 50,
+   "selection_value": 0.6122456379767744,
+   "training_seconds": 205.07527040000423,
+   "parameters": 66927
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.5500399799214574,
+   "training_seconds": 50.500157599992235,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 16,
+   "epochs_run": 31,
+   "selection_value": 0.44125501757171426,
+   "training_seconds": 96.25510100000247,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5482623675580807,
+   "training_seconds": 90.95090419999906,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.5789336408090319,
+   "training_seconds": 62.66726210000343,
+   "parameters": 66927
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\RB_lowlr\\parts\\filtered__STFT_Swin__fold2",
+  "results\\v3_runs\\RB_lowlr_init1\\parts\\filtered__STFT_Swin__fold2"
+ ],
+ "parameters": 66927,
+ "training_seconds": 718.0544882999966,
+ "inference_ms_per_window": 0.7346313813704418,
+ "dev_oof": {
+  "accuracy": 0.579954954954955,
+  "balanced_accuracy": 0.5551701434054376,
+  "macro_f1": 0.5492993400250823
+ }
+}

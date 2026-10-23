@@ -1,0 +1,1171 @@
+model,variant,fold,recording,subject,true_class,predicted_class,probability_rest,probability_task
+1D-CNN,filtered-ea-sag,1,sub06_lo,6,0,0,0.66955,0.33045
+1D-CNN,filtered-ea-sag,1,sub06_hi,6,1,0,0.615966,0.384034
+1D-CNN,filtered-ea-sag,1,sub10_lo,10,0,0,0.822746,0.177255
+1D-CNN,filtered-ea-sag,1,sub10_hi,10,1,1,0.054468,0.945532
+1D-CNN,filtered-ea-sag,1,sub14_lo,14,0,0,0.577987,0.422013
+1D-CNN,filtered-ea-sag,1,sub14_hi,14,1,1,0.165766,0.834234
+1D-CNN,filtered-ea-sag,1,sub28_lo,28,0,0,0.528078,0.471922
+1D-CNN,filtered-ea-sag,1,sub28_hi,28,1,1,0.166384,0.833616
+1D-CNN,filtered-ea-sag,1,sub29_lo,29,0,0,0.862232,0.137768
+1D-CNN,filtered-ea-sag,1,sub29_hi,29,1,1,0.127963,0.872037
+1D-CNN,filtered-ea-sag,1,sub38_lo,38,0,0,0.813907,0.186093
+1D-CNN,filtered-ea-sag,1,sub38_hi,38,1,1,0.109015,0.890985
+1D-CNN,filtered-ea-sag,1,sub43_lo,43,0,0,0.621557,0.378444
+1D-CNN,filtered-ea-sag,1,sub43_hi,43,1,1,0.152635,0.847365
+1D-CNN,filtered-ea-sag,1,sub45_lo,45,0,0,0.97194,0.02806
+1D-CNN,filtered-ea-sag,1,sub45_hi,45,1,1,0.158834,0.841166
+1D-CNN,filtered-ea-sag,1,sub47_lo,47,0,0,0.744492,0.255508
+1D-CNN,filtered-ea-sag,1,sub47_hi,47,1,1,0.179882,0.820118
+1D-CNN,filtered-ea-sag,2,sub04_lo,4,0,0,0.875059,0.124941
+1D-CNN,filtered-ea-sag,2,sub04_hi,4,1,1,0.183308,0.816692
+1D-CNN,filtered-ea-sag,2,sub08_lo,8,0,0,0.939638,0.060362
+1D-CNN,filtered-ea-sag,2,sub08_hi,8,1,1,0.212445,0.787555
+1D-CNN,filtered-ea-sag,2,sub15_lo,15,0,0,0.617576,0.382424
+1D-CNN,filtered-ea-sag,2,sub15_hi,15,1,1,0.359576,0.640424
+1D-CNN,filtered-ea-sag,2,sub17_lo,17,0,0,0.81455,0.18545
+1D-CNN,filtered-ea-sag,2,sub17_hi,17,1,1,0.24719,0.75281
+1D-CNN,filtered-ea-sag,2,sub19_lo,19,0,0,0.901982,0.098018
+1D-CNN,filtered-ea-sag,2,sub19_hi,19,1,1,0.146104,0.853896
+1D-CNN,filtered-ea-sag,2,sub21_lo,21,0,0,0.877537,0.122463
+1D-CNN,filtered-ea-sag,2,sub21_hi,21,1,1,0.168819,0.831181
+1D-CNN,filtered-ea-sag,2,sub27_lo,27,0,0,0.871008,0.128992
+1D-CNN,filtered-ea-sag,2,sub27_hi,27,1,1,0.099329,0.900671
+1D-CNN,filtered-ea-sag,2,sub35_lo,35,0,0,0.710355,0.289645
+1D-CNN,filtered-ea-sag,2,sub35_hi,35,1,1,0.291323,0.708677
+1D-CNN,filtered-ea-sag,2,sub46_lo,46,0,0,0.750739,0.249261
+1D-CNN,filtered-ea-sag,2,sub46_hi,46,1,1,0.281491,0.718509
+1D-CNN,filtered-ea-sag,3,sub01_lo,1,0,1,0.484757,0.515243
+1D-CNN,filtered-ea-sag,3,sub01_hi,1,1,1,0.228094,0.771906
+1D-CNN,filtered-ea-sag,3,sub07_lo,7,0,0,0.875243,0.124757
+1D-CNN,filtered-ea-sag,3,sub07_hi,7,1,1,0.251497,0.748503
+1D-CNN,filtered-ea-sag,3,sub11_lo,11,0,0,0.791315,0.208685
+1D-CNN,filtered-ea-sag,3,sub11_hi,11,1,1,0.276199,0.723801
+1D-CNN,filtered-ea-sag,3,sub18_lo,18,0,0,0.809215,0.190785
+1D-CNN,filtered-ea-sag,3,sub18_hi,18,1,1,0.098439,0.901561
+1D-CNN,filtered-ea-sag,3,sub30_lo,30,0,0,0.896211,0.103789
+1D-CNN,filtered-ea-sag,3,sub30_hi,30,1,1,0.090769,0.909231
+1D-CNN,filtered-ea-sag,3,sub32_lo,32,0,1,0.455414,0.544586
+1D-CNN,filtered-ea-sag,3,sub32_hi,32,1,1,0.324523,0.675477
+1D-CNN,filtered-ea-sag,3,sub33_lo,33,0,0,0.967782,0.032217
+1D-CNN,filtered-ea-sag,3,sub33_hi,33,1,0,0.589084,0.410916
+1D-CNN,filtered-ea-sag,3,sub34_lo,34,0,0,0.892342,0.107658
+1D-CNN,filtered-ea-sag,3,sub34_hi,34,1,1,0.33767,0.66233
+1D-CNN,filtered-ea-sag,3,sub40_lo,40,0,0,0.806621,0.193379
+1D-CNN,filtered-ea-sag,3,sub40_hi,40,1,1,0.298548,0.701452
+1D-CNN,filtered-ea-sag,4,sub02_lo,2,0,0,0.88798,0.11202
+1D-CNN,filtered-ea-sag,4,sub02_hi,2,1,1,0.248395,0.751605
+1D-CNN,filtered-ea-sag,4,sub03_lo,3,0,0,0.892976,0.107024
+1D-CNN,filtered-ea-sag,4,sub03_hi,3,1,1,0.303024,0.696976
+1D-CNN,filtered-ea-sag,4,sub13_lo,13,0,0,0.858191,0.141809
+1D-CNN,filtered-ea-sag,4,sub13_hi,13,1,1,0.386824,0.613176
+1D-CNN,filtered-ea-sag,4,sub23_lo,23,0,0,0.858462,0.141538
+1D-CNN,filtered-ea-sag,4,sub23_hi,23,1,1,0.221609,0.778391
+1D-CNN,filtered-ea-sag,4,sub26_lo,26,0,0,0.703512,0.296488
+1D-CNN,filtered-ea-sag,4,sub26_hi,26,1,1,0.109708,0.890292
+1D-CNN,filtered-ea-sag,4,sub36_lo,36,0,0,0.827782,0.172218
+1D-CNN,filtered-ea-sag,4,sub36_hi,36,1,1,0.167158,0.832842
+1D-CNN,filtered-ea-sag,4,sub37_lo,37,0,0,0.961607,0.038393
+1D-CNN,filtered-ea-sag,4,sub37_hi,37,1,1,0.089611,0.910388
+1D-CNN,filtered-ea-sag,4,sub39_lo,39,0,0,0.551892,0.448108
+1D-CNN,filtered-ea-sag,4,sub39_hi,39,1,1,0.234229,0.765771
+1D-CNN,filtered-ea-sag,4,sub44_lo,44,0,0,0.790885,0.209115
+1D-CNN,filtered-ea-sag,4,sub44_hi,44,1,1,0.450796,0.549204
+1D-CNN,filtered-ea-sag,5,sub09_lo,9,0,0,0.51574,0.48426
+1D-CNN,filtered-ea-sag,5,sub09_hi,9,1,1,0.145183,0.854817
+1D-CNN,filtered-ea-sag,5,sub12_lo,12,0,0,0.716313,0.283687
+1D-CNN,filtered-ea-sag,5,sub12_hi,12,1,1,0.155274,0.844726
+1D-CNN,filtered-ea-sag,5,sub16_lo,16,0,0,0.825576,0.174424
+1D-CNN,filtered-ea-sag,5,sub16_hi,16,1,1,0.3775,0.6225
+1D-CNN,filtered-ea-sag,5,sub20_lo,20,0,0,0.824602,0.175398
+1D-CNN,filtered-ea-sag,5,sub20_hi,20,1,1,0.250725,0.749275
+1D-CNN,filtered-ea-sag,5,sub22_lo,22,0,0,0.908588,0.091412
+1D-CNN,filtered-ea-sag,5,sub22_hi,22,1,1,0.276242,0.723758
+1D-CNN,filtered-ea-sag,5,sub25_lo,25,0,1,0.421975,0.578025
+1D-CNN,filtered-ea-sag,5,sub25_hi,25,1,1,0.273597,0.726403
+1D-CNN,filtered-ea-sag,5,sub31_lo,31,0,0,0.912997,0.087003
+1D-CNN,filtered-ea-sag,5,sub31_hi,31,1,1,0.15178,0.84822
+1D-CNN,filtered-ea-sag,5,sub41_lo,41,0,0,0.805841,0.194159
+1D-CNN,filtered-ea-sag,5,sub41_hi,41,1,1,0.211779,0.788221
+1D-CNN,filtered-ea-sag,5,sub48_lo,48,0,0,0.967626,0.032374
+1D-CNN,filtered-ea-sag,5,sub48_hi,48,1,1,0.131516,0.868484
+BiLSTM,filtered-ea-sag,1,sub06_lo,6,0,0,0.697155,0.302845
+BiLSTM,filtered-ea-sag,1,sub06_hi,6,1,1,0.457811,0.542189
+BiLSTM,filtered-ea-sag,1,sub10_lo,10,0,0,0.867708,0.132293
+BiLSTM,filtered-ea-sag,1,sub10_hi,10,1,1,0.095727,0.904273
+BiLSTM,filtered-ea-sag,1,sub14_lo,14,0,0,0.629321,0.370679
+BiLSTM,filtered-ea-sag,1,sub14_hi,14,1,1,0.297071,0.702929
+BiLSTM,filtered-ea-sag,1,sub28_lo,28,0,0,0.560992,0.439008
+BiLSTM,filtered-ea-sag,1,sub28_hi,28,1,1,0.178207,0.821793
+BiLSTM,filtered-ea-sag,1,sub29_lo,29,0,0,0.844588,0.155412
+BiLSTM,filtered-ea-sag,1,sub29_hi,29,1,1,0.135101,0.864899
+BiLSTM,filtered-ea-sag,1,sub38_lo,38,0,0,0.782625,0.217375
+BiLSTM,filtered-ea-sag,1,sub38_hi,38,1,1,0.102084,0.897916
+BiLSTM,filtered-ea-sag,1,sub43_lo,43,0,0,0.586366,0.413633
+BiLSTM,filtered-ea-sag,1,sub43_hi,43,1,1,0.164308,0.835692
+BiLSTM,filtered-ea-sag,1,sub45_lo,45,0,0,0.935706,0.064293
+BiLSTM,filtered-ea-sag,1,sub45_hi,45,1,1,0.160845,0.839155
+BiLSTM,filtered-ea-sag,1,sub47_lo,47,0,0,0.750821,0.249179
+BiLSTM,filtered-ea-sag,1,sub47_hi,47,1,1,0.177642,0.822358
+BiLSTM,filtered-ea-sag,2,sub04_lo,4,0,0,0.768237,0.231763
+BiLSTM,filtered-ea-sag,2,sub04_hi,4,1,1,0.340819,0.659181
+BiLSTM,filtered-ea-sag,2,sub08_lo,8,0,0,0.876569,0.123431
+BiLSTM,filtered-ea-sag,2,sub08_hi,8,1,1,0.291055,0.708946
+BiLSTM,filtered-ea-sag,2,sub15_lo,15,0,0,0.536259,0.463741
+BiLSTM,filtered-ea-sag,2,sub15_hi,15,1,1,0.343572,0.656428
+BiLSTM,filtered-ea-sag,2,sub17_lo,17,0,0,0.721101,0.278899
+BiLSTM,filtered-ea-sag,2,sub17_hi,17,1,1,0.232981,0.767018
+BiLSTM,filtered-ea-sag,2,sub19_lo,19,0,0,0.710768,0.289232
+BiLSTM,filtered-ea-sag,2,sub19_hi,19,1,1,0.230211,0.769789
+BiLSTM,filtered-ea-sag,2,sub21_lo,21,0,0,0.898186,0.101814
+BiLSTM,filtered-ea-sag,2,sub21_hi,21,1,1,0.214558,0.785442
+BiLSTM,filtered-ea-sag,2,sub27_lo,27,0,0,0.820455,0.179545
+BiLSTM,filtered-ea-sag,2,sub27_hi,27,1,1,0.166063,0.833937
+BiLSTM,filtered-ea-sag,2,sub35_lo,35,0,0,0.622114,0.377886
+BiLSTM,filtered-ea-sag,2,sub35_hi,35,1,1,0.307958,0.692042
+BiLSTM,filtered-ea-sag,2,sub46_lo,46,0,0,0.650393,0.349607
+BiLSTM,filtered-ea-sag,2,sub46_hi,46,1,1,0.21699,0.78301
+BiLSTM,filtered-ea-sag,3,sub01_lo,1,0,1,0.149144,0.850856
+BiLSTM,filtered-ea-sag,3,sub01_hi,1,1,1,0.329216,0.670784
+BiLSTM,filtered-ea-sag,3,sub07_lo,7,0,0,0.835419,0.164581
+BiLSTM,filtered-ea-sag,3,sub07_hi,7,1,1,0.221516,0.778484
+BiLSTM,filtered-ea-sag,3,sub11_lo,11,0,0,0.70412,0.295879
+BiLSTM,filtered-ea-sag,3,sub11_hi,11,1,1,0.453803,0.546197
+BiLSTM,filtered-ea-sag,3,sub18_lo,18,0,0,0.755912,0.244088
+BiLSTM,filtered-ea-sag,3,sub18_hi,18,1,1,0.097434,0.902566
+BiLSTM,filtered-ea-sag,3,sub30_lo,30,0,0,0.838405,0.161595
+BiLSTM,filtered-ea-sag,3,sub30_hi,30,1,1,0.123416,0.876584
+BiLSTM,filtered-ea-sag,3,sub32_lo,32,0,1,0.453235,0.546765
+BiLSTM,filtered-ea-sag,3,sub32_hi,32,1,1,0.195162,0.804838
+BiLSTM,filtered-ea-sag,3,sub33_lo,33,0,0,0.894142,0.105858
+BiLSTM,filtered-ea-sag,3,sub33_hi,33,1,1,0.463732,0.536268
+BiLSTM,filtered-ea-sag,3,sub34_lo,34,0,0,0.879753,0.120247
+BiLSTM,filtered-ea-sag,3,sub34_hi,34,1,1,0.274676,0.725324
+BiLSTM,filtered-ea-sag,3,sub40_lo,40,0,0,0.810502,0.189498
+BiLSTM,filtered-ea-sag,3,sub40_hi,40,1,1,0.220014,0.779986
+BiLSTM,filtered-ea-sag,4,sub02_lo,2,0,0,0.95646,0.04354
+BiLSTM,filtered-ea-sag,4,sub02_hi,2,1,1,0.243209,0.756791
+BiLSTM,filtered-ea-sag,4,sub03_lo,3,0,0,0.830214,0.169786
+BiLSTM,filtered-ea-sag,4,sub03_hi,3,1,1,0.21126,0.788741
+BiLSTM,filtered-ea-sag,4,sub13_lo,13,0,0,0.882382,0.117618
+BiLSTM,filtered-ea-sag,4,sub13_hi,13,1,1,0.30879,0.69121
+BiLSTM,filtered-ea-sag,4,sub23_lo,23,0,0,0.912763,0.087237
+BiLSTM,filtered-ea-sag,4,sub23_hi,23,1,1,0.29485,0.70515
+BiLSTM,filtered-ea-sag,4,sub26_lo,26,0,0,0.725647,0.274353
+BiLSTM,filtered-ea-sag,4,sub26_hi,26,1,1,0.137889,0.862111
+BiLSTM,filtered-ea-sag,4,sub36_lo,36,0,0,0.792019,0.207981
+BiLSTM,filtered-ea-sag,4,sub36_hi,36,1,1,0.178037,0.821963
+BiLSTM,filtered-ea-sag,4,sub37_lo,37,0,0,0.905943,0.094057
+BiLSTM,filtered-ea-sag,4,sub37_hi,37,1,1,0.150762,0.849238
+BiLSTM,filtered-ea-sag,4,sub39_lo,39,0,0,0.53527,0.46473
+BiLSTM,filtered-ea-sag,4,sub39_hi,39,1,1,0.316291,0.683709
+BiLSTM,filtered-ea-sag,4,sub44_lo,44,0,0,0.849724,0.150276
+BiLSTM,filtered-ea-sag,4,sub44_hi,44,1,1,0.446532,0.553468
+BiLSTM,filtered-ea-sag,5,sub09_lo,9,0,1,0.244614,0.755386
+BiLSTM,filtered-ea-sag,5,sub09_hi,9,1,1,0.119681,0.880319
+BiLSTM,filtered-ea-sag,5,sub12_lo,12,0,0,0.851731,0.148269
+BiLSTM,filtered-ea-sag,5,sub12_hi,12,1,1,0.202525,0.797475
+BiLSTM,filtered-ea-sag,5,sub16_lo,16,0,1,0.496166,0.503834
+BiLSTM,filtered-ea-sag,5,sub16_hi,16,1,1,0.272834,0.727166
+BiLSTM,filtered-ea-sag,5,sub20_lo,20,0,0,0.820697,0.179303
+BiLSTM,filtered-ea-sag,5,sub20_hi,20,1,1,0.16354,0.83646
+BiLSTM,filtered-ea-sag,5,sub22_lo,22,0,0,0.768474,0.231526
+BiLSTM,filtered-ea-sag,5,sub22_hi,22,1,1,0.205434,0.794566
+BiLSTM,filtered-ea-sag,5,sub25_lo,25,0,1,0.468218,0.531782
+BiLSTM,filtered-ea-sag,5,sub25_hi,25,1,1,0.294851,0.705148
+BiLSTM,filtered-ea-sag,5,sub31_lo,31,0,0,0.862526,0.137474
+BiLSTM,filtered-ea-sag,5,sub31_hi,31,1,1,0.160626,0.839375
+BiLSTM,filtered-ea-sag,5,sub41_lo,41,0,0,0.685195,0.314805
+BiLSTM,filtered-ea-sag,5,sub41_hi,41,1,1,0.178363,0.821637
+BiLSTM,filtered-ea-sag,5,sub48_lo,48,0,0,0.875249,0.124751
+BiLSTM,filtered-ea-sag,5,sub48_hi,48,1,1,0.159386,0.840614
+DeepConvNet Adapted,filtered-ea-sag,1,sub06_lo,6,0,0,0.711148,0.288852
+DeepConvNet Adapted,filtered-ea-sag,1,sub06_hi,6,1,0,0.688006,0.311994
+DeepConvNet Adapted,filtered-ea-sag,1,sub10_lo,10,0,0,0.855272,0.144728
+DeepConvNet Adapted,filtered-ea-sag,1,sub10_hi,10,1,1,0.086023,0.913977
+DeepConvNet Adapted,filtered-ea-sag,1,sub14_lo,14,0,0,0.636807,0.363193
+DeepConvNet Adapted,filtered-ea-sag,1,sub14_hi,14,1,1,0.180248,0.819752
+DeepConvNet Adapted,filtered-ea-sag,1,sub28_lo,28,0,0,0.613835,0.386165
+DeepConvNet Adapted,filtered-ea-sag,1,sub28_hi,28,1,1,0.217885,0.782115
+DeepConvNet Adapted,filtered-ea-sag,1,sub29_lo,29,0,0,0.883057,0.116943
+DeepConvNet Adapted,filtered-ea-sag,1,sub29_hi,29,1,1,0.147004,0.852996
+DeepConvNet Adapted,filtered-ea-sag,1,sub38_lo,38,0,0,0.861547,0.138453
+DeepConvNet Adapted,filtered-ea-sag,1,sub38_hi,38,1,1,0.172003,0.827996
+DeepConvNet Adapted,filtered-ea-sag,1,sub43_lo,43,0,0,0.580024,0.419976
+DeepConvNet Adapted,filtered-ea-sag,1,sub43_hi,43,1,1,0.230857,0.769143
+DeepConvNet Adapted,filtered-ea-sag,1,sub45_lo,45,0,0,0.968485,0.031515
+DeepConvNet Adapted,filtered-ea-sag,1,sub45_hi,45,1,1,0.268351,0.731649
+DeepConvNet Adapted,filtered-ea-sag,1,sub47_lo,47,0,0,0.762622,0.237378
+DeepConvNet Adapted,filtered-ea-sag,1,sub47_hi,47,1,1,0.237918,0.762082
+DeepConvNet Adapted,filtered-ea-sag,2,sub04_lo,4,0,0,0.905955,0.094045
+DeepConvNet Adapted,filtered-ea-sag,2,sub04_hi,4,1,1,0.200951,0.799049
+DeepConvNet Adapted,filtered-ea-sag,2,sub08_lo,8,0,0,0.937912,0.062088
+DeepConvNet Adapted,filtered-ea-sag,2,sub08_hi,8,1,1,0.226701,0.773299
+DeepConvNet Adapted,filtered-ea-sag,2,sub15_lo,15,0,0,0.677092,0.322908
+DeepConvNet Adapted,filtered-ea-sag,2,sub15_hi,15,1,1,0.48476,0.51524
+DeepConvNet Adapted,filtered-ea-sag,2,sub17_lo,17,0,0,0.849369,0.150631
+DeepConvNet Adapted,filtered-ea-sag,2,sub17_hi,17,1,1,0.37546,0.62454
+DeepConvNet Adapted,filtered-ea-sag,2,sub19_lo,19,0,0,0.926628,0.073372
+DeepConvNet Adapted,filtered-ea-sag,2,sub19_hi,19,1,1,0.172833,0.827167
+DeepConvNet Adapted,filtered-ea-sag,2,sub21_lo,21,0,0,0.881244,0.118756
+DeepConvNet Adapted,filtered-ea-sag,2,sub21_hi,21,1,1,0.256317,0.743683
+DeepConvNet Adapted,filtered-ea-sag,2,sub27_lo,27,0,0,0.884899,0.115101
+DeepConvNet Adapted,filtered-ea-sag,2,sub27_hi,27,1,1,0.156993,0.843007
+DeepConvNet Adapted,filtered-ea-sag,2,sub35_lo,35,0,0,0.707909,0.292091
+DeepConvNet Adapted,filtered-ea-sag,2,sub35_hi,35,1,1,0.360397,0.639604
+DeepConvNet Adapted,filtered-ea-sag,2,sub46_lo,46,0,0,0.744804,0.255196
+DeepConvNet Adapted,filtered-ea-sag,2,sub46_hi,46,1,1,0.407411,0.592589
+DeepConvNet Adapted,filtered-ea-sag,3,sub01_lo,1,0,0,0.640269,0.359731
+DeepConvNet Adapted,filtered-ea-sag,3,sub01_hi,1,1,1,0.207208,0.792792
+DeepConvNet Adapted,filtered-ea-sag,3,sub07_lo,7,0,0,0.886656,0.113344
+DeepConvNet Adapted,filtered-ea-sag,3,sub07_hi,7,1,1,0.321815,0.678185
+DeepConvNet Adapted,filtered-ea-sag,3,sub11_lo,11,0,0,0.772072,0.227928
+DeepConvNet Adapted,filtered-ea-sag,3,sub11_hi,11,1,1,0.299501,0.700499
+DeepConvNet Adapted,filtered-ea-sag,3,sub18_lo,18,0,0,0.839916,0.160084
+DeepConvNet Adapted,filtered-ea-sag,3,sub18_hi,18,1,1,0.180641,0.819359
+DeepConvNet Adapted,filtered-ea-sag,3,sub30_lo,30,0,0,0.885458,0.114542
+DeepConvNet Adapted,filtered-ea-sag,3,sub30_hi,30,1,1,0.106793,0.893207
+DeepConvNet Adapted,filtered-ea-sag,3,sub32_lo,32,0,0,0.591454,0.408546
+DeepConvNet Adapted,filtered-ea-sag,3,sub32_hi,32,1,1,0.402616,0.597384
+DeepConvNet Adapted,filtered-ea-sag,3,sub33_lo,33,0,0,0.967481,0.032519
+DeepConvNet Adapted,filtered-ea-sag,3,sub33_hi,33,1,0,0.576588,0.423412
+DeepConvNet Adapted,filtered-ea-sag,3,sub34_lo,34,0,0,0.870106,0.129894
+DeepConvNet Adapted,filtered-ea-sag,3,sub34_hi,34,1,1,0.334801,0.665199
+DeepConvNet Adapted,filtered-ea-sag,3,sub40_lo,40,0,0,0.811579,0.18842
+DeepConvNet Adapted,filtered-ea-sag,3,sub40_hi,40,1,1,0.363451,0.636549
+DeepConvNet Adapted,filtered-ea-sag,4,sub02_lo,2,0,0,0.84425,0.15575
+DeepConvNet Adapted,filtered-ea-sag,4,sub02_hi,2,1,1,0.292017,0.707983
+DeepConvNet Adapted,filtered-ea-sag,4,sub03_lo,3,0,0,0.87767,0.12233
+DeepConvNet Adapted,filtered-ea-sag,4,sub03_hi,3,1,1,0.307733,0.692267
+DeepConvNet Adapted,filtered-ea-sag,4,sub13_lo,13,0,0,0.868024,0.131976
+DeepConvNet Adapted,filtered-ea-sag,4,sub13_hi,13,1,1,0.293609,0.706391
+DeepConvNet Adapted,filtered-ea-sag,4,sub23_lo,23,0,0,0.872997,0.127003
+DeepConvNet Adapted,filtered-ea-sag,4,sub23_hi,23,1,1,0.213204,0.786796
+DeepConvNet Adapted,filtered-ea-sag,4,sub26_lo,26,0,0,0.714752,0.285248
+DeepConvNet Adapted,filtered-ea-sag,4,sub26_hi,26,1,1,0.108517,0.891483
+DeepConvNet Adapted,filtered-ea-sag,4,sub36_lo,36,0,0,0.838443,0.161557
+DeepConvNet Adapted,filtered-ea-sag,4,sub36_hi,36,1,1,0.223225,0.776775
+DeepConvNet Adapted,filtered-ea-sag,4,sub37_lo,37,0,0,0.94415,0.05585
+DeepConvNet Adapted,filtered-ea-sag,4,sub37_hi,37,1,1,0.094239,0.905761
+DeepConvNet Adapted,filtered-ea-sag,4,sub39_lo,39,0,0,0.596352,0.403648
+DeepConvNet Adapted,filtered-ea-sag,4,sub39_hi,39,1,1,0.251694,0.748306
+DeepConvNet Adapted,filtered-ea-sag,4,sub44_lo,44,0,0,0.780899,0.219101
+DeepConvNet Adapted,filtered-ea-sag,4,sub44_hi,44,1,1,0.492468,0.507532
+DeepConvNet Adapted,filtered-ea-sag,5,sub09_lo,9,0,0,0.529629,0.47037
+DeepConvNet Adapted,filtered-ea-sag,5,sub09_hi,9,1,1,0.151129,0.848871
+DeepConvNet Adapted,filtered-ea-sag,5,sub12_lo,12,0,0,0.706603,0.293397
+DeepConvNet Adapted,filtered-ea-sag,5,sub12_hi,12,1,1,0.200871,0.799129
+DeepConvNet Adapted,filtered-ea-sag,5,sub16_lo,16,0,0,0.822863,0.177137
+DeepConvNet Adapted,filtered-ea-sag,5,sub16_hi,16,1,1,0.272638,0.727362
+DeepConvNet Adapted,filtered-ea-sag,5,sub20_lo,20,0,0,0.736838,0.263162
+DeepConvNet Adapted,filtered-ea-sag,5,sub20_hi,20,1,1,0.336677,0.663323
+DeepConvNet Adapted,filtered-ea-sag,5,sub22_lo,22,0,0,0.895737,0.104263
+DeepConvNet Adapted,filtered-ea-sag,5,sub22_hi,22,1,1,0.316629,0.683371
+DeepConvNet Adapted,filtered-ea-sag,5,sub25_lo,25,0,1,0.396679,0.603321
+DeepConvNet Adapted,filtered-ea-sag,5,sub25_hi,25,1,1,0.295571,0.704429
+DeepConvNet Adapted,filtered-ea-sag,5,sub31_lo,31,0,0,0.903398,0.096602
+DeepConvNet Adapted,filtered-ea-sag,5,sub31_hi,31,1,1,0.173721,0.826279
+DeepConvNet Adapted,filtered-ea-sag,5,sub41_lo,41,0,0,0.74716,0.25284
+DeepConvNet Adapted,filtered-ea-sag,5,sub41_hi,41,1,1,0.317456,0.682544
+DeepConvNet Adapted,filtered-ea-sag,5,sub48_lo,48,0,0,0.96589,0.03411
+DeepConvNet Adapted,filtered-ea-sag,5,sub48_hi,48,1,1,0.171861,0.828139
+EEGNet Adapted,filtered-ea-sag,1,sub06_lo,6,0,0,0.782997,0.217003
+EEGNet Adapted,filtered-ea-sag,1,sub06_hi,6,1,0,0.697672,0.302328
+EEGNet Adapted,filtered-ea-sag,1,sub10_lo,10,0,0,0.866123,0.133877
+EEGNet Adapted,filtered-ea-sag,1,sub10_hi,10,1,1,0.109719,0.89028
+EEGNet Adapted,filtered-ea-sag,1,sub14_lo,14,0,0,0.677797,0.322203
+EEGNet Adapted,filtered-ea-sag,1,sub14_hi,14,1,1,0.286784,0.713216
+EEGNet Adapted,filtered-ea-sag,1,sub28_lo,28,0,0,0.62942,0.37058
+EEGNet Adapted,filtered-ea-sag,1,sub28_hi,28,1,1,0.224837,0.775163
+EEGNet Adapted,filtered-ea-sag,1,sub29_lo,29,0,0,0.869971,0.130029
+EEGNet Adapted,filtered-ea-sag,1,sub29_hi,29,1,1,0.153597,0.846403
+EEGNet Adapted,filtered-ea-sag,1,sub38_lo,38,0,0,0.848408,0.151592
+EEGNet Adapted,filtered-ea-sag,1,sub38_hi,38,1,1,0.182636,0.817364
+EEGNet Adapted,filtered-ea-sag,1,sub43_lo,43,0,0,0.703587,0.296413
+EEGNet Adapted,filtered-ea-sag,1,sub43_hi,43,1,1,0.190744,0.809256
+EEGNet Adapted,filtered-ea-sag,1,sub45_lo,45,0,0,0.965215,0.034785
+EEGNet Adapted,filtered-ea-sag,1,sub45_hi,45,1,1,0.19179,0.808209
+EEGNet Adapted,filtered-ea-sag,1,sub47_lo,47,0,0,0.688674,0.311326
+EEGNet Adapted,filtered-ea-sag,1,sub47_hi,47,1,1,0.301871,0.698129
+EEGNet Adapted,filtered-ea-sag,2,sub04_lo,4,0,0,0.855468,0.144532
+EEGNet Adapted,filtered-ea-sag,2,sub04_hi,4,1,1,0.278039,0.72196
+EEGNet Adapted,filtered-ea-sag,2,sub08_lo,8,0,0,0.926254,0.073746
+EEGNet Adapted,filtered-ea-sag,2,sub08_hi,8,1,1,0.249357,0.750642
+EEGNet Adapted,filtered-ea-sag,2,sub15_lo,15,0,0,0.676459,0.323541
+EEGNet Adapted,filtered-ea-sag,2,sub15_hi,15,1,0,0.501977,0.498023
+EEGNet Adapted,filtered-ea-sag,2,sub17_lo,17,0,0,0.85762,0.14238
+EEGNet Adapted,filtered-ea-sag,2,sub17_hi,17,1,1,0.405332,0.594668
+EEGNet Adapted,filtered-ea-sag,2,sub19_lo,19,0,0,0.909518,0.090482
+EEGNet Adapted,filtered-ea-sag,2,sub19_hi,19,1,1,0.206334,0.793666
+EEGNet Adapted,filtered-ea-sag,2,sub21_lo,21,0,0,0.89533,0.104669
+EEGNet Adapted,filtered-ea-sag,2,sub21_hi,21,1,1,0.284012,0.715988
+EEGNet Adapted,filtered-ea-sag,2,sub27_lo,27,0,0,0.88455,0.11545
+EEGNet Adapted,filtered-ea-sag,2,sub27_hi,27,1,1,0.104926,0.895074
+EEGNet Adapted,filtered-ea-sag,2,sub35_lo,35,0,0,0.778653,0.221347
+EEGNet Adapted,filtered-ea-sag,2,sub35_hi,35,1,1,0.392662,0.607338
+EEGNet Adapted,filtered-ea-sag,2,sub46_lo,46,0,0,0.746922,0.253078
+EEGNet Adapted,filtered-ea-sag,2,sub46_hi,46,1,1,0.279247,0.720753
+EEGNet Adapted,filtered-ea-sag,3,sub01_lo,1,0,0,0.541778,0.458222
+EEGNet Adapted,filtered-ea-sag,3,sub01_hi,1,1,1,0.211283,0.788717
+EEGNet Adapted,filtered-ea-sag,3,sub07_lo,7,0,0,0.844799,0.155201
+EEGNet Adapted,filtered-ea-sag,3,sub07_hi,7,1,1,0.339691,0.660309
+EEGNet Adapted,filtered-ea-sag,3,sub11_lo,11,0,0,0.799951,0.200049
+EEGNet Adapted,filtered-ea-sag,3,sub11_hi,11,1,1,0.334556,0.665444
+EEGNet Adapted,filtered-ea-sag,3,sub18_lo,18,0,0,0.770865,0.229135
+EEGNet Adapted,filtered-ea-sag,3,sub18_hi,18,1,1,0.131881,0.868119
+EEGNet Adapted,filtered-ea-sag,3,sub30_lo,30,0,0,0.842047,0.157953
+EEGNet Adapted,filtered-ea-sag,3,sub30_hi,30,1,1,0.096988,0.903012
+EEGNet Adapted,filtered-ea-sag,3,sub32_lo,32,0,0,0.577621,0.422379
+EEGNet Adapted,filtered-ea-sag,3,sub32_hi,32,1,1,0.325657,0.674343
+EEGNet Adapted,filtered-ea-sag,3,sub33_lo,33,0,0,0.923129,0.076871
+EEGNet Adapted,filtered-ea-sag,3,sub33_hi,33,1,1,0.48437,0.51563
+EEGNet Adapted,filtered-ea-sag,3,sub34_lo,34,0,0,0.841069,0.158931
+EEGNet Adapted,filtered-ea-sag,3,sub34_hi,34,1,1,0.300748,0.699252
+EEGNet Adapted,filtered-ea-sag,3,sub40_lo,40,0,0,0.852397,0.147603
+EEGNet Adapted,filtered-ea-sag,3,sub40_hi,40,1,1,0.385727,0.614273
+EEGNet Adapted,filtered-ea-sag,4,sub02_lo,2,0,0,0.894934,0.105066
+EEGNet Adapted,filtered-ea-sag,4,sub02_hi,2,1,1,0.245999,0.754001
+EEGNet Adapted,filtered-ea-sag,4,sub03_lo,3,0,0,0.880927,0.119073
+EEGNet Adapted,filtered-ea-sag,4,sub03_hi,3,1,1,0.355706,0.644294
+EEGNet Adapted,filtered-ea-sag,4,sub13_lo,13,0,0,0.887095,0.112905
+EEGNet Adapted,filtered-ea-sag,4,sub13_hi,13,1,1,0.314697,0.685303
+EEGNet Adapted,filtered-ea-sag,4,sub23_lo,23,0,0,0.855574,0.144426
+EEGNet Adapted,filtered-ea-sag,4,sub23_hi,23,1,1,0.23118,0.768821
+EEGNet Adapted,filtered-ea-sag,4,sub26_lo,26,0,0,0.790739,0.209261
+EEGNet Adapted,filtered-ea-sag,4,sub26_hi,26,1,1,0.224253,0.775747
+EEGNet Adapted,filtered-ea-sag,4,sub36_lo,36,0,0,0.821857,0.178143
+EEGNet Adapted,filtered-ea-sag,4,sub36_hi,36,1,1,0.221734,0.778266
+EEGNet Adapted,filtered-ea-sag,4,sub37_lo,37,0,0,0.944626,0.055374
+EEGNet Adapted,filtered-ea-sag,4,sub37_hi,37,1,1,0.172388,0.827612
+EEGNet Adapted,filtered-ea-sag,4,sub39_lo,39,0,0,0.707612,0.292389
+EEGNet Adapted,filtered-ea-sag,4,sub39_hi,39,1,1,0.376642,0.623358
+EEGNet Adapted,filtered-ea-sag,4,sub44_lo,44,0,0,0.774602,0.225398
+EEGNet Adapted,filtered-ea-sag,4,sub44_hi,44,1,1,0.453476,0.546524
+EEGNet Adapted,filtered-ea-sag,5,sub09_lo,9,0,0,0.67322,0.32678
+EEGNet Adapted,filtered-ea-sag,5,sub09_hi,9,1,1,0.209631,0.79037
+EEGNet Adapted,filtered-ea-sag,5,sub12_lo,12,0,0,0.796704,0.203296
+EEGNet Adapted,filtered-ea-sag,5,sub12_hi,12,1,1,0.185947,0.814053
+EEGNet Adapted,filtered-ea-sag,5,sub16_lo,16,0,0,0.902989,0.097011
+EEGNet Adapted,filtered-ea-sag,5,sub16_hi,16,1,1,0.386292,0.613708
+EEGNet Adapted,filtered-ea-sag,5,sub20_lo,20,0,0,0.804378,0.195622
+EEGNet Adapted,filtered-ea-sag,5,sub20_hi,20,1,1,0.468882,0.531118
+EEGNet Adapted,filtered-ea-sag,5,sub22_lo,22,0,0,0.764657,0.235343
+EEGNet Adapted,filtered-ea-sag,5,sub22_hi,22,1,1,0.265779,0.734221
+EEGNet Adapted,filtered-ea-sag,5,sub25_lo,25,0,1,0.494368,0.505632
+EEGNet Adapted,filtered-ea-sag,5,sub25_hi,25,1,1,0.395002,0.604998
+EEGNet Adapted,filtered-ea-sag,5,sub31_lo,31,0,0,0.885156,0.114844
+EEGNet Adapted,filtered-ea-sag,5,sub31_hi,31,1,1,0.160421,0.839579
+EEGNet Adapted,filtered-ea-sag,5,sub41_lo,41,0,0,0.946494,0.053506
+EEGNet Adapted,filtered-ea-sag,5,sub41_hi,41,1,1,0.241826,0.758173
+EEGNet Adapted,filtered-ea-sag,5,sub48_lo,48,0,0,0.946203,0.053797
+EEGNet Adapted,filtered-ea-sag,5,sub48_hi,48,1,1,0.180433,0.819568
+GNN,filtered-ea-sag,1,sub06_lo,6,0,0,0.503215,0.496785
+GNN,filtered-ea-sag,1,sub06_hi,6,1,1,0.328349,0.671651
+GNN,filtered-ea-sag,1,sub10_lo,10,0,0,0.813274,0.186726
+GNN,filtered-ea-sag,1,sub10_hi,10,1,1,0.072087,0.927913
+GNN,filtered-ea-sag,1,sub14_lo,14,0,0,0.824077,0.175923
+GNN,filtered-ea-sag,1,sub14_hi,14,1,1,0.183238,0.816762
+GNN,filtered-ea-sag,1,sub28_lo,28,0,0,0.760816,0.239184
+GNN,filtered-ea-sag,1,sub28_hi,28,1,1,0.288222,0.711778
+GNN,filtered-ea-sag,1,sub29_lo,29,0,0,0.8647,0.1353
+GNN,filtered-ea-sag,1,sub29_hi,29,1,1,0.068745,0.931255
+GNN,filtered-ea-sag,1,sub38_lo,38,0,0,0.881172,0.118828
+GNN,filtered-ea-sag,1,sub38_hi,38,1,1,0.066219,0.933781
+GNN,filtered-ea-sag,1,sub43_lo,43,0,0,0.52768,0.47232
+GNN,filtered-ea-sag,1,sub43_hi,43,1,1,0.208447,0.791553
+GNN,filtered-ea-sag,1,sub45_lo,45,0,0,0.88285,0.11715
+GNN,filtered-ea-sag,1,sub45_hi,45,1,1,0.148965,0.851035
+GNN,filtered-ea-sag,1,sub47_lo,47,0,0,0.705535,0.294465
+GNN,filtered-ea-sag,1,sub47_hi,47,1,1,0.159593,0.840407
+GNN,filtered-ea-sag,2,sub04_lo,4,0,0,0.796412,0.203588
+GNN,filtered-ea-sag,2,sub04_hi,4,1,1,0.104442,0.895558
+GNN,filtered-ea-sag,2,sub08_lo,8,0,0,0.886476,0.113524
+GNN,filtered-ea-sag,2,sub08_hi,8,1,1,0.089035,0.910965
+GNN,filtered-ea-sag,2,sub15_lo,15,0,0,0.518933,0.481067
+GNN,filtered-ea-sag,2,sub15_hi,15,1,1,0.331998,0.668002
+GNN,filtered-ea-sag,2,sub17_lo,17,0,0,0.811754,0.188246
+GNN,filtered-ea-sag,2,sub17_hi,17,1,1,0.130263,0.869737
+GNN,filtered-ea-sag,2,sub19_lo,19,0,0,0.945932,0.054068
+GNN,filtered-ea-sag,2,sub19_hi,19,1,1,0.03596,0.96404
+GNN,filtered-ea-sag,2,sub21_lo,21,0,0,0.889444,0.110556
+GNN,filtered-ea-sag,2,sub21_hi,21,1,1,0.101174,0.898826
+GNN,filtered-ea-sag,2,sub27_lo,27,0,0,0.922383,0.077617
+GNN,filtered-ea-sag,2,sub27_hi,27,1,1,0.070129,0.929871
+GNN,filtered-ea-sag,2,sub35_lo,35,0,0,0.598516,0.401484
+GNN,filtered-ea-sag,2,sub35_hi,35,1,1,0.281061,0.718939
+GNN,filtered-ea-sag,2,sub46_lo,46,0,0,0.675818,0.324182
+GNN,filtered-ea-sag,2,sub46_hi,46,1,1,0.258643,0.741357
+GNN,filtered-ea-sag,3,sub01_lo,1,0,0,0.93225,0.067749
+GNN,filtered-ea-sag,3,sub01_hi,1,1,1,0.326085,0.673914
+GNN,filtered-ea-sag,3,sub07_lo,7,0,0,0.927767,0.072233
+GNN,filtered-ea-sag,3,sub07_hi,7,1,1,0.112284,0.887716
+GNN,filtered-ea-sag,3,sub11_lo,11,0,0,0.716028,0.283972
+GNN,filtered-ea-sag,3,sub11_hi,11,1,1,0.115405,0.884595
+GNN,filtered-ea-sag,3,sub18_lo,18,0,0,0.899558,0.100442
+GNN,filtered-ea-sag,3,sub18_hi,18,1,1,0.258081,0.741919
+GNN,filtered-ea-sag,3,sub30_lo,30,0,0,0.936502,0.063498
+GNN,filtered-ea-sag,3,sub30_hi,30,1,1,0.0792,0.9208
+GNN,filtered-ea-sag,3,sub32_lo,32,0,0,0.731114,0.268886
+GNN,filtered-ea-sag,3,sub32_hi,32,1,1,0.352309,0.647691
+GNN,filtered-ea-sag,3,sub33_lo,33,0,0,0.932258,0.067742
+GNN,filtered-ea-sag,3,sub33_hi,33,1,1,0.391364,0.608636
+GNN,filtered-ea-sag,3,sub34_lo,34,0,0,0.886082,0.113918
+GNN,filtered-ea-sag,3,sub34_hi,34,1,0,0.513475,0.486525
+GNN,filtered-ea-sag,3,sub40_lo,40,0,0,0.763525,0.236475
+GNN,filtered-ea-sag,3,sub40_hi,40,1,1,0.158279,0.841721
+GNN,filtered-ea-sag,4,sub02_lo,2,0,0,0.921032,0.078968
+GNN,filtered-ea-sag,4,sub02_hi,2,1,1,0.088062,0.911938
+GNN,filtered-ea-sag,4,sub03_lo,3,0,0,0.808612,0.191388
+GNN,filtered-ea-sag,4,sub03_hi,3,1,1,0.316134,0.683866
+GNN,filtered-ea-sag,4,sub13_lo,13,0,0,0.90692,0.09308
+GNN,filtered-ea-sag,4,sub13_hi,13,1,1,0.369812,0.630188
+GNN,filtered-ea-sag,4,sub23_lo,23,0,0,0.854635,0.145364
+GNN,filtered-ea-sag,4,sub23_hi,23,1,1,0.062256,0.937744
+GNN,filtered-ea-sag,4,sub26_lo,26,0,0,0.891698,0.108302
+GNN,filtered-ea-sag,4,sub26_hi,26,1,1,0.103529,0.896471
+GNN,filtered-ea-sag,4,sub36_lo,36,0,0,0.740556,0.259444
+GNN,filtered-ea-sag,4,sub36_hi,36,1,1,0.172086,0.827914
+GNN,filtered-ea-sag,4,sub37_lo,37,0,0,0.91146,0.08854
+GNN,filtered-ea-sag,4,sub37_hi,37,1,1,0.082576,0.917424
+GNN,filtered-ea-sag,4,sub39_lo,39,0,0,0.660116,0.339884
+GNN,filtered-ea-sag,4,sub39_hi,39,1,1,0.170851,0.829149
+GNN,filtered-ea-sag,4,sub44_lo,44,0,0,0.834455,0.165545
+GNN,filtered-ea-sag,4,sub44_hi,44,1,1,0.175656,0.824344
+GNN,filtered-ea-sag,5,sub09_lo,9,0,0,0.778273,0.221727
+GNN,filtered-ea-sag,5,sub09_hi,9,1,1,0.189258,0.810742
+GNN,filtered-ea-sag,5,sub12_lo,12,0,0,0.806969,0.193031
+GNN,filtered-ea-sag,5,sub12_hi,12,1,1,0.177943,0.822057
+GNN,filtered-ea-sag,5,sub16_lo,16,0,0,0.828447,0.171553
+GNN,filtered-ea-sag,5,sub16_hi,16,1,1,0.305063,0.694938
+GNN,filtered-ea-sag,5,sub20_lo,20,0,0,0.846508,0.153492
+GNN,filtered-ea-sag,5,sub20_hi,20,1,1,0.264093,0.735907
+GNN,filtered-ea-sag,5,sub22_lo,22,0,0,0.773091,0.226909
+GNN,filtered-ea-sag,5,sub22_hi,22,1,1,0.271448,0.728552
+GNN,filtered-ea-sag,5,sub25_lo,25,0,0,0.707021,0.292979
+GNN,filtered-ea-sag,5,sub25_hi,25,1,1,0.441751,0.558249
+GNN,filtered-ea-sag,5,sub31_lo,31,0,0,0.943082,0.056918
+GNN,filtered-ea-sag,5,sub31_hi,31,1,1,0.160441,0.839559
+GNN,filtered-ea-sag,5,sub41_lo,41,0,0,0.885467,0.114533
+GNN,filtered-ea-sag,5,sub41_hi,41,1,1,0.136254,0.863746
+GNN,filtered-ea-sag,5,sub48_lo,48,0,0,0.908057,0.091943
+GNN,filtered-ea-sag,5,sub48_hi,48,1,1,0.194439,0.80556
+GRU,filtered-ea-sag,1,sub06_lo,6,0,0,0.71805,0.28195
+GRU,filtered-ea-sag,1,sub06_hi,6,1,1,0.444048,0.555952
+GRU,filtered-ea-sag,1,sub10_lo,10,0,0,0.894079,0.105921
+GRU,filtered-ea-sag,1,sub10_hi,10,1,1,0.108886,0.891114
+GRU,filtered-ea-sag,1,sub14_lo,14,0,0,0.705274,0.294726
+GRU,filtered-ea-sag,1,sub14_hi,14,1,1,0.292729,0.707271
+GRU,filtered-ea-sag,1,sub28_lo,28,0,0,0.592076,0.407924
+GRU,filtered-ea-sag,1,sub28_hi,28,1,1,0.23566,0.76434
+GRU,filtered-ea-sag,1,sub29_lo,29,0,0,0.858428,0.141572
+GRU,filtered-ea-sag,1,sub29_hi,29,1,1,0.135408,0.864592
+GRU,filtered-ea-sag,1,sub38_lo,38,0,0,0.774164,0.225836
+GRU,filtered-ea-sag,1,sub38_hi,38,1,1,0.095668,0.904332
+GRU,filtered-ea-sag,1,sub43_lo,43,0,0,0.623252,0.376748
+GRU,filtered-ea-sag,1,sub43_hi,43,1,1,0.183896,0.816104
+GRU,filtered-ea-sag,1,sub45_lo,45,0,0,0.95625,0.04375
+GRU,filtered-ea-sag,1,sub45_hi,45,1,1,0.16833,0.83167
+GRU,filtered-ea-sag,1,sub47_lo,47,0,0,0.803833,0.196167
+GRU,filtered-ea-sag,1,sub47_hi,47,1,1,0.215184,0.784816
+GRU,filtered-ea-sag,2,sub04_lo,4,0,0,0.79301,0.20699
+GRU,filtered-ea-sag,2,sub04_hi,4,1,1,0.336004,0.663996
+GRU,filtered-ea-sag,2,sub08_lo,8,0,0,0.895541,0.104459
+GRU,filtered-ea-sag,2,sub08_hi,8,1,1,0.256219,0.743781
+GRU,filtered-ea-sag,2,sub15_lo,15,0,0,0.614057,0.385943
+GRU,filtered-ea-sag,2,sub15_hi,15,1,1,0.312098,0.687902
+GRU,filtered-ea-sag,2,sub17_lo,17,0,0,0.760553,0.239447
+GRU,filtered-ea-sag,2,sub17_hi,17,1,1,0.195801,0.804199
+GRU,filtered-ea-sag,2,sub19_lo,19,0,0,0.80256,0.19744
+GRU,filtered-ea-sag,2,sub19_hi,19,1,1,0.247328,0.752672
+GRU,filtered-ea-sag,2,sub21_lo,21,0,0,0.901759,0.098241
+GRU,filtered-ea-sag,2,sub21_hi,21,1,1,0.176987,0.823013
+GRU,filtered-ea-sag,2,sub27_lo,27,0,0,0.838868,0.161132
+GRU,filtered-ea-sag,2,sub27_hi,27,1,1,0.168433,0.831567
+GRU,filtered-ea-sag,2,sub35_lo,35,0,0,0.617451,0.382549
+GRU,filtered-ea-sag,2,sub35_hi,35,1,1,0.299927,0.700073
+GRU,filtered-ea-sag,2,sub46_lo,46,0,0,0.699434,0.300565
+GRU,filtered-ea-sag,2,sub46_hi,46,1,1,0.227367,0.772633
+GRU,filtered-ea-sag,3,sub01_lo,1,0,1,0.120203,0.879797
+GRU,filtered-ea-sag,3,sub01_hi,1,1,1,0.246842,0.753158
+GRU,filtered-ea-sag,3,sub07_lo,7,0,0,0.797004,0.202996
+GRU,filtered-ea-sag,3,sub07_hi,7,1,1,0.202939,0.797061
+GRU,filtered-ea-sag,3,sub11_lo,11,0,0,0.678391,0.321609
+GRU,filtered-ea-sag,3,sub11_hi,11,1,1,0.435702,0.564298
+GRU,filtered-ea-sag,3,sub18_lo,18,0,0,0.739386,0.260614
+GRU,filtered-ea-sag,3,sub18_hi,18,1,1,0.070842,0.929158
+GRU,filtered-ea-sag,3,sub30_lo,30,0,0,0.818118,0.181882
+GRU,filtered-ea-sag,3,sub30_hi,30,1,1,0.119508,0.880492
+GRU,filtered-ea-sag,3,sub32_lo,32,0,1,0.479758,0.520242
+GRU,filtered-ea-sag,3,sub32_hi,32,1,1,0.190119,0.809881
+GRU,filtered-ea-sag,3,sub33_lo,33,0,0,0.896236,0.103764
+GRU,filtered-ea-sag,3,sub33_hi,33,1,1,0.490928,0.509072
+GRU,filtered-ea-sag,3,sub34_lo,34,0,0,0.840299,0.159701
+GRU,filtered-ea-sag,3,sub34_hi,34,1,1,0.272871,0.727129
+GRU,filtered-ea-sag,3,sub40_lo,40,0,0,0.833902,0.166098
+GRU,filtered-ea-sag,3,sub40_hi,40,1,1,0.185342,0.814658
+GRU,filtered-ea-sag,4,sub02_lo,2,0,0,0.947995,0.052005
+GRU,filtered-ea-sag,4,sub02_hi,2,1,1,0.186184,0.813816
+GRU,filtered-ea-sag,4,sub03_lo,3,0,0,0.813539,0.186461
+GRU,filtered-ea-sag,4,sub03_hi,3,1,1,0.215684,0.784316
+GRU,filtered-ea-sag,4,sub13_lo,13,0,0,0.83565,0.16435
+GRU,filtered-ea-sag,4,sub13_hi,13,1,1,0.305291,0.694709
+GRU,filtered-ea-sag,4,sub23_lo,23,0,0,0.906061,0.093939
+GRU,filtered-ea-sag,4,sub23_hi,23,1,1,0.292499,0.707501
+GRU,filtered-ea-sag,4,sub26_lo,26,0,0,0.724889,0.275111
+GRU,filtered-ea-sag,4,sub26_hi,26,1,1,0.247176,0.752824
+GRU,filtered-ea-sag,4,sub36_lo,36,0,0,0.830405,0.169594
+GRU,filtered-ea-sag,4,sub36_hi,36,1,1,0.269511,0.730488
+GRU,filtered-ea-sag,4,sub37_lo,37,0,0,0.888982,0.111018
+GRU,filtered-ea-sag,4,sub37_hi,37,1,1,0.191175,0.808825
+GRU,filtered-ea-sag,4,sub39_lo,39,0,0,0.61209,0.38791
+GRU,filtered-ea-sag,4,sub39_hi,39,1,1,0.415109,0.584892
+GRU,filtered-ea-sag,4,sub44_lo,44,0,0,0.816592,0.183408
+GRU,filtered-ea-sag,4,sub44_hi,44,1,1,0.392309,0.607691
+GRU,filtered-ea-sag,5,sub09_lo,9,0,1,0.239843,0.760157
+GRU,filtered-ea-sag,5,sub09_hi,9,1,1,0.128815,0.871185
+GRU,filtered-ea-sag,5,sub12_lo,12,0,0,0.817776,0.182224
+GRU,filtered-ea-sag,5,sub12_hi,12,1,1,0.220196,0.779804
+GRU,filtered-ea-sag,5,sub16_lo,16,0,0,0.572455,0.427545
+GRU,filtered-ea-sag,5,sub16_hi,16,1,1,0.33921,0.66079
+GRU,filtered-ea-sag,5,sub20_lo,20,0,0,0.839249,0.160751
+GRU,filtered-ea-sag,5,sub20_hi,20,1,1,0.186891,0.813109
+GRU,filtered-ea-sag,5,sub22_lo,22,0,0,0.748971,0.251029
+GRU,filtered-ea-sag,5,sub22_hi,22,1,1,0.210846,0.789154
+GRU,filtered-ea-sag,5,sub25_lo,25,0,1,0.445802,0.554198
+GRU,filtered-ea-sag,5,sub25_hi,25,1,1,0.282074,0.717927
+GRU,filtered-ea-sag,5,sub31_lo,31,0,0,0.843045,0.156955
+GRU,filtered-ea-sag,5,sub31_hi,31,1,1,0.163961,0.836039
+GRU,filtered-ea-sag,5,sub41_lo,41,0,0,0.728394,0.271606
+GRU,filtered-ea-sag,5,sub41_hi,41,1,1,0.16478,0.83522
+GRU,filtered-ea-sag,5,sub48_lo,48,0,0,0.874298,0.125702
+GRU,filtered-ea-sag,5,sub48_hi,48,1,1,0.150381,0.849619
+LSTM,filtered-ea-sag,1,sub06_lo,6,0,0,0.716573,0.283427
+LSTM,filtered-ea-sag,1,sub06_hi,6,1,1,0.443671,0.556329
+LSTM,filtered-ea-sag,1,sub10_lo,10,0,0,0.865629,0.134371
+LSTM,filtered-ea-sag,1,sub10_hi,10,1,1,0.142605,0.857395
+LSTM,filtered-ea-sag,1,sub14_lo,14,0,0,0.63761,0.36239
+LSTM,filtered-ea-sag,1,sub14_hi,14,1,1,0.300102,0.699898
+LSTM,filtered-ea-sag,1,sub28_lo,28,0,0,0.595069,0.404931
+LSTM,filtered-ea-sag,1,sub28_hi,28,1,1,0.193364,0.806636
+LSTM,filtered-ea-sag,1,sub29_lo,29,0,0,0.830966,0.169034
+LSTM,filtered-ea-sag,1,sub29_hi,29,1,1,0.16098,0.83902
+LSTM,filtered-ea-sag,1,sub38_lo,38,0,0,0.76719,0.23281
+LSTM,filtered-ea-sag,1,sub38_hi,38,1,1,0.16353,0.83647
+LSTM,filtered-ea-sag,1,sub43_lo,43,0,0,0.597954,0.402046
+LSTM,filtered-ea-sag,1,sub43_hi,43,1,1,0.205847,0.794153
+LSTM,filtered-ea-sag,1,sub45_lo,45,0,0,0.93104,0.06896
+LSTM,filtered-ea-sag,1,sub45_hi,45,1,1,0.179352,0.820649
+LSTM,filtered-ea-sag,1,sub47_lo,47,0,0,0.725853,0.274147
+LSTM,filtered-ea-sag,1,sub47_hi,47,1,1,0.202173,0.797827
+LSTM,filtered-ea-sag,2,sub04_lo,4,0,0,0.817575,0.182425
+LSTM,filtered-ea-sag,2,sub04_hi,4,1,1,0.381981,0.618019
+LSTM,filtered-ea-sag,2,sub08_lo,8,0,0,0.906423,0.093577
+LSTM,filtered-ea-sag,2,sub08_hi,8,1,1,0.29411,0.70589
+LSTM,filtered-ea-sag,2,sub15_lo,15,0,0,0.564221,0.435779
+LSTM,filtered-ea-sag,2,sub15_hi,15,1,1,0.351309,0.648691
+LSTM,filtered-ea-sag,2,sub17_lo,17,0,0,0.778628,0.221372
+LSTM,filtered-ea-sag,2,sub17_hi,17,1,1,0.19789,0.80211
+LSTM,filtered-ea-sag,2,sub19_lo,19,0,0,0.783415,0.216585
+LSTM,filtered-ea-sag,2,sub19_hi,19,1,1,0.231153,0.768847
+LSTM,filtered-ea-sag,2,sub21_lo,21,0,0,0.903795,0.096205
+LSTM,filtered-ea-sag,2,sub21_hi,21,1,1,0.167876,0.832124
+LSTM,filtered-ea-sag,2,sub27_lo,27,0,0,0.843968,0.156032
+LSTM,filtered-ea-sag,2,sub27_hi,27,1,1,0.149723,0.850277
+LSTM,filtered-ea-sag,2,sub35_lo,35,0,0,0.668167,0.331833
+LSTM,filtered-ea-sag,2,sub35_hi,35,1,1,0.299853,0.700147
+LSTM,filtered-ea-sag,2,sub46_lo,46,0,0,0.69361,0.30639
+LSTM,filtered-ea-sag,2,sub46_hi,46,1,1,0.230645,0.769355
+LSTM,filtered-ea-sag,3,sub01_lo,1,0,1,0.12426,0.87574
+LSTM,filtered-ea-sag,3,sub01_hi,1,1,1,0.302029,0.697971
+LSTM,filtered-ea-sag,3,sub07_lo,7,0,0,0.830475,0.169525
+LSTM,filtered-ea-sag,3,sub07_hi,7,1,1,0.205033,0.794967
+LSTM,filtered-ea-sag,3,sub11_lo,11,0,0,0.673784,0.326216
+LSTM,filtered-ea-sag,3,sub11_hi,11,1,1,0.441747,0.558254
+LSTM,filtered-ea-sag,3,sub18_lo,18,0,0,0.734723,0.265277
+LSTM,filtered-ea-sag,3,sub18_hi,18,1,1,0.095027,0.904973
+LSTM,filtered-ea-sag,3,sub30_lo,30,0,0,0.820313,0.179687
+LSTM,filtered-ea-sag,3,sub30_hi,30,1,1,0.115085,0.884915
+LSTM,filtered-ea-sag,3,sub32_lo,32,0,1,0.468077,0.531923
+LSTM,filtered-ea-sag,3,sub32_hi,32,1,1,0.19204,0.80796
+LSTM,filtered-ea-sag,3,sub33_lo,33,0,0,0.859519,0.140481
+LSTM,filtered-ea-sag,3,sub33_hi,33,1,1,0.406824,0.593176
+LSTM,filtered-ea-sag,3,sub34_lo,34,0,0,0.844304,0.155696
+LSTM,filtered-ea-sag,3,sub34_hi,34,1,1,0.280218,0.719782
+LSTM,filtered-ea-sag,3,sub40_lo,40,0,0,0.827017,0.172983
+LSTM,filtered-ea-sag,3,sub40_hi,40,1,1,0.209013,0.790987
+LSTM,filtered-ea-sag,4,sub02_lo,2,0,0,0.929684,0.070316
+LSTM,filtered-ea-sag,4,sub02_hi,2,1,1,0.220786,0.779214
+LSTM,filtered-ea-sag,4,sub03_lo,3,0,0,0.793209,0.206791
+LSTM,filtered-ea-sag,4,sub03_hi,3,1,1,0.235197,0.764803
+LSTM,filtered-ea-sag,4,sub13_lo,13,0,0,0.741168,0.258832
+LSTM,filtered-ea-sag,4,sub13_hi,13,1,1,0.374958,0.625042
+LSTM,filtered-ea-sag,4,sub23_lo,23,0,0,0.848571,0.151429
+LSTM,filtered-ea-sag,4,sub23_hi,23,1,1,0.343066,0.656934
+LSTM,filtered-ea-sag,4,sub26_lo,26,0,0,0.681059,0.318941
+LSTM,filtered-ea-sag,4,sub26_hi,26,1,1,0.250582,0.749418
+LSTM,filtered-ea-sag,4,sub36_lo,36,0,0,0.73536,0.26464
+LSTM,filtered-ea-sag,4,sub36_hi,36,1,1,0.227778,0.772222
+LSTM,filtered-ea-sag,4,sub37_lo,37,0,0,0.849271,0.150729
+LSTM,filtered-ea-sag,4,sub37_hi,37,1,1,0.197516,0.802484
+LSTM,filtered-ea-sag,4,sub39_lo,39,0,0,0.549895,0.450105
+LSTM,filtered-ea-sag,4,sub39_hi,39,1,1,0.405751,0.594249
+LSTM,filtered-ea-sag,4,sub44_lo,44,0,0,0.765042,0.234958
+LSTM,filtered-ea-sag,4,sub44_hi,44,1,1,0.355182,0.644818
+LSTM,filtered-ea-sag,5,sub09_lo,9,0,1,0.252681,0.747319
+LSTM,filtered-ea-sag,5,sub09_hi,9,1,1,0.12964,0.87036
+LSTM,filtered-ea-sag,5,sub12_lo,12,0,0,0.84917,0.15083
+LSTM,filtered-ea-sag,5,sub12_hi,12,1,1,0.217527,0.782473
+LSTM,filtered-ea-sag,5,sub16_lo,16,0,1,0.488083,0.511917
+LSTM,filtered-ea-sag,5,sub16_hi,16,1,1,0.281995,0.718005
+LSTM,filtered-ea-sag,5,sub20_lo,20,0,0,0.847914,0.152086
+LSTM,filtered-ea-sag,5,sub20_hi,20,1,1,0.17412,0.82588
+LSTM,filtered-ea-sag,5,sub22_lo,22,0,0,0.746229,0.253771
+LSTM,filtered-ea-sag,5,sub22_hi,22,1,1,0.212213,0.787787
+LSTM,filtered-ea-sag,5,sub25_lo,25,0,1,0.46838,0.53162
+LSTM,filtered-ea-sag,5,sub25_hi,25,1,1,0.284105,0.715895
+LSTM,filtered-ea-sag,5,sub31_lo,31,0,0,0.856948,0.143051
+LSTM,filtered-ea-sag,5,sub31_hi,31,1,1,0.173352,0.826648
+LSTM,filtered-ea-sag,5,sub41_lo,41,0,0,0.745198,0.254802
+LSTM,filtered-ea-sag,5,sub41_hi,41,1,1,0.190667,0.809332
+LSTM,filtered-ea-sag,5,sub48_lo,48,0,0,0.864316,0.135684
+LSTM,filtered-ea-sag,5,sub48_hi,48,1,1,0.17091,0.82909
+RNN,filtered-ea-sag,1,sub06_lo,6,0,0,0.755762,0.244238
+RNN,filtered-ea-sag,1,sub06_hi,6,1,1,0.372981,0.627019
+RNN,filtered-ea-sag,1,sub10_lo,10,0,0,0.871269,0.128731
+RNN,filtered-ea-sag,1,sub10_hi,10,1,1,0.119631,0.880369
+RNN,filtered-ea-sag,1,sub14_lo,14,0,0,0.759405,0.240595
+RNN,filtered-ea-sag,1,sub14_hi,14,1,1,0.277984,0.722016
+RNN,filtered-ea-sag,1,sub28_lo,28,0,0,0.592034,0.407966
+RNN,filtered-ea-sag,1,sub28_hi,28,1,1,0.20306,0.79694
+RNN,filtered-ea-sag,1,sub29_lo,29,0,0,0.835456,0.164544
+RNN,filtered-ea-sag,1,sub29_hi,29,1,1,0.173332,0.826668
+RNN,filtered-ea-sag,1,sub38_lo,38,0,0,0.857019,0.142981
+RNN,filtered-ea-sag,1,sub38_hi,38,1,1,0.148709,0.851291
+RNN,filtered-ea-sag,1,sub43_lo,43,0,0,0.687934,0.312066
+RNN,filtered-ea-sag,1,sub43_hi,43,1,1,0.158757,0.841243
+RNN,filtered-ea-sag,1,sub45_lo,45,0,0,0.9586,0.041401
+RNN,filtered-ea-sag,1,sub45_hi,45,1,1,0.188505,0.811495
+RNN,filtered-ea-sag,1,sub47_lo,47,0,0,0.693491,0.306509
+RNN,filtered-ea-sag,1,sub47_hi,47,1,1,0.260047,0.739953
+RNN,filtered-ea-sag,2,sub04_lo,4,0,0,0.780759,0.219241
+RNN,filtered-ea-sag,2,sub04_hi,4,1,1,0.372573,0.627427
+RNN,filtered-ea-sag,2,sub08_lo,8,0,0,0.875818,0.124183
+RNN,filtered-ea-sag,2,sub08_hi,8,1,1,0.235582,0.764418
+RNN,filtered-ea-sag,2,sub15_lo,15,0,0,0.56237,0.43763
+RNN,filtered-ea-sag,2,sub15_hi,15,1,1,0.32793,0.67207
+RNN,filtered-ea-sag,2,sub17_lo,17,0,0,0.809701,0.190299
+RNN,filtered-ea-sag,2,sub17_hi,17,1,1,0.188135,0.811865
+RNN,filtered-ea-sag,2,sub19_lo,19,0,0,0.799685,0.200315
+RNN,filtered-ea-sag,2,sub19_hi,19,1,1,0.156154,0.843846
+RNN,filtered-ea-sag,2,sub21_lo,21,0,0,0.899274,0.100726
+RNN,filtered-ea-sag,2,sub21_hi,21,1,1,0.178897,0.821103
+RNN,filtered-ea-sag,2,sub27_lo,27,0,0,0.876585,0.123415
+RNN,filtered-ea-sag,2,sub27_hi,27,1,1,0.128946,0.871054
+RNN,filtered-ea-sag,2,sub35_lo,35,0,0,0.710224,0.289776
+RNN,filtered-ea-sag,2,sub35_hi,35,1,1,0.270487,0.729514
+RNN,filtered-ea-sag,2,sub46_lo,46,0,0,0.670799,0.329201
+RNN,filtered-ea-sag,2,sub46_hi,46,1,1,0.223828,0.776172
+RNN,filtered-ea-sag,3,sub01_lo,1,0,1,0.244351,0.755649
+RNN,filtered-ea-sag,3,sub01_hi,1,1,1,0.247262,0.752738
+RNN,filtered-ea-sag,3,sub07_lo,7,0,0,0.866603,0.133397
+RNN,filtered-ea-sag,3,sub07_hi,7,1,1,0.189262,0.810738
+RNN,filtered-ea-sag,3,sub11_lo,11,0,0,0.683065,0.316935
+RNN,filtered-ea-sag,3,sub11_hi,11,1,1,0.384478,0.615522
+RNN,filtered-ea-sag,3,sub18_lo,18,0,0,0.718232,0.281768
+RNN,filtered-ea-sag,3,sub18_hi,18,1,1,0.101764,0.898236
+RNN,filtered-ea-sag,3,sub30_lo,30,0,0,0.759205,0.240795
+RNN,filtered-ea-sag,3,sub30_hi,30,1,1,0.115569,0.884431
+RNN,filtered-ea-sag,3,sub32_lo,32,0,0,0.580748,0.419252
+RNN,filtered-ea-sag,3,sub32_hi,32,1,1,0.267199,0.732801
+RNN,filtered-ea-sag,3,sub33_lo,33,0,0,0.887974,0.112026
+RNN,filtered-ea-sag,3,sub33_hi,33,1,1,0.452086,0.547914
+RNN,filtered-ea-sag,3,sub34_lo,34,0,0,0.836515,0.163485
+RNN,filtered-ea-sag,3,sub34_hi,34,1,1,0.300574,0.699426
+RNN,filtered-ea-sag,3,sub40_lo,40,0,0,0.811969,0.188031
+RNN,filtered-ea-sag,3,sub40_hi,40,1,1,0.155545,0.844455
+RNN,filtered-ea-sag,4,sub02_lo,2,0,0,0.95556,0.04444
+RNN,filtered-ea-sag,4,sub02_hi,2,1,1,0.185831,0.814169
+RNN,filtered-ea-sag,4,sub03_lo,3,0,0,0.864115,0.135885
+RNN,filtered-ea-sag,4,sub03_hi,3,1,1,0.253827,0.746173
+RNN,filtered-ea-sag,4,sub13_lo,13,0,0,0.89043,0.10957
+RNN,filtered-ea-sag,4,sub13_hi,13,1,1,0.378102,0.621898
+RNN,filtered-ea-sag,4,sub23_lo,23,0,0,0.89131,0.10869
+RNN,filtered-ea-sag,4,sub23_hi,23,1,1,0.206999,0.793001
+RNN,filtered-ea-sag,4,sub26_lo,26,0,0,0.744892,0.255108
+RNN,filtered-ea-sag,4,sub26_hi,26,1,1,0.215591,0.784409
+RNN,filtered-ea-sag,4,sub36_lo,36,0,0,0.749138,0.250862
+RNN,filtered-ea-sag,4,sub36_hi,36,1,1,0.211696,0.788304
+RNN,filtered-ea-sag,4,sub37_lo,37,0,0,0.913363,0.086637
+RNN,filtered-ea-sag,4,sub37_hi,37,1,1,0.16962,0.83038
+RNN,filtered-ea-sag,4,sub39_lo,39,0,0,0.666516,0.333484
+RNN,filtered-ea-sag,4,sub39_hi,39,1,1,0.377755,0.622245
+RNN,filtered-ea-sag,4,sub44_lo,44,0,0,0.795794,0.204206
+RNN,filtered-ea-sag,4,sub44_hi,44,1,1,0.324293,0.675707
+RNN,filtered-ea-sag,5,sub09_lo,9,0,1,0.414097,0.585903
+RNN,filtered-ea-sag,5,sub09_hi,9,1,1,0.134644,0.865356
+RNN,filtered-ea-sag,5,sub12_lo,12,0,0,0.854666,0.145334
+RNN,filtered-ea-sag,5,sub12_hi,12,1,1,0.210443,0.789557
+RNN,filtered-ea-sag,5,sub16_lo,16,0,0,0.502959,0.497041
+RNN,filtered-ea-sag,5,sub16_hi,16,1,1,0.381266,0.618734
+RNN,filtered-ea-sag,5,sub20_lo,20,0,0,0.841975,0.158025
+RNN,filtered-ea-sag,5,sub20_hi,20,1,1,0.19223,0.80777
+RNN,filtered-ea-sag,5,sub22_lo,22,0,0,0.71962,0.28038
+RNN,filtered-ea-sag,5,sub22_hi,22,1,1,0.209257,0.790743
+RNN,filtered-ea-sag,5,sub25_lo,25,0,0,0.562216,0.437785
+RNN,filtered-ea-sag,5,sub25_hi,25,1,1,0.289956,0.710045
+RNN,filtered-ea-sag,5,sub31_lo,31,0,0,0.898181,0.101819
+RNN,filtered-ea-sag,5,sub31_hi,31,1,1,0.199674,0.800326
+RNN,filtered-ea-sag,5,sub41_lo,41,0,0,0.731595,0.268405
+RNN,filtered-ea-sag,5,sub41_hi,41,1,1,0.18251,0.817489
+RNN,filtered-ea-sag,5,sub48_lo,48,0,0,0.880371,0.119629
+RNN,filtered-ea-sag,5,sub48_hi,48,1,1,0.199749,0.800251
+STFT-Swin,filtered-ea-sag,1,sub06_lo,6,0,1,0.304777,0.695223
+STFT-Swin,filtered-ea-sag,1,sub06_hi,6,1,0,0.671627,0.328374
+STFT-Swin,filtered-ea-sag,1,sub10_lo,10,0,0,0.762724,0.237276
+STFT-Swin,filtered-ea-sag,1,sub10_hi,10,1,1,0.086523,0.913477
+STFT-Swin,filtered-ea-sag,1,sub14_lo,14,0,0,0.700705,0.299295
+STFT-Swin,filtered-ea-sag,1,sub14_hi,14,1,1,0.15609,0.84391
+STFT-Swin,filtered-ea-sag,1,sub28_lo,28,0,0,0.621241,0.378759
+STFT-Swin,filtered-ea-sag,1,sub28_hi,28,1,1,0.284561,0.715439
+STFT-Swin,filtered-ea-sag,1,sub29_lo,29,0,0,0.84285,0.15715
+STFT-Swin,filtered-ea-sag,1,sub29_hi,29,1,1,0.072305,0.927695
+STFT-Swin,filtered-ea-sag,1,sub38_lo,38,0,0,0.920207,0.079793
+STFT-Swin,filtered-ea-sag,1,sub38_hi,38,1,1,0.07423,0.92577
+STFT-Swin,filtered-ea-sag,1,sub43_lo,43,0,0,0.660304,0.339696
+STFT-Swin,filtered-ea-sag,1,sub43_hi,43,1,1,0.180423,0.819577
+STFT-Swin,filtered-ea-sag,1,sub45_lo,45,0,0,0.891453,0.108547
+STFT-Swin,filtered-ea-sag,1,sub45_hi,45,1,1,0.146346,0.853654
+STFT-Swin,filtered-ea-sag,1,sub47_lo,47,0,0,0.762649,0.237351
+STFT-Swin,filtered-ea-sag,1,sub47_hi,47,1,1,0.192627,0.807373
+STFT-Swin,filtered-ea-sag,2,sub04_lo,4,0,0,0.893612,0.106388
+STFT-Swin,filtered-ea-sag,2,sub04_hi,4,1,1,0.097568,0.902432
+STFT-Swin,filtered-ea-sag,2,sub08_lo,8,0,0,0.92568,0.07432
+STFT-Swin,filtered-ea-sag,2,sub08_hi,8,1,1,0.118203,0.881797
+STFT-Swin,filtered-ea-sag,2,sub15_lo,15,0,0,0.635898,0.364102
+STFT-Swin,filtered-ea-sag,2,sub15_hi,15,1,1,0.285306,0.714694
+STFT-Swin,filtered-ea-sag,2,sub17_lo,17,0,0,0.861829,0.138171
+STFT-Swin,filtered-ea-sag,2,sub17_hi,17,1,1,0.083066,0.916934
+STFT-Swin,filtered-ea-sag,2,sub19_lo,19,0,0,0.946831,0.05317
+STFT-Swin,filtered-ea-sag,2,sub19_hi,19,1,1,0.047953,0.952047
+STFT-Swin,filtered-ea-sag,2,sub21_lo,21,0,0,0.901242,0.098758
+STFT-Swin,filtered-ea-sag,2,sub21_hi,21,1,1,0.150847,0.849153
+STFT-Swin,filtered-ea-sag,2,sub27_lo,27,0,0,0.882748,0.117252
+STFT-Swin,filtered-ea-sag,2,sub27_hi,27,1,1,0.088492,0.911508
+STFT-Swin,filtered-ea-sag,2,sub35_lo,35,0,0,0.737389,0.262611
+STFT-Swin,filtered-ea-sag,2,sub35_hi,35,1,1,0.293953,0.706047
+STFT-Swin,filtered-ea-sag,2,sub46_lo,46,0,0,0.718525,0.281475
+STFT-Swin,filtered-ea-sag,2,sub46_hi,46,1,1,0.326728,0.673272
+STFT-Swin,filtered-ea-sag,3,sub01_lo,1,0,0,0.641338,0.358662
+STFT-Swin,filtered-ea-sag,3,sub01_hi,1,1,1,0.250665,0.749335
+STFT-Swin,filtered-ea-sag,3,sub07_lo,7,0,0,0.911776,0.088224
+STFT-Swin,filtered-ea-sag,3,sub07_hi,7,1,1,0.086745,0.913255
+STFT-Swin,filtered-ea-sag,3,sub11_lo,11,0,0,0.761451,0.23855
+STFT-Swin,filtered-ea-sag,3,sub11_hi,11,1,1,0.113998,0.886001
+STFT-Swin,filtered-ea-sag,3,sub18_lo,18,0,0,0.776933,0.223067
+STFT-Swin,filtered-ea-sag,3,sub18_hi,18,1,1,0.217929,0.782071
+STFT-Swin,filtered-ea-sag,3,sub30_lo,30,0,0,0.912469,0.087531
+STFT-Swin,filtered-ea-sag,3,sub30_hi,30,1,1,0.084086,0.915914
+STFT-Swin,filtered-ea-sag,3,sub32_lo,32,0,0,0.762683,0.237317
+STFT-Swin,filtered-ea-sag,3,sub32_hi,32,1,1,0.336485,0.663515
+STFT-Swin,filtered-ea-sag,3,sub33_lo,33,0,0,0.908446,0.091554
+STFT-Swin,filtered-ea-sag,3,sub33_hi,33,1,1,0.400493,0.599507
+STFT-Swin,filtered-ea-sag,3,sub34_lo,34,0,0,0.732362,0.267638
+STFT-Swin,filtered-ea-sag,3,sub34_hi,34,1,1,0.424975,0.575025
+STFT-Swin,filtered-ea-sag,3,sub40_lo,40,0,0,0.833447,0.166553
+STFT-Swin,filtered-ea-sag,3,sub40_hi,40,1,1,0.120063,0.879937
+STFT-Swin,filtered-ea-sag,4,sub02_lo,2,0,0,0.787235,0.212765
+STFT-Swin,filtered-ea-sag,4,sub02_hi,2,1,1,0.161341,0.838659
+STFT-Swin,filtered-ea-sag,4,sub03_lo,3,0,0,0.706524,0.293476
+STFT-Swin,filtered-ea-sag,4,sub03_hi,3,1,1,0.186777,0.813223
+STFT-Swin,filtered-ea-sag,4,sub13_lo,13,0,0,0.856948,0.143052
+STFT-Swin,filtered-ea-sag,4,sub13_hi,13,1,1,0.227337,0.772663
+STFT-Swin,filtered-ea-sag,4,sub23_lo,23,0,0,0.843244,0.156756
+STFT-Swin,filtered-ea-sag,4,sub23_hi,23,1,1,0.09049,0.90951
+STFT-Swin,filtered-ea-sag,4,sub26_lo,26,0,0,0.763145,0.236855
+STFT-Swin,filtered-ea-sag,4,sub26_hi,26,1,1,0.067388,0.932612
+STFT-Swin,filtered-ea-sag,4,sub36_lo,36,0,0,0.720673,0.279327
+STFT-Swin,filtered-ea-sag,4,sub36_hi,36,1,1,0.131504,0.868496
+STFT-Swin,filtered-ea-sag,4,sub37_lo,37,0,0,0.921294,0.078706
+STFT-Swin,filtered-ea-sag,4,sub37_hi,37,1,1,0.065115,0.934885
+STFT-Swin,filtered-ea-sag,4,sub39_lo,39,0,0,0.699935,0.300065
+STFT-Swin,filtered-ea-sag,4,sub39_hi,39,1,1,0.182687,0.817313
+STFT-Swin,filtered-ea-sag,4,sub44_lo,44,0,0,0.674622,0.325378
+STFT-Swin,filtered-ea-sag,4,sub44_hi,44,1,1,0.237837,0.762163
+STFT-Swin,filtered-ea-sag,5,sub09_lo,9,0,0,0.756188,0.243812
+STFT-Swin,filtered-ea-sag,5,sub09_hi,9,1,1,0.178173,0.821827
+STFT-Swin,filtered-ea-sag,5,sub12_lo,12,0,0,0.853138,0.146862
+STFT-Swin,filtered-ea-sag,5,sub12_hi,12,1,1,0.158829,0.841171
+STFT-Swin,filtered-ea-sag,5,sub16_lo,16,0,0,0.873208,0.126792
+STFT-Swin,filtered-ea-sag,5,sub16_hi,16,1,1,0.213431,0.786569
+STFT-Swin,filtered-ea-sag,5,sub20_lo,20,0,0,0.825346,0.174654
+STFT-Swin,filtered-ea-sag,5,sub20_hi,20,1,1,0.146053,0.853947
+STFT-Swin,filtered-ea-sag,5,sub22_lo,22,0,0,0.908059,0.091941
+STFT-Swin,filtered-ea-sag,5,sub22_hi,22,1,1,0.115099,0.884901
+STFT-Swin,filtered-ea-sag,5,sub25_lo,25,0,0,0.577434,0.422566
+STFT-Swin,filtered-ea-sag,5,sub25_hi,25,1,1,0.498605,0.501395
+STFT-Swin,filtered-ea-sag,5,sub31_lo,31,0,0,0.946963,0.053037
+STFT-Swin,filtered-ea-sag,5,sub31_hi,31,1,1,0.126529,0.873471
+STFT-Swin,filtered-ea-sag,5,sub41_lo,41,0,1,0.455827,0.544173
+STFT-Swin,filtered-ea-sag,5,sub41_hi,41,1,1,0.146936,0.853064
+STFT-Swin,filtered-ea-sag,5,sub48_lo,48,0,0,0.898916,0.101084
+STFT-Swin,filtered-ea-sag,5,sub48_hi,48,1,1,0.166986,0.833014
+STFT-ViT,filtered-ea-sag,1,sub06_lo,6,0,1,0.300344,0.699656
+STFT-ViT,filtered-ea-sag,1,sub06_hi,6,1,0,0.665404,0.334596
+STFT-ViT,filtered-ea-sag,1,sub10_lo,10,0,0,0.820143,0.179857
+STFT-ViT,filtered-ea-sag,1,sub10_hi,10,1,1,0.065061,0.934939
+STFT-ViT,filtered-ea-sag,1,sub14_lo,14,0,0,0.636005,0.363995
+STFT-ViT,filtered-ea-sag,1,sub14_hi,14,1,1,0.21509,0.78491
+STFT-ViT,filtered-ea-sag,1,sub28_lo,28,0,0,0.708951,0.291049
+STFT-ViT,filtered-ea-sag,1,sub28_hi,28,1,1,0.278459,0.721541
+STFT-ViT,filtered-ea-sag,1,sub29_lo,29,0,0,0.858438,0.141562
+STFT-ViT,filtered-ea-sag,1,sub29_hi,29,1,1,0.120109,0.879891
+STFT-ViT,filtered-ea-sag,1,sub38_lo,38,0,0,0.906475,0.093525
+STFT-ViT,filtered-ea-sag,1,sub38_hi,38,1,1,0.084535,0.915465
+STFT-ViT,filtered-ea-sag,1,sub43_lo,43,0,1,0.472547,0.527453
+STFT-ViT,filtered-ea-sag,1,sub43_hi,43,1,1,0.332949,0.667051
+STFT-ViT,filtered-ea-sag,1,sub45_lo,45,0,0,0.740419,0.259581
+STFT-ViT,filtered-ea-sag,1,sub45_hi,45,1,1,0.216652,0.783348
+STFT-ViT,filtered-ea-sag,1,sub47_lo,47,0,0,0.743554,0.256446
+STFT-ViT,filtered-ea-sag,1,sub47_hi,47,1,1,0.258213,0.741787
+STFT-ViT,filtered-ea-sag,2,sub04_lo,4,0,0,0.905397,0.094603
+STFT-ViT,filtered-ea-sag,2,sub04_hi,4,1,1,0.090114,0.909886
+STFT-ViT,filtered-ea-sag,2,sub08_lo,8,0,0,0.913628,0.086372
+STFT-ViT,filtered-ea-sag,2,sub08_hi,8,1,1,0.156541,0.843459
+STFT-ViT,filtered-ea-sag,2,sub15_lo,15,0,0,0.641958,0.358042
+STFT-ViT,filtered-ea-sag,2,sub15_hi,15,1,1,0.307995,0.692005
+STFT-ViT,filtered-ea-sag,2,sub17_lo,17,0,0,0.850298,0.149702
+STFT-ViT,filtered-ea-sag,2,sub17_hi,17,1,1,0.123554,0.876446
+STFT-ViT,filtered-ea-sag,2,sub19_lo,19,0,0,0.953536,0.046464
+STFT-ViT,filtered-ea-sag,2,sub19_hi,19,1,1,0.044354,0.955646
+STFT-ViT,filtered-ea-sag,2,sub21_lo,21,0,0,0.896224,0.103776
+STFT-ViT,filtered-ea-sag,2,sub21_hi,21,1,1,0.152912,0.847088
+STFT-ViT,filtered-ea-sag,2,sub27_lo,27,0,0,0.892399,0.107601
+STFT-ViT,filtered-ea-sag,2,sub27_hi,27,1,1,0.096911,0.903089
+STFT-ViT,filtered-ea-sag,2,sub35_lo,35,0,0,0.610455,0.389545
+STFT-ViT,filtered-ea-sag,2,sub35_hi,35,1,1,0.365747,0.634253
+STFT-ViT,filtered-ea-sag,2,sub46_lo,46,0,0,0.661421,0.338579
+STFT-ViT,filtered-ea-sag,2,sub46_hi,46,1,1,0.381533,0.618467
+STFT-ViT,filtered-ea-sag,3,sub01_lo,1,0,0,0.570509,0.429491
+STFT-ViT,filtered-ea-sag,3,sub01_hi,1,1,1,0.231704,0.768296
+STFT-ViT,filtered-ea-sag,3,sub07_lo,7,0,0,0.914844,0.085156
+STFT-ViT,filtered-ea-sag,3,sub07_hi,7,1,1,0.087834,0.912166
+STFT-ViT,filtered-ea-sag,3,sub11_lo,11,0,0,0.76748,0.23252
+STFT-ViT,filtered-ea-sag,3,sub11_hi,11,1,1,0.095547,0.904452
+STFT-ViT,filtered-ea-sag,3,sub18_lo,18,0,0,0.857874,0.142126
+STFT-ViT,filtered-ea-sag,3,sub18_hi,18,1,1,0.296901,0.703099
+STFT-ViT,filtered-ea-sag,3,sub30_lo,30,0,0,0.909411,0.090589
+STFT-ViT,filtered-ea-sag,3,sub30_hi,30,1,1,0.111725,0.888275
+STFT-ViT,filtered-ea-sag,3,sub32_lo,32,0,0,0.785394,0.214606
+STFT-ViT,filtered-ea-sag,3,sub32_hi,32,1,1,0.315132,0.684868
+STFT-ViT,filtered-ea-sag,3,sub33_lo,33,0,0,0.900414,0.099586
+STFT-ViT,filtered-ea-sag,3,sub33_hi,33,1,1,0.370338,0.629662
+STFT-ViT,filtered-ea-sag,3,sub34_lo,34,0,0,0.808989,0.191011
+STFT-ViT,filtered-ea-sag,3,sub34_hi,34,1,1,0.424903,0.575097
+STFT-ViT,filtered-ea-sag,3,sub40_lo,40,0,0,0.817107,0.182893
+STFT-ViT,filtered-ea-sag,3,sub40_hi,40,1,1,0.158816,0.841184
+STFT-ViT,filtered-ea-sag,4,sub02_lo,2,0,0,0.663475,0.336525
+STFT-ViT,filtered-ea-sag,4,sub02_hi,2,1,1,0.20956,0.79044
+STFT-ViT,filtered-ea-sag,4,sub03_lo,3,0,0,0.690558,0.309442
+STFT-ViT,filtered-ea-sag,4,sub03_hi,3,1,1,0.195958,0.804042
+STFT-ViT,filtered-ea-sag,4,sub13_lo,13,0,0,0.899933,0.100067
+STFT-ViT,filtered-ea-sag,4,sub13_hi,13,1,1,0.204279,0.795721
+STFT-ViT,filtered-ea-sag,4,sub23_lo,23,0,0,0.904655,0.095345
+STFT-ViT,filtered-ea-sag,4,sub23_hi,23,1,1,0.147821,0.852179
+STFT-ViT,filtered-ea-sag,4,sub26_lo,26,0,0,0.850829,0.149171
+STFT-ViT,filtered-ea-sag,4,sub26_hi,26,1,1,0.08448,0.91552
+STFT-ViT,filtered-ea-sag,4,sub36_lo,36,0,0,0.771437,0.228563
+STFT-ViT,filtered-ea-sag,4,sub36_hi,36,1,1,0.12974,0.87026
+STFT-ViT,filtered-ea-sag,4,sub37_lo,37,0,0,0.940898,0.059102
+STFT-ViT,filtered-ea-sag,4,sub37_hi,37,1,1,0.062023,0.937977
+STFT-ViT,filtered-ea-sag,4,sub39_lo,39,0,0,0.701426,0.298574
+STFT-ViT,filtered-ea-sag,4,sub39_hi,39,1,1,0.203768,0.796232
+STFT-ViT,filtered-ea-sag,4,sub44_lo,44,0,0,0.689355,0.310645
+STFT-ViT,filtered-ea-sag,4,sub44_hi,44,1,1,0.422412,0.577588
+STFT-ViT,filtered-ea-sag,5,sub09_lo,9,0,0,0.64012,0.35988
+STFT-ViT,filtered-ea-sag,5,sub09_hi,9,1,1,0.332027,0.667973
+STFT-ViT,filtered-ea-sag,5,sub12_lo,12,0,0,0.800878,0.199122
+STFT-ViT,filtered-ea-sag,5,sub12_hi,12,1,1,0.208244,0.791756
+STFT-ViT,filtered-ea-sag,5,sub16_lo,16,0,0,0.851748,0.148252
+STFT-ViT,filtered-ea-sag,5,sub16_hi,16,1,1,0.244868,0.755132
+STFT-ViT,filtered-ea-sag,5,sub20_lo,20,0,0,0.772115,0.227885
+STFT-ViT,filtered-ea-sag,5,sub20_hi,20,1,1,0.258351,0.741649
+STFT-ViT,filtered-ea-sag,5,sub22_lo,22,0,0,0.882444,0.117556
+STFT-ViT,filtered-ea-sag,5,sub22_hi,22,1,1,0.186127,0.813873
+STFT-ViT,filtered-ea-sag,5,sub25_lo,25,0,0,0.537821,0.462179
+STFT-ViT,filtered-ea-sag,5,sub25_hi,25,1,0,0.61095,0.38905
+STFT-ViT,filtered-ea-sag,5,sub31_lo,31,0,0,0.943177,0.056823
+STFT-ViT,filtered-ea-sag,5,sub31_hi,31,1,1,0.176962,0.823038
+STFT-ViT,filtered-ea-sag,5,sub41_lo,41,0,1,0.447882,0.552117
+STFT-ViT,filtered-ea-sag,5,sub41_hi,41,1,1,0.284588,0.715412
+STFT-ViT,filtered-ea-sag,5,sub48_lo,48,0,0,0.892519,0.107481
+STFT-ViT,filtered-ea-sag,5,sub48_hi,48,1,1,0.16926,0.830741
+ShallowConvNet Adapted,filtered-ea-sag,1,sub06_lo,6,0,0,0.709812,0.290189
+ShallowConvNet Adapted,filtered-ea-sag,1,sub06_hi,6,1,0,0.570744,0.429256
+ShallowConvNet Adapted,filtered-ea-sag,1,sub10_lo,10,0,0,0.815403,0.184597
+ShallowConvNet Adapted,filtered-ea-sag,1,sub10_hi,10,1,1,0.073336,0.926664
+ShallowConvNet Adapted,filtered-ea-sag,1,sub14_lo,14,0,0,0.577716,0.422285
+ShallowConvNet Adapted,filtered-ea-sag,1,sub14_hi,14,1,1,0.226803,0.773197
+ShallowConvNet Adapted,filtered-ea-sag,1,sub28_lo,28,0,1,0.479393,0.520607
+ShallowConvNet Adapted,filtered-ea-sag,1,sub28_hi,28,1,1,0.134611,0.86539
+ShallowConvNet Adapted,filtered-ea-sag,1,sub29_lo,29,0,0,0.839703,0.160297
+ShallowConvNet Adapted,filtered-ea-sag,1,sub29_hi,29,1,1,0.113103,0.886897
+ShallowConvNet Adapted,filtered-ea-sag,1,sub38_lo,38,0,0,0.805704,0.194296
+ShallowConvNet Adapted,filtered-ea-sag,1,sub38_hi,38,1,1,0.113429,0.886571
+ShallowConvNet Adapted,filtered-ea-sag,1,sub43_lo,43,0,0,0.671824,0.328176
+ShallowConvNet Adapted,filtered-ea-sag,1,sub43_hi,43,1,1,0.117393,0.882607
+ShallowConvNet Adapted,filtered-ea-sag,1,sub45_lo,45,0,0,0.968686,0.031314
+ShallowConvNet Adapted,filtered-ea-sag,1,sub45_hi,45,1,1,0.159526,0.840474
+ShallowConvNet Adapted,filtered-ea-sag,1,sub47_lo,47,0,0,0.707703,0.292297
+ShallowConvNet Adapted,filtered-ea-sag,1,sub47_hi,47,1,1,0.145339,0.854661
+ShallowConvNet Adapted,filtered-ea-sag,2,sub04_lo,4,0,0,0.819896,0.180105
+ShallowConvNet Adapted,filtered-ea-sag,2,sub04_hi,4,1,1,0.187673,0.812327
+ShallowConvNet Adapted,filtered-ea-sag,2,sub08_lo,8,0,0,0.921526,0.078474
+ShallowConvNet Adapted,filtered-ea-sag,2,sub08_hi,8,1,1,0.170949,0.829051
+ShallowConvNet Adapted,filtered-ea-sag,2,sub15_lo,15,0,0,0.606217,0.393783
+ShallowConvNet Adapted,filtered-ea-sag,2,sub15_hi,15,1,1,0.330583,0.669417
+ShallowConvNet Adapted,filtered-ea-sag,2,sub17_lo,17,0,0,0.79174,0.20826
+ShallowConvNet Adapted,filtered-ea-sag,2,sub17_hi,17,1,1,0.19398,0.80602
+ShallowConvNet Adapted,filtered-ea-sag,2,sub19_lo,19,0,0,0.813989,0.186011
+ShallowConvNet Adapted,filtered-ea-sag,2,sub19_hi,19,1,1,0.181281,0.818719
+ShallowConvNet Adapted,filtered-ea-sag,2,sub21_lo,21,0,0,0.911483,0.088517
+ShallowConvNet Adapted,filtered-ea-sag,2,sub21_hi,21,1,1,0.192811,0.807189
+ShallowConvNet Adapted,filtered-ea-sag,2,sub27_lo,27,0,0,0.825451,0.174549
+ShallowConvNet Adapted,filtered-ea-sag,2,sub27_hi,27,1,1,0.065656,0.934344
+ShallowConvNet Adapted,filtered-ea-sag,2,sub35_lo,35,0,0,0.722818,0.277182
+ShallowConvNet Adapted,filtered-ea-sag,2,sub35_hi,35,1,1,0.269116,0.730884
+ShallowConvNet Adapted,filtered-ea-sag,2,sub46_lo,46,0,0,0.719359,0.280641
+ShallowConvNet Adapted,filtered-ea-sag,2,sub46_hi,46,1,1,0.17751,0.82249
+ShallowConvNet Adapted,filtered-ea-sag,3,sub01_lo,1,0,1,0.492054,0.507946
+ShallowConvNet Adapted,filtered-ea-sag,3,sub01_hi,1,1,1,0.160432,0.839568
+ShallowConvNet Adapted,filtered-ea-sag,3,sub07_lo,7,0,0,0.850105,0.149895
+ShallowConvNet Adapted,filtered-ea-sag,3,sub07_hi,7,1,1,0.212192,0.787808
+ShallowConvNet Adapted,filtered-ea-sag,3,sub11_lo,11,0,0,0.771003,0.228997
+ShallowConvNet Adapted,filtered-ea-sag,3,sub11_hi,11,1,1,0.268977,0.731023
+ShallowConvNet Adapted,filtered-ea-sag,3,sub18_lo,18,0,0,0.836153,0.163847
+ShallowConvNet Adapted,filtered-ea-sag,3,sub18_hi,18,1,1,0.070833,0.929167
+ShallowConvNet Adapted,filtered-ea-sag,3,sub30_lo,30,0,0,0.895138,0.104862
+ShallowConvNet Adapted,filtered-ea-sag,3,sub30_hi,30,1,1,0.07666,0.92334
+ShallowConvNet Adapted,filtered-ea-sag,3,sub32_lo,32,0,1,0.476004,0.523996
+ShallowConvNet Adapted,filtered-ea-sag,3,sub32_hi,32,1,1,0.217224,0.782776
+ShallowConvNet Adapted,filtered-ea-sag,3,sub33_lo,33,0,0,0.970335,0.029665
+ShallowConvNet Adapted,filtered-ea-sag,3,sub33_hi,33,1,1,0.492466,0.507534
+ShallowConvNet Adapted,filtered-ea-sag,3,sub34_lo,34,0,0,0.865213,0.134787
+ShallowConvNet Adapted,filtered-ea-sag,3,sub34_hi,34,1,1,0.331439,0.668561
+ShallowConvNet Adapted,filtered-ea-sag,3,sub40_lo,40,0,0,0.807984,0.192016
+ShallowConvNet Adapted,filtered-ea-sag,3,sub40_hi,40,1,1,0.297909,0.702091
+ShallowConvNet Adapted,filtered-ea-sag,4,sub02_lo,2,0,0,0.91561,0.08439
+ShallowConvNet Adapted,filtered-ea-sag,4,sub02_hi,2,1,1,0.260159,0.739841
+ShallowConvNet Adapted,filtered-ea-sag,4,sub03_lo,3,0,0,0.857121,0.142879
+ShallowConvNet Adapted,filtered-ea-sag,4,sub03_hi,3,1,1,0.269744,0.730256
+ShallowConvNet Adapted,filtered-ea-sag,4,sub13_lo,13,0,0,0.855951,0.144049
+ShallowConvNet Adapted,filtered-ea-sag,4,sub13_hi,13,1,1,0.318237,0.681763
+ShallowConvNet Adapted,filtered-ea-sag,4,sub23_lo,23,0,0,0.839331,0.160669
+ShallowConvNet Adapted,filtered-ea-sag,4,sub23_hi,23,1,1,0.215672,0.784329
+ShallowConvNet Adapted,filtered-ea-sag,4,sub26_lo,26,0,0,0.708883,0.291117
+ShallowConvNet Adapted,filtered-ea-sag,4,sub26_hi,26,1,1,0.157846,0.842155
+ShallowConvNet Adapted,filtered-ea-sag,4,sub36_lo,36,0,0,0.753905,0.246095
+ShallowConvNet Adapted,filtered-ea-sag,4,sub36_hi,36,1,1,0.154115,0.845885
+ShallowConvNet Adapted,filtered-ea-sag,4,sub37_lo,37,0,0,0.934867,0.065132
+ShallowConvNet Adapted,filtered-ea-sag,4,sub37_hi,37,1,1,0.082151,0.917849
+ShallowConvNet Adapted,filtered-ea-sag,4,sub39_lo,39,0,0,0.624327,0.375673
+ShallowConvNet Adapted,filtered-ea-sag,4,sub39_hi,39,1,1,0.241372,0.758628
+ShallowConvNet Adapted,filtered-ea-sag,4,sub44_lo,44,0,0,0.779053,0.220947
+ShallowConvNet Adapted,filtered-ea-sag,4,sub44_hi,44,1,1,0.395918,0.604082
+ShallowConvNet Adapted,filtered-ea-sag,5,sub09_lo,9,0,0,0.507117,0.492883
+ShallowConvNet Adapted,filtered-ea-sag,5,sub09_hi,9,1,1,0.114644,0.885356
+ShallowConvNet Adapted,filtered-ea-sag,5,sub12_lo,12,0,0,0.779335,0.220665
+ShallowConvNet Adapted,filtered-ea-sag,5,sub12_hi,12,1,1,0.090518,0.909482
+ShallowConvNet Adapted,filtered-ea-sag,5,sub16_lo,16,0,0,0.789222,0.210778
+ShallowConvNet Adapted,filtered-ea-sag,5,sub16_hi,16,1,1,0.195912,0.804088
+ShallowConvNet Adapted,filtered-ea-sag,5,sub20_lo,20,0,0,0.816767,0.183233
+ShallowConvNet Adapted,filtered-ea-sag,5,sub20_hi,20,1,1,0.218723,0.781278
+ShallowConvNet Adapted,filtered-ea-sag,5,sub22_lo,22,0,0,0.805258,0.194742
+ShallowConvNet Adapted,filtered-ea-sag,5,sub22_hi,22,1,1,0.14677,0.85323
+ShallowConvNet Adapted,filtered-ea-sag,5,sub25_lo,25,0,1,0.350284,0.649716
+ShallowConvNet Adapted,filtered-ea-sag,5,sub25_hi,25,1,1,0.133088,0.866912
+ShallowConvNet Adapted,filtered-ea-sag,5,sub31_lo,31,0,0,0.858389,0.141611
+ShallowConvNet Adapted,filtered-ea-sag,5,sub31_hi,31,1,1,0.106953,0.893047
+ShallowConvNet Adapted,filtered-ea-sag,5,sub41_lo,41,0,0,0.909006,0.090993
+ShallowConvNet Adapted,filtered-ea-sag,5,sub41_hi,41,1,1,0.174462,0.825538
+ShallowConvNet Adapted,filtered-ea-sag,5,sub48_lo,48,0,0,0.960663,0.039337
+ShallowConvNet Adapted,filtered-ea-sag,5,sub48_hi,48,1,1,0.114844,0.885156
+TemporalCNN,filtered-ea-sag,1,sub06_lo,6,0,0,0.816397,0.183603
+TemporalCNN,filtered-ea-sag,1,sub06_hi,6,1,1,0.458662,0.541338
+TemporalCNN,filtered-ea-sag,1,sub10_lo,10,0,0,0.87599,0.12401
+TemporalCNN,filtered-ea-sag,1,sub10_hi,10,1,1,0.10316,0.89684
+TemporalCNN,filtered-ea-sag,1,sub14_lo,14,0,0,0.772619,0.227381
+TemporalCNN,filtered-ea-sag,1,sub14_hi,14,1,1,0.27744,0.72256
+TemporalCNN,filtered-ea-sag,1,sub28_lo,28,0,0,0.630874,0.369126
+TemporalCNN,filtered-ea-sag,1,sub28_hi,28,1,1,0.172012,0.827988
+TemporalCNN,filtered-ea-sag,1,sub29_lo,29,0,0,0.852732,0.147268
+TemporalCNN,filtered-ea-sag,1,sub29_hi,29,1,1,0.12373,0.87627
+TemporalCNN,filtered-ea-sag,1,sub38_lo,38,0,0,0.851454,0.148546
+TemporalCNN,filtered-ea-sag,1,sub38_hi,38,1,1,0.139359,0.860641
+TemporalCNN,filtered-ea-sag,1,sub43_lo,43,0,0,0.761033,0.238966
+TemporalCNN,filtered-ea-sag,1,sub43_hi,43,1,1,0.153195,0.846805
+TemporalCNN,filtered-ea-sag,1,sub45_lo,45,0,0,0.954484,0.045516
+TemporalCNN,filtered-ea-sag,1,sub45_hi,45,1,1,0.177381,0.822619
+TemporalCNN,filtered-ea-sag,1,sub47_lo,47,0,0,0.794253,0.205747
+TemporalCNN,filtered-ea-sag,1,sub47_hi,47,1,1,0.194909,0.805091
+TemporalCNN,filtered-ea-sag,2,sub04_lo,4,0,0,0.830275,0.169725
+TemporalCNN,filtered-ea-sag,2,sub04_hi,4,1,1,0.294633,0.705367
+TemporalCNN,filtered-ea-sag,2,sub08_lo,8,0,0,0.90152,0.09848
+TemporalCNN,filtered-ea-sag,2,sub08_hi,8,1,1,0.217826,0.782174
+TemporalCNN,filtered-ea-sag,2,sub15_lo,15,0,0,0.649184,0.350816
+TemporalCNN,filtered-ea-sag,2,sub15_hi,15,1,1,0.257974,0.742026
+TemporalCNN,filtered-ea-sag,2,sub17_lo,17,0,0,0.845114,0.154886
+TemporalCNN,filtered-ea-sag,2,sub17_hi,17,1,1,0.157845,0.842155
+TemporalCNN,filtered-ea-sag,2,sub19_lo,19,0,0,0.828846,0.171154
+TemporalCNN,filtered-ea-sag,2,sub19_hi,19,1,1,0.155219,0.844781
+TemporalCNN,filtered-ea-sag,2,sub21_lo,21,0,0,0.934734,0.065266
+TemporalCNN,filtered-ea-sag,2,sub21_hi,21,1,1,0.181227,0.818773
+TemporalCNN,filtered-ea-sag,2,sub27_lo,27,0,0,0.882477,0.117523
+TemporalCNN,filtered-ea-sag,2,sub27_hi,27,1,1,0.112991,0.887009
+TemporalCNN,filtered-ea-sag,2,sub35_lo,35,0,0,0.775536,0.224464
+TemporalCNN,filtered-ea-sag,2,sub35_hi,35,1,1,0.264297,0.735703
+TemporalCNN,filtered-ea-sag,2,sub46_lo,46,0,0,0.716208,0.283792
+TemporalCNN,filtered-ea-sag,2,sub46_hi,46,1,1,0.181682,0.818318
+TemporalCNN,filtered-ea-sag,3,sub01_lo,1,0,1,0.174986,0.825014
+TemporalCNN,filtered-ea-sag,3,sub01_hi,1,1,1,0.27694,0.72306
+TemporalCNN,filtered-ea-sag,3,sub07_lo,7,0,0,0.900299,0.099701
+TemporalCNN,filtered-ea-sag,3,sub07_hi,7,1,1,0.173112,0.826888
+TemporalCNN,filtered-ea-sag,3,sub11_lo,11,0,0,0.7531,0.246901
+TemporalCNN,filtered-ea-sag,3,sub11_hi,11,1,1,0.309784,0.690216
+TemporalCNN,filtered-ea-sag,3,sub18_lo,18,0,0,0.832762,0.167238
+TemporalCNN,filtered-ea-sag,3,sub18_hi,18,1,1,0.122906,0.877094
+TemporalCNN,filtered-ea-sag,3,sub30_lo,30,0,0,0.828354,0.171646
+TemporalCNN,filtered-ea-sag,3,sub30_hi,30,1,1,0.075397,0.924603
+TemporalCNN,filtered-ea-sag,3,sub32_lo,32,0,0,0.659791,0.340209
+TemporalCNN,filtered-ea-sag,3,sub32_hi,32,1,1,0.240598,0.759402
+TemporalCNN,filtered-ea-sag,3,sub33_lo,33,0,0,0.907657,0.092343
+TemporalCNN,filtered-ea-sag,3,sub33_hi,33,1,1,0.449011,0.550989
+TemporalCNN,filtered-ea-sag,3,sub34_lo,34,0,0,0.869172,0.130828
+TemporalCNN,filtered-ea-sag,3,sub34_hi,34,1,1,0.291737,0.708264
+TemporalCNN,filtered-ea-sag,3,sub40_lo,40,0,0,0.85449,0.14551
+TemporalCNN,filtered-ea-sag,3,sub40_hi,40,1,1,0.180207,0.819793
+TemporalCNN,filtered-ea-sag,4,sub02_lo,2,0,0,0.96216,0.037839
+TemporalCNN,filtered-ea-sag,4,sub02_hi,2,1,1,0.153231,0.846769
+TemporalCNN,filtered-ea-sag,4,sub03_lo,3,0,0,0.86397,0.13603
+TemporalCNN,filtered-ea-sag,4,sub03_hi,3,1,1,0.23051,0.76949
+TemporalCNN,filtered-ea-sag,4,sub13_lo,13,0,0,0.912225,0.087775
+TemporalCNN,filtered-ea-sag,4,sub13_hi,13,1,1,0.341083,0.658917
+TemporalCNN,filtered-ea-sag,4,sub23_lo,23,0,0,0.914401,0.085599
+TemporalCNN,filtered-ea-sag,4,sub23_hi,23,1,1,0.172455,0.827545
+TemporalCNN,filtered-ea-sag,4,sub26_lo,26,0,0,0.809478,0.190522
+TemporalCNN,filtered-ea-sag,4,sub26_hi,26,1,1,0.124736,0.875264
+TemporalCNN,filtered-ea-sag,4,sub36_lo,36,0,0,0.810217,0.189783
+TemporalCNN,filtered-ea-sag,4,sub36_hi,36,1,1,0.214859,0.78514
+TemporalCNN,filtered-ea-sag,4,sub37_lo,37,0,0,0.933985,0.066015
+TemporalCNN,filtered-ea-sag,4,sub37_hi,37,1,1,0.186751,0.813249
+TemporalCNN,filtered-ea-sag,4,sub39_lo,39,0,0,0.697461,0.302539
+TemporalCNN,filtered-ea-sag,4,sub39_hi,39,1,1,0.349864,0.650136
+TemporalCNN,filtered-ea-sag,4,sub44_lo,44,0,0,0.829032,0.170968
+TemporalCNN,filtered-ea-sag,4,sub44_hi,44,1,1,0.311678,0.688322
+TemporalCNN,filtered-ea-sag,5,sub09_lo,9,0,0,0.528469,0.471531
+TemporalCNN,filtered-ea-sag,5,sub09_hi,9,1,1,0.101206,0.898794
+TemporalCNN,filtered-ea-sag,5,sub12_lo,12,0,0,0.901978,0.098022
+TemporalCNN,filtered-ea-sag,5,sub12_hi,12,1,1,0.163493,0.836507
+TemporalCNN,filtered-ea-sag,5,sub16_lo,16,0,0,0.629051,0.370949
+TemporalCNN,filtered-ea-sag,5,sub16_hi,16,1,1,0.293703,0.706297
+TemporalCNN,filtered-ea-sag,5,sub20_lo,20,0,0,0.925219,0.074781
+TemporalCNN,filtered-ea-sag,5,sub20_hi,20,1,1,0.150306,0.849693
+TemporalCNN,filtered-ea-sag,5,sub22_lo,22,0,0,0.860171,0.13983
+TemporalCNN,filtered-ea-sag,5,sub22_hi,22,1,1,0.216068,0.783932
+TemporalCNN,filtered-ea-sag,5,sub25_lo,25,0,0,0.61994,0.38006
+TemporalCNN,filtered-ea-sag,5,sub25_hi,25,1,1,0.259904,0.740096
+TemporalCNN,filtered-ea-sag,5,sub31_lo,31,0,0,0.932956,0.067044
+TemporalCNN,filtered-ea-sag,5,sub31_hi,31,1,1,0.174592,0.825408
+TemporalCNN,filtered-ea-sag,5,sub41_lo,41,0,0,0.863981,0.136019
+TemporalCNN,filtered-ea-sag,5,sub41_hi,41,1,1,0.152482,0.847518
+TemporalCNN,filtered-ea-sag,5,sub48_lo,48,0,0,0.946859,0.053141
+TemporalCNN,filtered-ea-sag,5,sub48_hi,48,1,1,0.175133,0.824868
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub06_lo,6,0,0,0.505935,0.494065
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub06_hi,6,1,0,0.523573,0.476427
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub10_lo,10,0,0,0.797134,0.202866
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub10_hi,10,1,1,0.077315,0.922685
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub14_lo,14,0,0,0.700833,0.299167
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub14_hi,14,1,1,0.18871,0.811289
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub28_lo,28,0,0,0.620483,0.379517
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub28_hi,28,1,1,0.235798,0.764202
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub29_lo,29,0,0,0.849084,0.150916
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub29_hi,29,1,1,0.084718,0.915282
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub38_lo,38,0,0,0.869028,0.130972
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub38_hi,38,1,1,0.084626,0.915374
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub43_lo,43,0,0,0.619936,0.380064
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub43_hi,43,1,1,0.168754,0.831246
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub45_lo,45,0,0,0.914329,0.085671
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub45_hi,45,1,1,0.151612,0.848388
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub47_lo,47,0,0,0.725296,0.274704
+Top-3 Validation Ensemble,filtered-ea-sag,1,sub47_hi,47,1,1,0.165853,0.834147
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub04_lo,4,0,0,0.815528,0.184472
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub04_hi,4,1,1,0.195583,0.804417
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub08_lo,8,0,0,0.903174,0.096826
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub08_hi,8,1,1,0.15927,0.84073
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub15_lo,15,0,0,0.591445,0.408555
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub15_hi,15,1,1,0.306852,0.693148
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub17_lo,17,0,0,0.816203,0.183797
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub17_hi,17,1,1,0.160696,0.839304
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub19_lo,19,0,0,0.862922,0.137078
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub19_hi,19,1,1,0.124153,0.875847
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub21_lo,21,0,0,0.911887,0.088113
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub21_hi,21,1,1,0.158404,0.841596
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub27_lo,27,0,0,0.87677,0.12323
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub27_hi,27,1,1,0.082925,0.917075
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub35_lo,35,0,0,0.698957,0.301043
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub35_hi,35,1,1,0.271491,0.728509
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub46_lo,46,0,0,0.703795,0.296205
+Top-3 Validation Ensemble,filtered-ea-sag,2,sub46_hi,46,1,1,0.205945,0.794055
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub01_lo,1,0,0,0.636354,0.363646
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub01_hi,1,1,1,0.238204,0.761796
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub07_lo,7,0,0,0.884372,0.115628
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub07_hi,7,1,1,0.191991,0.808009
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub11_lo,11,0,0,0.759449,0.240551
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub11_hi,11,1,1,0.220194,0.779806
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub18_lo,18,0,0,0.848309,0.151691
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub18_hi,18,1,1,0.142451,0.857549
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub30_lo,30,0,0,0.909284,0.090716
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub30_hi,30,1,1,0.08221,0.91779
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub32_lo,32,0,0,0.554177,0.445823
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub32_hi,32,1,1,0.298019,0.701982
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub33_lo,33,0,0,0.956792,0.043208
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub33_hi,33,1,1,0.490971,0.509028
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub34_lo,34,0,0,0.881212,0.118788
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub34_hi,34,1,1,0.394194,0.605806
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub40_lo,40,0,0,0.79271,0.20729
+Top-3 Validation Ensemble,filtered-ea-sag,3,sub40_hi,40,1,1,0.251578,0.748422
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub02_lo,2,0,0,0.910526,0.089475
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub02_hi,2,1,1,0.198074,0.801926
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub03_lo,3,0,0,0.848887,0.151113
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub03_hi,3,1,1,0.313861,0.686139
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub13_lo,13,0,0,0.883322,0.116678
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub13_hi,13,1,1,0.334249,0.665751
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub23_lo,23,0,0,0.849847,0.150153
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub23_hi,23,1,1,0.169702,0.830297
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub26_lo,26,0,0,0.797107,0.202893
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub26_hi,26,1,1,0.161876,0.838124
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub36_lo,36,0,0,0.772106,0.227894
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub36_hi,36,1,1,0.182645,0.817355
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub37_lo,37,0,0,0.930318,0.069682
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub37_hi,37,1,1,0.112372,0.887628
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub39_lo,39,0,0,0.664018,0.335982
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub39_hi,39,1,1,0.262955,0.737045
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub44_lo,44,0,0,0.796037,0.203963
+Top-3 Validation Ensemble,filtered-ea-sag,4,sub44_hi,44,1,1,0.341683,0.658317
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub09_lo,9,0,0,0.593015,0.406985
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub09_hi,9,1,1,0.146,0.854
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub12_lo,12,0,0,0.782929,0.217071
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub12_hi,12,1,1,0.134873,0.865127
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub16_lo,16,0,0,0.829335,0.170665
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub16_hi,16,1,1,0.262281,0.737719
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub20_lo,20,0,0,0.822238,0.177762
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub20_hi,20,1,1,0.205167,0.794833
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub22_lo,22,0,0,0.873968,0.126032
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub22_hi,22,1,1,0.17937,0.82063
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub25_lo,25,0,1,0.449898,0.550102
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub25_hi,25,1,1,0.301763,0.698237
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub31_lo,31,0,0,0.906116,0.093884
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub31_hi,31,1,1,0.128421,0.871579
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub41_lo,41,0,0,0.723558,0.276442
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub41_hi,41,1,1,0.177726,0.822274
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub48_lo,48,0,0,0.942402,0.057598
+Top-3 Validation Ensemble,filtered-ea-sag,5,sub48_hi,48,1,1,0.137782,0.862218

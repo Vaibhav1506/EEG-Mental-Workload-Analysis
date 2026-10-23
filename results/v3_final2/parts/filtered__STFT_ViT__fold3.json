@@ -1,0 +1,91 @@
+{
+ "model": "STFT-ViT",
+ "variant": "filtered",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 28,
+   "epochs_run": 43,
+   "selection_value": 0.4739638438822342,
+   "training_seconds": 85.91573690000223,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 19,
+   "epochs_run": 34,
+   "selection_value": 0.6485086232052689,
+   "training_seconds": 68.24340580000717,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 25,
+   "epochs_run": 40,
+   "selection_value": 0.5695887007388564,
+   "training_seconds": 79.5865582999977,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.5109838205637643,
+   "training_seconds": 38.16557759999705,
+   "parameters": 26499
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.4863907429788357,
+   "training_seconds": 73.33311030000914,
+   "parameters": 26499
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.6464175370895363,
+   "training_seconds": 65.64340850000735,
+   "parameters": 26499
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.57131465983925,
+   "training_seconds": 75.71034099999815,
+   "parameters": 26499
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.47488670264853905,
+   "training_seconds": 52.5476697999984,
+   "parameters": 26499
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__STFT_ViT__fold3",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__STFT_ViT__fold3"
+ ],
+ "parameters": 26499,
+ "training_seconds": 539.1458082000172,
+ "inference_ms_per_window": 0.49505120120745416,
+ "dev_oof": {
+  "accuracy": 0.6152402402402403,
+  "balanced_accuracy": 0.5849643761408467,
+  "macro_f1": 0.5823381599243668
+ }
+}

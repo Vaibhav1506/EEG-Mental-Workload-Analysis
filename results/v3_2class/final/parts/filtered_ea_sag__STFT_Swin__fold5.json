@@ -1,0 +1,91 @@
+{
+ "model": "STFT-Swin",
+ "variant": "filtered-ea-sag",
+ "fold": 5,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 18,
+   "epochs_run": 33,
+   "selection_value": 0.8390341416035147,
+   "training_seconds": 93.02256409999973,
+   "parameters": 66862
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.8888878868768486,
+   "training_seconds": 104.37406850000843,
+   "parameters": 66862
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 13,
+   "epochs_run": 28,
+   "selection_value": 0.8691212179393063,
+   "training_seconds": 83.85086980000779,
+   "parameters": 66862
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.912779985549133,
+   "training_seconds": 68.96768489999522,
+   "parameters": 66862
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.8257488271382173,
+   "training_seconds": 64.35004970000591,
+   "parameters": 66862
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 22,
+   "epochs_run": 37,
+   "selection_value": 0.8708662127429319,
+   "training_seconds": 110.19762390002143,
+   "parameters": 66862
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.8511738562209527,
+   "training_seconds": 58.1409691000008,
+   "parameters": 66862
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.9204188056733559,
+   "training_seconds": 91.62909880001098,
+   "parameters": 66862
+  }
+ ],
+ "replicates": [
+  "results\\v3_2class\\after\\parts\\filtered_ea_sag__STFT_Swin__fold5",
+  "results\\v3_2class\\after_init1\\parts\\filtered_ea_sag__STFT_Swin__fold5"
+ ],
+ "parameters": 66862,
+ "training_seconds": 674.5329288000503,
+ "inference_ms_per_window": 0.6169153152754903,
+ "dev_oof": {
+  "accuracy": 0.8776276276276276,
+  "balanced_accuracy": 0.8776276276276276,
+  "macro_f1": 0.8776232132389412
+ }
+}

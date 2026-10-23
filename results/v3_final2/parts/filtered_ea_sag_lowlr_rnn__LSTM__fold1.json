@@ -1,0 +1,91 @@
+{
+ "model": "LSTM",
+ "variant": "filtered-ea-sag+lowlr-rnn",
+ "fold": 1,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.48706516676495637,
+   "training_seconds": 34.56111330000567,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 35,
+   "epochs_run": 50,
+   "selection_value": 0.603909445832867,
+   "training_seconds": 77.40403889998561,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5470186177686307,
+   "training_seconds": 44.844484200002626,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 17,
+   "epochs_run": 32,
+   "selection_value": 0.5466425108308695,
+   "training_seconds": 43.44116290000966,
+   "parameters": 6339
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.4736645158417421,
+   "training_seconds": 24.78030559999752,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 11,
+   "epochs_run": 26,
+   "selection_value": 0.5815890593479728,
+   "training_seconds": 16.31742520001717,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 52,
+   "epochs_run": 60,
+   "selection_value": 0.5199026070530055,
+   "training_seconds": 34.735064899985446,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5090511267031346,
+   "training_seconds": 16.81707240000833,
+   "parameters": 6339
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\RC_recur_lowlr\\parts\\filtered_ea_sag__LSTM__fold1",
+  "results\\v3_runs\\RC_recur_lowlr_init1\\parts\\filtered_ea_sag__LSTM__fold1"
+ ],
+ "parameters": 6339,
+ "training_seconds": 292.900667400012,
+ "inference_ms_per_window": 0.19634699694708818,
+ "dev_oof": {
+  "accuracy": 0.5904654654654654,
+  "balanced_accuracy": 0.5634396005913035,
+  "macro_f1": 0.5616541741878524
+ }
+}

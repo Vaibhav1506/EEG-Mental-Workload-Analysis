@@ -85,5 +85,23 @@ class BenchmarkV3Checks(unittest.TestCase):
             self.assertEqual(a, b, name)
 
 
+class SmoothingChecks(unittest.TestCase):
+    def test_smoothing_is_causal_and_per_recording(self):
+        import smooth_v3
+        rng = np.random.default_rng(1)
+        prob = rng.dirichlet(np.ones(3), size=74)
+        rec = np.repeat([0, 1], 37)
+        start = np.tile(np.arange(0, 19200 - 511, 512), 2)
+        a = smooth_v3.smooth(prob, rec, start, 8)
+        changed = prob.copy()
+        changed[20:37] = rng.dirichlet(np.ones(3), size=17)   # the future of recording 0
+        changed[37:] = rng.dirichlet(np.ones(3), size=37)     # another recording
+        b = smooth_v3.smooth(changed, rec, start, 8)
+        np.testing.assert_allclose(a[:20], b[:20])            # past decisions unchanged
+        np.testing.assert_allclose(a[7], prob[0:8].mean(0))   # window 7 = mean of windows 0..7
+        np.testing.assert_allclose(a[0], prob[0])             # start of a recording: only itself
+        np.testing.assert_allclose(smooth_v3.smooth(prob, rec, start, 1), prob)
+
+
 if __name__ == "__main__":
     unittest.main()

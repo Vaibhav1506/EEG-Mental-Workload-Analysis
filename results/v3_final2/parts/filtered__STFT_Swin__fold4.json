@@ -1,0 +1,91 @@
+{
+ "model": "STFT-Swin",
+ "variant": "filtered",
+ "fold": 4,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 15,
+   "epochs_run": 30,
+   "selection_value": 0.6068604639153854,
+   "training_seconds": 79.5032884000102,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.45092033135051174,
+   "training_seconds": 42.70552509999834,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 14,
+   "epochs_run": 29,
+   "selection_value": 0.5243240508890407,
+   "training_seconds": 76.83544199999596,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.5558319385890276,
+   "training_seconds": 45.292416800002684,
+   "parameters": 66927
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 3,
+   "epochs_run": 18,
+   "selection_value": 0.565484225246679,
+   "training_seconds": 62.747232699999586,
+   "parameters": 66927
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 4,
+   "epochs_run": 19,
+   "selection_value": 0.49696647185434156,
+   "training_seconds": 65.81817739999678,
+   "parameters": 66927
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 2,
+   "epochs_run": 17,
+   "selection_value": 0.5706727492003566,
+   "training_seconds": 58.36531490000198,
+   "parameters": 66927
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 1,
+   "epochs_run": 16,
+   "selection_value": 0.5230936529809241,
+   "training_seconds": 55.51653449999867,
+   "parameters": 66927
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered__STFT_Swin__fold4",
+  "results\\v3_runs\\R1_init1\\parts\\filtered__STFT_Swin__fold4"
+ ],
+ "parameters": 66927,
+ "training_seconds": 486.7839318000042,
+ "inference_ms_per_window": 0.6331367867487669,
+ "dev_oof": {
+  "accuracy": 0.5803303303303303,
+  "balanced_accuracy": 0.5613187350029456,
+  "macro_f1": 0.556082622044921
+ }
+}

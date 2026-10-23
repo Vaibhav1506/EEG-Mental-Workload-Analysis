@@ -1,0 +1,91 @@
+{
+ "model": "LSTM",
+ "variant": "filtered-ea-sag",
+ "fold": 3,
+ "fits": [
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.5095894680628544,
+   "training_seconds": 15.211964699992677,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.5933099398554903,
+   "training_seconds": 18.130506300003617,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 8,
+   "epochs_run": 23,
+   "selection_value": 0.5942144780904556,
+   "training_seconds": 15.186461499994039,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 5,
+   "epochs_run": 20,
+   "selection_value": 0.48441585683147387,
+   "training_seconds": 13.545883500002674,
+   "parameters": 6339
+  },
+  {
+   "group": 0,
+   "seed": 0,
+   "best_epoch": 9,
+   "epochs_run": 24,
+   "selection_value": 0.5537317871254958,
+   "training_seconds": 16.11128280000412,
+   "parameters": 6339
+  },
+  {
+   "group": 1,
+   "seed": 0,
+   "best_epoch": 12,
+   "epochs_run": 27,
+   "selection_value": 0.6188540371913919,
+   "training_seconds": 18.203679600002943,
+   "parameters": 6339
+  },
+  {
+   "group": 2,
+   "seed": 0,
+   "best_epoch": 7,
+   "epochs_run": 22,
+   "selection_value": 0.6264110421413792,
+   "training_seconds": 15.054508399989572,
+   "parameters": 6339
+  },
+  {
+   "group": 3,
+   "seed": 0,
+   "best_epoch": 10,
+   "epochs_run": 25,
+   "selection_value": 0.47829448326505464,
+   "training_seconds": 17.130546499989578,
+   "parameters": 6339
+  }
+ ],
+ "replicates": [
+  "results\\v3_runs\\R1\\parts\\filtered_ea_sag__LSTM__fold3",
+  "results\\v3_runs\\R1_init1\\parts\\filtered_ea_sag__LSTM__fold3"
+ ],
+ "parameters": 6339,
+ "training_seconds": 128.57483329997922,
+ "inference_ms_per_window": 0.12017942942481757,
+ "dev_oof": {
+  "accuracy": 0.634009009009009,
+  "balanced_accuracy": 0.6026555967732439,
+  "macro_f1": 0.6008726844816527
+ }
+}
